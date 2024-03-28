@@ -1,0 +1,47 @@
+PROGRAM         = Asym_Calc 
+CC              = g++
+LD              = g++
+#CXXFLAGS        = -g -O2 -I$(ROOTSYS)/include -std=c++11
+CXXFLAGS        = -g -O2 -I$(ROOTSYS)/include 
+LDFLAGS         = $(LIBS) $(GLIBS) -B/usr/X11R6/lib -B/usr/lib64 
+OPT             =
+ROOTLIBS        = $(shell root-config --libs)
+ROOTGLIBS       = $(shell root-config --glibs)
+
+LIBS            = $(ROOTLIBS)
+GLIBS           = $(ROOTGLIBS) -L/usr/X11R6/lib -lXext -lMinuit
+OBJS            =  Asym_Calc.o main_Asym_Calc.o  TextReader.o setuputil.o Inputs.o 
+INPUTS	   	= $(DREAM_INPUTS) ./include/Asym_Calc.hpp ./src/Asym_Calc.cpp main_Asym_Calc.cpp ./TextReader/TextReader.hpp ./TextReader/TextReader.cpp 
+
+all: $(OBJS)
+	$(CC) $(OPT) $(LDFLAGS) -o $(PROGRAM) -g $(OBJS) $(LIBS)
+
+main_Asym_Calc.o: main_Asym_Calc.cpp $(INPUTS) 
+	$(CC) $(CXXFLAGS) -c main_Asym_Calc.cpp
+
+Asym_Calc.o: ./include/Asym_Calc.hpp ./src/Asym_Calc.cpp
+	$(CC) $(CXXFLAGS) -c ./src/Asym_Calc.cpp
+
+
+TextReader.o: ./TextReader/TextReader.hpp ./TextReader/TextReader.cpp
+	$(CC) $(CXXFLAGS) -c TextReader/TextReader.cpp
+
+Inputs.o: src/Inputs.cpp
+	$(CXX) $(CXXFLAGS) -c src/Inputs.cpp
+
+setuputil.o: src/setuputil.cpp
+	$(CXX) $(CXXFLAGS) -c src/setuputil.cpp
+
+clean:
+	-rm -f *~ $(OBJS) core core.*	
+	-rm -rf ti_files
+	-rm -f $(PROGRAM)
+	-rm -f *~;
+
+distclean:						
+	-rm -f *~ $(PROGRAM) $(OBJS)
+	-rm -rf ti_files
+
+run: $(PROGRAM) $(OBJS)	
+	make all
+	./$(PROGRAM) 1

@@ -1,0 +1,2312 @@
+The number of options is: 14
+channel : MuMu studyName : SystematicStudy_v13 outputDir : SystematicStudy_v13/MuMu/ object : O1 inputFileName : SystematicStudy_v13/MuMu/Asymmetry_dimu_SystematicStudy_v13.dat confFile : SystematicStudy_v13/MuMu/CP_Inputs_dimu_SystematicStudy_v13.config
+SetConfFile Sig EFF !!!!0.001337
+Obs : O1 Channel MuMu
+Luminosity !!! 35867.1
+chan ??dimu
+-------------Chek Asym----------------
+it first DYJetsToLL_M_10To50 second : 0.249702
+it first DYJetsToLL_M_50 second : 0.026196
+it first Data second : -0.005839
+it first ST_tW_antitop second : -0.001258
+it first ST_tW_top second : 0.01689
+it first TTJets_Signal second : -0.000157
+it first TTJets_others second : -0.01045
+it first TTbar_WJetToLNu second : 0.004193
+it first TTbar_WQQ second : 0.021914
+it first TTbar_ZQQ second : -0.001945
+it first TTbar_ZToLLNuNu second : 6.3e-05
+it first WW second : 0.114005
+it first WZ second : 0.526302
+it first ZZ second : 0.027197
+-------------Chek AsymErr----------------
+it first DYJetsToLL_M_10To50 second : 0.048529
+it first DYJetsToLL_M_50 second : 0.026578
+it first Data second : 0.004487
+it first ST_tW_antitop second : 0.033549
+it first ST_tW_top second : 0.033499
+it first TTJets_Signal second : 0.005007
+it first TTJets_others second : 0.011782
+it first TTbar_WJetToLNu second : 0.171851
+it first TTbar_WQQ second : 0.195567
+it first TTbar_ZQQ second : 0.16625
+it first TTbar_ZToLLNuNu second : 0.193684
+it first WW second : 0.155591
+it first WZ second : 0.204985
+it first ZZ second : 0.192346
+-------------Chek NPlus----------------
+it first DYJetsToLL_M_10To50 second : 248.783
+it first DYJetsToLL_M_50 second : 725.874
+it first Data second : 24688
+it first ST_tW_antitop second : 443.664
+it first ST_tW_top second : 452.95
+it first TTJets_Signal second : 19940.5
+it first TTJets_others second : 3563.85
+it first TTbar_WJetToLNu second : 17.0009
+it first TTbar_WQQ second : 13.3531
+it first TTbar_ZQQ second : 18.0551
+it first TTbar_ZToLLNuNu second : 13.3293
+it first WW second : 22.7095
+it first WZ second : 13.1313
+it first ZZ second : 13.8719
+-------------Chek NPlusErr----------------
+it first DYJetsToLL_M_10To50 second : 66.8449
+it first DYJetsToLL_M_50 second : 34.1397
+it first Data second : 157.124
+it first ST_tW_antitop second : 9.01007
+it first ST_tW_top second : 9.10552
+it first TTJets_Signal second : 61.9337
+it first TTJets_others second : 26.1368
+it first TTbar_WJetToLNu second : 0.294647
+it first TTbar_WQQ second : 0.890936
+it first TTbar_ZQQ second : 1.43984
+it first TTbar_ZToLLNuNu second : 0.199948
+it first WW second : 3.50606
+it first WZ second : 2.76298
+it first ZZ second : 2.70947
+-------------Chek F Plus----------------
+it first DYJetsToLL_M_10To50 second : 0.624851
+it first DYJetsToLL_M_50 second : 0.513098
+it first Data second : 0.49708
+it first ST_tW_antitop second : 0.499371
+it first ST_tW_top second : 0.508445
+it first TTJets_Signal second : 0.499922
+it first TTJets_others second : 0.494775
+it first TTbar_WJetToLNu second : 0.502097
+it first TTbar_WQQ second : 0.510957
+it first TTbar_ZQQ second : 0.499028
+it first TTbar_ZToLLNuNu second : 0.500031
+it first WW second : 0.557003
+it first WZ second : 0.763151
+it first ZZ second : 0.513599
+-------------Chek NMinus----------------
+it first DYJetsToLL_M_10To50 second : 149.365
+it first DYJetsToLL_M_50 second : 688.814
+it first Data second : 24978
+it first ST_tW_antitop second : 444.781
+it first ST_tW_top second : 437.903
+it first TTJets_Signal second : 19946.7
+it first TTJets_others second : 3639.11
+it first TTbar_WJetToLNu second : 16.859
+it first TTbar_WQQ second : 12.7804
+it first TTbar_ZQQ second : 18.1255
+it first TTbar_ZToLLNuNu second : 13.3277
+it first WW second : 18.0614
+it first WZ second : 4.0754
+it first ZZ second : 13.1373
+-------------Chek NMinusErr----------------
+it first DYJetsToLL_M_10To50 second : 51.3289
+it first DYJetsToLL_M_50 second : 33.117
+it first Data second : 158.044
+it first ST_tW_antitop second : 9.01879
+it first ST_tW_top second : 8.94441
+it first TTJets_Signal second : 61.9684
+it first TTJets_others second : 26.4043
+it first TTbar_WJetToLNu second : 0.294056
+it first TTbar_WQQ second : 0.880803
+it first TTbar_ZQQ second : 1.4595
+it first TTbar_ZToLLNuNu second : 0.199258
+it first WW second : 3.06928
+it first WZ second : 1.55335
+it first ZZ second : 2.72114
+-------------Chek F Minus----------------
+it first DYJetsToLL_M_10To50 second : 0.375149
+it first DYJetsToLL_M_50 second : 0.486902
+it first Data second : 0.50292
+it first ST_tW_antitop second : 0.500629
+it first ST_tW_top second : 0.491555
+it first TTJets_Signal second : 0.500078
+it first TTJets_others second : 0.505225
+it first TTbar_WJetToLNu second : 0.497903
+it first TTbar_WQQ second : 0.489043
+it first TTbar_ZQQ second : 0.500972
+it first TTbar_ZToLLNuNu second : 0.499969
+it first WW second : 0.442997
+it first WZ second : 0.236849
+it first ZZ second : 0.486401
+-------------Chek N Total----------------
+it first DYJetsToLL_M_10To50 second : 398.147
+it first DYJetsToLL_M_50 second : 1414.69
+it first Data second : 49666
+it first ST_tW_antitop second : 888.445
+it first ST_tW_top second : 890.853
+it first TTJets_Signal second : 39887.2
+it first TTJets_others second : 7202.96
+it first TTbar_WJetToLNu second : 33.8599
+it first TTbar_WQQ second : 26.1336
+it first TTbar_ZQQ second : 36.1806
+it first TTbar_ZToLLNuNu second : 26.657
+it first WW second : 40.7709
+it first WZ second : 17.2067
+it first ZZ second : 27.0092
+Make Values for Likelihood fit !!
+it->first : DYJetsToLL_M_10To50
+it->first : DYJetsToLL_M_50
+it->first : ST_tW_antitop
+it->first : ST_tW_top
+it->first : TTJets_others
+it->first : TTbar_WJetToLNu
+it->first : TTbar_WQQ
+it->first : TTbar_ZQQ
+it->first : TTbar_ZToLLNuNu
+it->first : WW
+it->first : WZ
+it->first : ZZ
+N_mc : 11002.9
+Return Values !!!!
+_nparam : 100
+step_size ? 1e-05
+Inputs::Init_Asym ? -0.000157
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+    99 sigma_tt     8.31700e+02  1.00000e-05     no limits
+   100 Asymmetry   -1.57000e-04  1.00000e-05     no limits
+ **********
+ **    1 **FIX           1
+ **********
+ PARAMETER    1  IS UNDEFINED. IGNORED.
+ **********
+ **    2 **FIX           2
+ **********
+ PARAMETER    2  IS UNDEFINED. IGNORED.
+ **********
+ **    3 **FIX           3
+ **********
+ PARAMETER    3  IS UNDEFINED. IGNORED.
+ **********
+ **    4 **FIX           4
+ **********
+ PARAMETER    4  IS UNDEFINED. IGNORED.
+ **********
+ **    5 **FIX           5
+ **********
+ PARAMETER    5  IS UNDEFINED. IGNORED.
+ **********
+ **    6 **FIX           6
+ **********
+ PARAMETER    6  IS UNDEFINED. IGNORED.
+ **********
+ **    7 **FIX           7
+ **********
+ PARAMETER    7  IS UNDEFINED. IGNORED.
+ **********
+ **    8 **FIX           8
+ **********
+ PARAMETER    8  IS UNDEFINED. IGNORED.
+ **********
+ **    9 **FIX           9
+ **********
+ PARAMETER    9  IS UNDEFINED. IGNORED.
+ **********
+ **   10 **FIX          10
+ **********
+ PARAMETER   10  IS UNDEFINED. IGNORED.
+ **********
+ **   11 **FIX          11
+ **********
+ PARAMETER   11  IS UNDEFINED. IGNORED.
+ **********
+ **   12 **FIX          12
+ **********
+ PARAMETER   12  IS UNDEFINED. IGNORED.
+ **********
+ **   13 **FIX          13
+ **********
+ PARAMETER   13  IS UNDEFINED. IGNORED.
+ **********
+ **   14 **FIX          14
+ **********
+ PARAMETER   14  IS UNDEFINED. IGNORED.
+ **********
+ **   15 **FIX          15
+ **********
+ PARAMETER   15  IS UNDEFINED. IGNORED.
+ **********
+ **   16 **FIX          16
+ **********
+ PARAMETER   16  IS UNDEFINED. IGNORED.
+ **********
+ **   17 **FIX          17
+ **********
+ PARAMETER   17  IS UNDEFINED. IGNORED.
+ **********
+ **   18 **FIX          18
+ **********
+ PARAMETER   18  IS UNDEFINED. IGNORED.
+ **********
+ **   19 **FIX          19
+ **********
+ PARAMETER   19  IS UNDEFINED. IGNORED.
+ **********
+ **   20 **FIX          20
+ **********
+ PARAMETER   20  IS UNDEFINED. IGNORED.
+ **********
+ **   21 **FIX          21
+ **********
+ PARAMETER   21  IS UNDEFINED. IGNORED.
+ **********
+ **   22 **FIX          22
+ **********
+ PARAMETER   22  IS UNDEFINED. IGNORED.
+ **********
+ **   23 **FIX          23
+ **********
+ PARAMETER   23  IS UNDEFINED. IGNORED.
+ **********
+ **   24 **FIX          24
+ **********
+ PARAMETER   24  IS UNDEFINED. IGNORED.
+ **********
+ **   25 **FIX          25
+ **********
+ PARAMETER   25  IS UNDEFINED. IGNORED.
+ **********
+ **   26 **FIX          26
+ **********
+ PARAMETER   26  IS UNDEFINED. IGNORED.
+ **********
+ **   27 **FIX          27
+ **********
+ PARAMETER   27  IS UNDEFINED. IGNORED.
+ **********
+ **   28 **FIX          28
+ **********
+ PARAMETER   28  IS UNDEFINED. IGNORED.
+ **********
+ **   29 **FIX          29
+ **********
+ PARAMETER   29  IS UNDEFINED. IGNORED.
+ **********
+ **   30 **FIX          30
+ **********
+ PARAMETER   30  IS UNDEFINED. IGNORED.
+ **********
+ **   31 **FIX          31
+ **********
+ PARAMETER   31  IS UNDEFINED. IGNORED.
+ **********
+ **   32 **FIX          32
+ **********
+ PARAMETER   32  IS UNDEFINED. IGNORED.
+ **********
+ **   33 **FIX          33
+ **********
+ PARAMETER   33  IS UNDEFINED. IGNORED.
+ **********
+ **   34 **FIX          34
+ **********
+ PARAMETER   34  IS UNDEFINED. IGNORED.
+ **********
+ **   35 **FIX          35
+ **********
+ PARAMETER   35  IS UNDEFINED. IGNORED.
+ **********
+ **   36 **FIX          36
+ **********
+ PARAMETER   36  IS UNDEFINED. IGNORED.
+ **********
+ **   37 **FIX          37
+ **********
+ PARAMETER   37  IS UNDEFINED. IGNORED.
+ **********
+ **   38 **FIX          38
+ **********
+ PARAMETER   38  IS UNDEFINED. IGNORED.
+ **********
+ **   39 **FIX          39
+ **********
+ PARAMETER   39  IS UNDEFINED. IGNORED.
+ **********
+ **   40 **FIX          40
+ **********
+ PARAMETER   40  IS UNDEFINED. IGNORED.
+ **********
+ **   41 **FIX          41
+ **********
+ PARAMETER   41  IS UNDEFINED. IGNORED.
+ **********
+ **   42 **FIX          42
+ **********
+ PARAMETER   42  IS UNDEFINED. IGNORED.
+ **********
+ **   43 **FIX          43
+ **********
+ PARAMETER   43  IS UNDEFINED. IGNORED.
+ **********
+ **   44 **FIX          44
+ **********
+ PARAMETER   44  IS UNDEFINED. IGNORED.
+ **********
+ **   45 **FIX          45
+ **********
+ PARAMETER   45  IS UNDEFINED. IGNORED.
+ **********
+ **   46 **FIX          46
+ **********
+ PARAMETER   46  IS UNDEFINED. IGNORED.
+ **********
+ **   47 **FIX          47
+ **********
+ PARAMETER   47  IS UNDEFINED. IGNORED.
+ **********
+ **   48 **FIX          48
+ **********
+ PARAMETER   48  IS UNDEFINED. IGNORED.
+ **********
+ **   49 **FIX          49
+ **********
+ PARAMETER   49  IS UNDEFINED. IGNORED.
+ **********
+ **   50 **FIX          50
+ **********
+ PARAMETER   50  IS UNDEFINED. IGNORED.
+ **********
+ **   51 **FIX          51
+ **********
+ PARAMETER   51  IS UNDEFINED. IGNORED.
+ **********
+ **   52 **FIX          52
+ **********
+ PARAMETER   52  IS UNDEFINED. IGNORED.
+ **********
+ **   53 **FIX          53
+ **********
+ PARAMETER   53  IS UNDEFINED. IGNORED.
+ **********
+ **   54 **FIX          54
+ **********
+ PARAMETER   54  IS UNDEFINED. IGNORED.
+ **********
+ **   55 **FIX          55
+ **********
+ PARAMETER   55  IS UNDEFINED. IGNORED.
+ **********
+ **   56 **FIX          56
+ **********
+ PARAMETER   56  IS UNDEFINED. IGNORED.
+ **********
+ **   57 **FIX          57
+ **********
+ PARAMETER   57  IS UNDEFINED. IGNORED.
+ **********
+ **   58 **FIX          58
+ **********
+ PARAMETER   58  IS UNDEFINED. IGNORED.
+ **********
+ **   59 **FIX          59
+ **********
+ PARAMETER   59  IS UNDEFINED. IGNORED.
+ **********
+ **   60 **FIX          60
+ **********
+ PARAMETER   60  IS UNDEFINED. IGNORED.
+ **********
+ **   61 **FIX          61
+ **********
+ PARAMETER   61  IS UNDEFINED. IGNORED.
+ **********
+ **   62 **FIX          62
+ **********
+ PARAMETER   62  IS UNDEFINED. IGNORED.
+ **********
+ **   63 **FIX          63
+ **********
+ PARAMETER   63  IS UNDEFINED. IGNORED.
+ **********
+ **   64 **FIX          64
+ **********
+ PARAMETER   64  IS UNDEFINED. IGNORED.
+ **********
+ **   65 **FIX          65
+ **********
+ PARAMETER   65  IS UNDEFINED. IGNORED.
+ **********
+ **   66 **FIX          66
+ **********
+ PARAMETER   66  IS UNDEFINED. IGNORED.
+ **********
+ **   67 **FIX          67
+ **********
+ PARAMETER   67  IS UNDEFINED. IGNORED.
+ **********
+ **   68 **FIX          68
+ **********
+ PARAMETER   68  IS UNDEFINED. IGNORED.
+ **********
+ **   69 **FIX          69
+ **********
+ PARAMETER   69  IS UNDEFINED. IGNORED.
+ **********
+ **   70 **FIX          70
+ **********
+ PARAMETER   70  IS UNDEFINED. IGNORED.
+ **********
+ **   71 **FIX          71
+ **********
+ PARAMETER   71  IS UNDEFINED. IGNORED.
+ **********
+ **   72 **FIX          72
+ **********
+ PARAMETER   72  IS UNDEFINED. IGNORED.
+ **********
+ **   73 **FIX          73
+ **********
+ PARAMETER   73  IS UNDEFINED. IGNORED.
+ **********
+ **   74 **FIX          74
+ **********
+ PARAMETER   74  IS UNDEFINED. IGNORED.
+ **********
+ **   75 **FIX          75
+ **********
+ PARAMETER   75  IS UNDEFINED. IGNORED.
+ **********
+ **   76 **FIX          76
+ **********
+ PARAMETER   76  IS UNDEFINED. IGNORED.
+ **********
+ **   77 **FIX          77
+ **********
+ PARAMETER   77  IS UNDEFINED. IGNORED.
+ **********
+ **   78 **FIX          78
+ **********
+ PARAMETER   78  IS UNDEFINED. IGNORED.
+ **********
+ **   79 **FIX          79
+ **********
+ PARAMETER   79  IS UNDEFINED. IGNORED.
+ **********
+ **   80 **FIX          80
+ **********
+ PARAMETER   80  IS UNDEFINED. IGNORED.
+ **********
+ **   81 **FIX          81
+ **********
+ PARAMETER   81  IS UNDEFINED. IGNORED.
+ **********
+ **   82 **FIX          82
+ **********
+ PARAMETER   82  IS UNDEFINED. IGNORED.
+ **********
+ **   83 **FIX          83
+ **********
+ PARAMETER   83  IS UNDEFINED. IGNORED.
+ **********
+ **   84 **FIX          84
+ **********
+ PARAMETER   84  IS UNDEFINED. IGNORED.
+ **********
+ **   85 **FIX          85
+ **********
+ PARAMETER   85  IS UNDEFINED. IGNORED.
+ **********
+ **   86 **FIX          86
+ **********
+ PARAMETER   86  IS UNDEFINED. IGNORED.
+ **********
+ **   87 **FIX          87
+ **********
+ PARAMETER   87  IS UNDEFINED. IGNORED.
+ **********
+ **   88 **FIX          88
+ **********
+ PARAMETER   88  IS UNDEFINED. IGNORED.
+ **********
+ **   89 **FIX          89
+ **********
+ PARAMETER   89  IS UNDEFINED. IGNORED.
+ **********
+ **   90 **FIX          90
+ **********
+ PARAMETER   90  IS UNDEFINED. IGNORED.
+ **********
+ **   91 **FIX          91
+ **********
+ PARAMETER   91  IS UNDEFINED. IGNORED.
+ **********
+ **   92 **FIX          92
+ **********
+ PARAMETER   92  IS UNDEFINED. IGNORED.
+ **********
+ **   93 **FIX          93
+ **********
+ PARAMETER   93  IS UNDEFINED. IGNORED.
+ **********
+ **   94 **FIX          94
+ **********
+ PARAMETER   94  IS UNDEFINED. IGNORED.
+ **********
+ **   95 **FIX          95
+ **********
+ PARAMETER   95  IS UNDEFINED. IGNORED.
+ **********
+ **   96 **FIX          96
+ **********
+ PARAMETER   96  IS UNDEFINED. IGNORED.
+ **********
+ **   97 **FIX          97
+ **********
+ PARAMETER   97  IS UNDEFINED. IGNORED.
+ **********
+ **   98 **FIX          98
+ **********
+ PARAMETER   98  IS UNDEFINED. IGNORED.
+ **********
+ **   99 **FIX          99
+ **********
+ **********
+ **  100 **FIX         100
+ **********
+ **********
+ **  101 **RELEASE         100
+ **********
+                   PARAMETER  100  Asymmetry RESTORED TO VARIABLE.
+ **********
+ **  102 **RELEASE          99
+ **********
+                   PARAMETER   99  sigma_tt RESTORED TO VARIABLE.
+ **********
+ **  103 **RELEASE          98
+ **********
+ PARAMETER   98  IS UNDEFINED. IGNORED.
+ **********
+ **  104 **RELEASE          97
+ **********
+ PARAMETER   97  IS UNDEFINED. IGNORED.
+ **********
+ **  105 **RELEASE          96
+ **********
+ PARAMETER   96  IS UNDEFINED. IGNORED.
+ **********
+ **  106 **RELEASE          95
+ **********
+ PARAMETER   95  IS UNDEFINED. IGNORED.
+ **********
+ **  107 **RELEASE          94
+ **********
+ PARAMETER   94  IS UNDEFINED. IGNORED.
+ **********
+ **  108 **RELEASE          93
+ **********
+ PARAMETER   93  IS UNDEFINED. IGNORED.
+ **********
+ **  109 **RELEASE          92
+ **********
+ PARAMETER   92  IS UNDEFINED. IGNORED.
+ **********
+ **  110 **RELEASE          91
+ **********
+ PARAMETER   91  IS UNDEFINED. IGNORED.
+ **********
+ **  111 **RELEASE          90
+ **********
+ PARAMETER   90  IS UNDEFINED. IGNORED.
+ **********
+ **  112 **RELEASE          89
+ **********
+ PARAMETER   89  IS UNDEFINED. IGNORED.
+ **********
+ **  113 **RELEASE          88
+ **********
+ PARAMETER   88  IS UNDEFINED. IGNORED.
+ **********
+ **  114 **RELEASE          87
+ **********
+ PARAMETER   87  IS UNDEFINED. IGNORED.
+ **********
+ **  115 **RELEASE          86
+ **********
+ PARAMETER   86  IS UNDEFINED. IGNORED.
+ **********
+ **  116 **RELEASE          85
+ **********
+ PARAMETER   85  IS UNDEFINED. IGNORED.
+ **********
+ **  117 **RELEASE          84
+ **********
+ PARAMETER   84  IS UNDEFINED. IGNORED.
+ **********
+ **  118 **RELEASE          83
+ **********
+ PARAMETER   83  IS UNDEFINED. IGNORED.
+ **********
+ **  119 **RELEASE          82
+ **********
+ PARAMETER   82  IS UNDEFINED. IGNORED.
+ **********
+ **  120 **RELEASE          81
+ **********
+ PARAMETER   81  IS UNDEFINED. IGNORED.
+ **********
+ **  121 **RELEASE          80
+ **********
+ PARAMETER   80  IS UNDEFINED. IGNORED.
+ **********
+ **  122 **RELEASE          79
+ **********
+ PARAMETER   79  IS UNDEFINED. IGNORED.
+ **********
+ **  123 **RELEASE          78
+ **********
+ PARAMETER   78  IS UNDEFINED. IGNORED.
+ **********
+ **  124 **RELEASE          77
+ **********
+ PARAMETER   77  IS UNDEFINED. IGNORED.
+ **********
+ **  125 **RELEASE          76
+ **********
+ PARAMETER   76  IS UNDEFINED. IGNORED.
+ **********
+ **  126 **RELEASE          75
+ **********
+ PARAMETER   75  IS UNDEFINED. IGNORED.
+ **********
+ **  127 **RELEASE          74
+ **********
+ PARAMETER   74  IS UNDEFINED. IGNORED.
+ **********
+ **  128 **RELEASE          73
+ **********
+ PARAMETER   73  IS UNDEFINED. IGNORED.
+ **********
+ **  129 **RELEASE          72
+ **********
+ PARAMETER   72  IS UNDEFINED. IGNORED.
+ **********
+ **  130 **RELEASE          71
+ **********
+ PARAMETER   71  IS UNDEFINED. IGNORED.
+ **********
+ **  131 **RELEASE          70
+ **********
+ PARAMETER   70  IS UNDEFINED. IGNORED.
+ **********
+ **  132 **RELEASE          69
+ **********
+ PARAMETER   69  IS UNDEFINED. IGNORED.
+ **********
+ **  133 **RELEASE          68
+ **********
+ PARAMETER   68  IS UNDEFINED. IGNORED.
+ **********
+ **  134 **RELEASE          67
+ **********
+ PARAMETER   67  IS UNDEFINED. IGNORED.
+ **********
+ **  135 **RELEASE          66
+ **********
+ PARAMETER   66  IS UNDEFINED. IGNORED.
+ **********
+ **  136 **RELEASE          65
+ **********
+ PARAMETER   65  IS UNDEFINED. IGNORED.
+ **********
+ **  137 **RELEASE          64
+ **********
+ PARAMETER   64  IS UNDEFINED. IGNORED.
+ **********
+ **  138 **RELEASE          63
+ **********
+ PARAMETER   63  IS UNDEFINED. IGNORED.
+ **********
+ **  139 **RELEASE          62
+ **********
+ PARAMETER   62  IS UNDEFINED. IGNORED.
+ **********
+ **  140 **RELEASE          61
+ **********
+ PARAMETER   61  IS UNDEFINED. IGNORED.
+ **********
+ **  141 **RELEASE          60
+ **********
+ PARAMETER   60  IS UNDEFINED. IGNORED.
+ **********
+ **  142 **RELEASE          59
+ **********
+ PARAMETER   59  IS UNDEFINED. IGNORED.
+ **********
+ **  143 **RELEASE          58
+ **********
+ PARAMETER   58  IS UNDEFINED. IGNORED.
+ **********
+ **  144 **RELEASE          57
+ **********
+ PARAMETER   57  IS UNDEFINED. IGNORED.
+ **********
+ **  145 **RELEASE          56
+ **********
+ PARAMETER   56  IS UNDEFINED. IGNORED.
+ **********
+ **  146 **RELEASE          55
+ **********
+ PARAMETER   55  IS UNDEFINED. IGNORED.
+ **********
+ **  147 **RELEASE          54
+ **********
+ PARAMETER   54  IS UNDEFINED. IGNORED.
+ **********
+ **  148 **RELEASE          53
+ **********
+ PARAMETER   53  IS UNDEFINED. IGNORED.
+ **********
+ **  149 **RELEASE          52
+ **********
+ PARAMETER   52  IS UNDEFINED. IGNORED.
+ **********
+ **  150 **RELEASE          51
+ **********
+ PARAMETER   51  IS UNDEFINED. IGNORED.
+ **********
+ **  151 **RELEASE          50
+ **********
+ PARAMETER   50  IS UNDEFINED. IGNORED.
+ **********
+ **  152 **RELEASE          49
+ **********
+ PARAMETER   49  IS UNDEFINED. IGNORED.
+ **********
+ **  153 **RELEASE          48
+ **********
+ PARAMETER   48  IS UNDEFINED. IGNORED.
+ **********
+ **  154 **RELEASE          47
+ **********
+ PARAMETER   47  IS UNDEFINED. IGNORED.
+ **********
+ **  155 **RELEASE          46
+ **********
+ PARAMETER   46  IS UNDEFINED. IGNORED.
+ **********
+ **  156 **RELEASE          45
+ **********
+ PARAMETER   45  IS UNDEFINED. IGNORED.
+ **********
+ **  157 **RELEASE          44
+ **********
+ PARAMETER   44  IS UNDEFINED. IGNORED.
+ **********
+ **  158 **RELEASE          43
+ **********
+ PARAMETER   43  IS UNDEFINED. IGNORED.
+ **********
+ **  159 **RELEASE          42
+ **********
+ PARAMETER   42  IS UNDEFINED. IGNORED.
+ **********
+ **  160 **RELEASE          41
+ **********
+ PARAMETER   41  IS UNDEFINED. IGNORED.
+ **********
+ **  161 **RELEASE          40
+ **********
+ PARAMETER   40  IS UNDEFINED. IGNORED.
+ **********
+ **  162 **RELEASE          39
+ **********
+ PARAMETER   39  IS UNDEFINED. IGNORED.
+ **********
+ **  163 **RELEASE          38
+ **********
+ PARAMETER   38  IS UNDEFINED. IGNORED.
+ **********
+ **  164 **RELEASE          37
+ **********
+ PARAMETER   37  IS UNDEFINED. IGNORED.
+ **********
+ **  165 **RELEASE          36
+ **********
+ PARAMETER   36  IS UNDEFINED. IGNORED.
+ **********
+ **  166 **RELEASE          35
+ **********
+ PARAMETER   35  IS UNDEFINED. IGNORED.
+ **********
+ **  167 **RELEASE          34
+ **********
+ PARAMETER   34  IS UNDEFINED. IGNORED.
+ **********
+ **  168 **RELEASE          33
+ **********
+ PARAMETER   33  IS UNDEFINED. IGNORED.
+ **********
+ **  169 **RELEASE          32
+ **********
+ PARAMETER   32  IS UNDEFINED. IGNORED.
+ **********
+ **  170 **RELEASE          31
+ **********
+ PARAMETER   31  IS UNDEFINED. IGNORED.
+ **********
+ **  171 **RELEASE          30
+ **********
+ PARAMETER   30  IS UNDEFINED. IGNORED.
+ **********
+ **  172 **RELEASE          29
+ **********
+ PARAMETER   29  IS UNDEFINED. IGNORED.
+ **********
+ **  173 **RELEASE          28
+ **********
+ PARAMETER   28  IS UNDEFINED. IGNORED.
+ **********
+ **  174 **RELEASE          27
+ **********
+ PARAMETER   27  IS UNDEFINED. IGNORED.
+ **********
+ **  175 **RELEASE          26
+ **********
+ PARAMETER   26  IS UNDEFINED. IGNORED.
+ **********
+ **  176 **RELEASE          25
+ **********
+ PARAMETER   25  IS UNDEFINED. IGNORED.
+ **********
+ **  177 **RELEASE          24
+ **********
+ PARAMETER   24  IS UNDEFINED. IGNORED.
+ **********
+ **  178 **RELEASE          23
+ **********
+ PARAMETER   23  IS UNDEFINED. IGNORED.
+ **********
+ **  179 **RELEASE          22
+ **********
+ PARAMETER   22  IS UNDEFINED. IGNORED.
+ **********
+ **  180 **RELEASE          21
+ **********
+ PARAMETER   21  IS UNDEFINED. IGNORED.
+ **********
+ **  181 **RELEASE          20
+ **********
+ PARAMETER   20  IS UNDEFINED. IGNORED.
+ **********
+ **  182 **RELEASE          19
+ **********
+ PARAMETER   19  IS UNDEFINED. IGNORED.
+ **********
+ **  183 **RELEASE          18
+ **********
+ PARAMETER   18  IS UNDEFINED. IGNORED.
+ **********
+ **  184 **RELEASE          17
+ **********
+ PARAMETER   17  IS UNDEFINED. IGNORED.
+ **********
+ **  185 **RELEASE          16
+ **********
+ PARAMETER   16  IS UNDEFINED. IGNORED.
+ **********
+ **  186 **RELEASE          15
+ **********
+ PARAMETER   15  IS UNDEFINED. IGNORED.
+ **********
+ **  187 **RELEASE          14
+ **********
+ PARAMETER   14  IS UNDEFINED. IGNORED.
+ **********
+ **  188 **RELEASE          13
+ **********
+ PARAMETER   13  IS UNDEFINED. IGNORED.
+ **********
+ **  189 **RELEASE          12
+ **********
+ PARAMETER   12  IS UNDEFINED. IGNORED.
+ **********
+ **  190 **RELEASE          11
+ **********
+ PARAMETER   11  IS UNDEFINED. IGNORED.
+ **********
+ **  191 **RELEASE          10
+ **********
+ PARAMETER   10  IS UNDEFINED. IGNORED.
+ **********
+ **  192 **RELEASE           9
+ **********
+ PARAMETER    9  IS UNDEFINED. IGNORED.
+ **********
+ **  193 **RELEASE           8
+ **********
+ PARAMETER    8  IS UNDEFINED. IGNORED.
+ **********
+ **  194 **RELEASE           7
+ **********
+ PARAMETER    7  IS UNDEFINED. IGNORED.
+ **********
+ **  195 **RELEASE           6
+ **********
+ PARAMETER    6  IS UNDEFINED. IGNORED.
+ **********
+ **  196 **RELEASE           5
+ **********
+ PARAMETER    5  IS UNDEFINED. IGNORED.
+ **********
+ **  197 **RELEASE           4
+ **********
+ PARAMETER    4  IS UNDEFINED. IGNORED.
+ **********
+ **  198 **RELEASE           3
+ **********
+ PARAMETER    3  IS UNDEFINED. IGNORED.
+ **********
+ **  199 **RELEASE           2
+ **********
+ PARAMETER    2  IS UNDEFINED. IGNORED.
+ **********
+ **  200 **CALL FCN           1
+ **********
+ FCN=-452935 FROM CALl fcn    STATUS=RESET           1 CALLS           1 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS      PHYSICAL LIMITS       
+  NO.   NAME      VALUE            ERROR       NEGATIVE      POSITIVE  
+  99  sigma_tt     8.31700e+02   1.00000e-05
+ 100  Asymmetry   -1.57000e-04   1.00000e-05
+ **********
+ **  201 **SET PRINT
+ **********
+ **********
+ **  202 **SET RAN   1.235e+08
+ **********
+ **********
+ **  203 **MIGRAD       1e+07       0.001
+ **********
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ FCN=-452951 FROM MIGRAD    STATUS=CONVERGED      43 CALLS          44 TOTAL
+                     EDM=1.78579e-10    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+  99  sigma_tt     8.06249e+02   6.57228e+00   2.15981e+00  -2.74469e-06
+ 100  Asymmetry   -9.83423e-03   8.15160e-03   2.67877e-03   6.98868e-04
+ **********
+ **  204 **SET ERR         0.5
+ **********
+ **********
+ **  205 **MINOS
+ **********
+ FCN=-452951 FROM MINOS     STATUS=SUCCESSFUL     28 CALLS          72 TOTAL
+                     EDM=1.78579e-10    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                  PARABOLIC         MINOS ERRORS        
+  NO.   NAME      VALUE            ERROR      NEGATIVE      POSITIVE   
+  99  sigma_tt     8.06249e+02   4.64730e+00  -4.64036e+00   4.65426e+00
+ 100  Asymmetry   -9.83423e-03   5.76405e-03  -5.76400e-03   5.76409e-03
+                               ERR DEF= 0.5
+
+
+========================================================================================================= 
+====                             Summary of likelihood fit by Minuit                                ===== 
+========================================================================================================= 
+
+
+----------------------------------------------------------------------------------------------------------
+Asymmetry O1 = -0.00983423 +0.00576409 --0.005764  (MINOS errors)
+xsection ttbar O1 = 806.249 +4.65426 --4.64036  (MINOS errors)
+----------------------------------------------------------------------------------------------------------
+
+
+
+End processing...
+
+The number of options is: 14
+channel : MuMu studyName : SystematicStudy_v13 outputDir : SystematicStudy_v13/MuMu/ object : O1 inputFileName : SystematicStudy_v13/MuMu/Asymmetry_dimu_SystematicStudy_v13.dat confFile : SystematicStudy_v13/MuMu/CP_Inputs_dimu_SystematicStudy_v13.config
+SetConfFile Sig EFF !!!!0.001337
+Obs : O1 Channel MuMu
+Luminosity !!! 35867.1
+chan ??dimu
+-------------Chek Asym----------------
+it first DYJetsToLL_M_10To50 second : 0.249702
+it first DYJetsToLL_M_50 second : 0.026196
+it first Data second : -0.005839
+it first ST_tW_antitop second : -0.001258
+it first ST_tW_top second : 0.01689
+it first TTJets_Signal second : -0.000157
+it first TTJets_others second : -0.01045
+it first TTbar_WJetToLNu second : 0.004193
+it first TTbar_WQQ second : 0.021914
+it first TTbar_ZQQ second : -0.001945
+it first TTbar_ZToLLNuNu second : 6.3e-05
+it first WW second : 0.114005
+it first WZ second : 0.526302
+it first ZZ second : 0.027197
+-------------Chek AsymErr----------------
+it first DYJetsToLL_M_10To50 second : 0.048529
+it first DYJetsToLL_M_50 second : 0.026578
+it first Data second : 0.004487
+it first ST_tW_antitop second : 0.033549
+it first ST_tW_top second : 0.033499
+it first TTJets_Signal second : 0.005007
+it first TTJets_others second : 0.011782
+it first TTbar_WJetToLNu second : 0.171851
+it first TTbar_WQQ second : 0.195567
+it first TTbar_ZQQ second : 0.16625
+it first TTbar_ZToLLNuNu second : 0.193684
+it first WW second : 0.155591
+it first WZ second : 0.204985
+it first ZZ second : 0.192346
+-------------Chek NPlus----------------
+it first DYJetsToLL_M_10To50 second : 248.783
+it first DYJetsToLL_M_50 second : 725.874
+it first Data second : 24688
+it first ST_tW_antitop second : 443.664
+it first ST_tW_top second : 452.95
+it first TTJets_Signal second : 19940.5
+it first TTJets_others second : 3563.85
+it first TTbar_WJetToLNu second : 17.0009
+it first TTbar_WQQ second : 13.3531
+it first TTbar_ZQQ second : 18.0551
+it first TTbar_ZToLLNuNu second : 13.3293
+it first WW second : 22.7095
+it first WZ second : 13.1313
+it first ZZ second : 13.8719
+-------------Chek NPlusErr----------------
+it first DYJetsToLL_M_10To50 second : 66.8449
+it first DYJetsToLL_M_50 second : 34.1397
+it first Data second : 157.124
+it first ST_tW_antitop second : 9.01007
+it first ST_tW_top second : 9.10552
+it first TTJets_Signal second : 61.9337
+it first TTJets_others second : 26.1368
+it first TTbar_WJetToLNu second : 0.294647
+it first TTbar_WQQ second : 0.890936
+it first TTbar_ZQQ second : 1.43984
+it first TTbar_ZToLLNuNu second : 0.199948
+it first WW second : 3.50606
+it first WZ second : 2.76298
+it first ZZ second : 2.70947
+-------------Chek F Plus----------------
+it first DYJetsToLL_M_10To50 second : 0.624851
+it first DYJetsToLL_M_50 second : 0.513098
+it first Data second : 0.49708
+it first ST_tW_antitop second : 0.499371
+it first ST_tW_top second : 0.508445
+it first TTJets_Signal second : 0.499922
+it first TTJets_others second : 0.494775
+it first TTbar_WJetToLNu second : 0.502097
+it first TTbar_WQQ second : 0.510957
+it first TTbar_ZQQ second : 0.499028
+it first TTbar_ZToLLNuNu second : 0.500031
+it first WW second : 0.557003
+it first WZ second : 0.763151
+it first ZZ second : 0.513599
+-------------Chek NMinus----------------
+it first DYJetsToLL_M_10To50 second : 149.365
+it first DYJetsToLL_M_50 second : 688.814
+it first Data second : 24978
+it first ST_tW_antitop second : 444.781
+it first ST_tW_top second : 437.903
+it first TTJets_Signal second : 19946.7
+it first TTJets_others second : 3639.11
+it first TTbar_WJetToLNu second : 16.859
+it first TTbar_WQQ second : 12.7804
+it first TTbar_ZQQ second : 18.1255
+it first TTbar_ZToLLNuNu second : 13.3277
+it first WW second : 18.0614
+it first WZ second : 4.0754
+it first ZZ second : 13.1373
+-------------Chek NMinusErr----------------
+it first DYJetsToLL_M_10To50 second : 51.3289
+it first DYJetsToLL_M_50 second : 33.117
+it first Data second : 158.044
+it first ST_tW_antitop second : 9.01879
+it first ST_tW_top second : 8.94441
+it first TTJets_Signal second : 61.9684
+it first TTJets_others second : 26.4043
+it first TTbar_WJetToLNu second : 0.294056
+it first TTbar_WQQ second : 0.880803
+it first TTbar_ZQQ second : 1.4595
+it first TTbar_ZToLLNuNu second : 0.199258
+it first WW second : 3.06928
+it first WZ second : 1.55335
+it first ZZ second : 2.72114
+-------------Chek F Minus----------------
+it first DYJetsToLL_M_10To50 second : 0.375149
+it first DYJetsToLL_M_50 second : 0.486902
+it first Data second : 0.50292
+it first ST_tW_antitop second : 0.500629
+it first ST_tW_top second : 0.491555
+it first TTJets_Signal second : 0.500078
+it first TTJets_others second : 0.505225
+it first TTbar_WJetToLNu second : 0.497903
+it first TTbar_WQQ second : 0.489043
+it first TTbar_ZQQ second : 0.500972
+it first TTbar_ZToLLNuNu second : 0.499969
+it first WW second : 0.442997
+it first WZ second : 0.236849
+it first ZZ second : 0.486401
+-------------Chek N Total----------------
+it first DYJetsToLL_M_10To50 second : 398.147
+it first DYJetsToLL_M_50 second : 1414.69
+it first Data second : 49666
+it first ST_tW_antitop second : 888.445
+it first ST_tW_top second : 890.853
+it first TTJets_Signal second : 39887.2
+it first TTJets_others second : 7202.96
+it first TTbar_WJetToLNu second : 33.8599
+it first TTbar_WQQ second : 26.1336
+it first TTbar_ZQQ second : 36.1806
+it first TTbar_ZToLLNuNu second : 26.657
+it first WW second : 40.7709
+it first WZ second : 17.2067
+it first ZZ second : 27.0092
+Make Values for Likelihood fit !!
+it->first : DYJetsToLL_M_10To50
+it->first : DYJetsToLL_M_50
+it->first : ST_tW_antitop
+it->first : ST_tW_top
+it->first : TTJets_others
+it->first : TTbar_WJetToLNu
+it->first : TTbar_WQQ
+it->first : TTbar_ZQQ
+it->first : TTbar_ZToLLNuNu
+it->first : WW
+it->first : WZ
+it->first : ZZ
+N_mc : 11002.9
+Return Values !!!!
+_nparam : 100
+step_size ? 1e-05
+Inputs::Init_Asym ? -0.000157
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+    99 sigma_tt     8.31700e+02  1.00000e-05     no limits
+   100 Asymmetry   -1.57000e-04  1.00000e-05     no limits
+ **********
+ **    1 **FIX           1
+ **********
+ PARAMETER    1  IS UNDEFINED. IGNORED.
+ **********
+ **    2 **FIX           2
+ **********
+ PARAMETER    2  IS UNDEFINED. IGNORED.
+ **********
+ **    3 **FIX           3
+ **********
+ PARAMETER    3  IS UNDEFINED. IGNORED.
+ **********
+ **    4 **FIX           4
+ **********
+ PARAMETER    4  IS UNDEFINED. IGNORED.
+ **********
+ **    5 **FIX           5
+ **********
+ PARAMETER    5  IS UNDEFINED. IGNORED.
+ **********
+ **    6 **FIX           6
+ **********
+ PARAMETER    6  IS UNDEFINED. IGNORED.
+ **********
+ **    7 **FIX           7
+ **********
+ PARAMETER    7  IS UNDEFINED. IGNORED.
+ **********
+ **    8 **FIX           8
+ **********
+ PARAMETER    8  IS UNDEFINED. IGNORED.
+ **********
+ **    9 **FIX           9
+ **********
+ PARAMETER    9  IS UNDEFINED. IGNORED.
+ **********
+ **   10 **FIX          10
+ **********
+ PARAMETER   10  IS UNDEFINED. IGNORED.
+ **********
+ **   11 **FIX          11
+ **********
+ PARAMETER   11  IS UNDEFINED. IGNORED.
+ **********
+ **   12 **FIX          12
+ **********
+ PARAMETER   12  IS UNDEFINED. IGNORED.
+ **********
+ **   13 **FIX          13
+ **********
+ PARAMETER   13  IS UNDEFINED. IGNORED.
+ **********
+ **   14 **FIX          14
+ **********
+ PARAMETER   14  IS UNDEFINED. IGNORED.
+ **********
+ **   15 **FIX          15
+ **********
+ PARAMETER   15  IS UNDEFINED. IGNORED.
+ **********
+ **   16 **FIX          16
+ **********
+ PARAMETER   16  IS UNDEFINED. IGNORED.
+ **********
+ **   17 **FIX          17
+ **********
+ PARAMETER   17  IS UNDEFINED. IGNORED.
+ **********
+ **   18 **FIX          18
+ **********
+ PARAMETER   18  IS UNDEFINED. IGNORED.
+ **********
+ **   19 **FIX          19
+ **********
+ PARAMETER   19  IS UNDEFINED. IGNORED.
+ **********
+ **   20 **FIX          20
+ **********
+ PARAMETER   20  IS UNDEFINED. IGNORED.
+ **********
+ **   21 **FIX          21
+ **********
+ PARAMETER   21  IS UNDEFINED. IGNORED.
+ **********
+ **   22 **FIX          22
+ **********
+ PARAMETER   22  IS UNDEFINED. IGNORED.
+ **********
+ **   23 **FIX          23
+ **********
+ PARAMETER   23  IS UNDEFINED. IGNORED.
+ **********
+ **   24 **FIX          24
+ **********
+ PARAMETER   24  IS UNDEFINED. IGNORED.
+ **********
+ **   25 **FIX          25
+ **********
+ PARAMETER   25  IS UNDEFINED. IGNORED.
+ **********
+ **   26 **FIX          26
+ **********
+ PARAMETER   26  IS UNDEFINED. IGNORED.
+ **********
+ **   27 **FIX          27
+ **********
+ PARAMETER   27  IS UNDEFINED. IGNORED.
+ **********
+ **   28 **FIX          28
+ **********
+ PARAMETER   28  IS UNDEFINED. IGNORED.
+ **********
+ **   29 **FIX          29
+ **********
+ PARAMETER   29  IS UNDEFINED. IGNORED.
+ **********
+ **   30 **FIX          30
+ **********
+ PARAMETER   30  IS UNDEFINED. IGNORED.
+ **********
+ **   31 **FIX          31
+ **********
+ PARAMETER   31  IS UNDEFINED. IGNORED.
+ **********
+ **   32 **FIX          32
+ **********
+ PARAMETER   32  IS UNDEFINED. IGNORED.
+ **********
+ **   33 **FIX          33
+ **********
+ PARAMETER   33  IS UNDEFINED. IGNORED.
+ **********
+ **   34 **FIX          34
+ **********
+ PARAMETER   34  IS UNDEFINED. IGNORED.
+ **********
+ **   35 **FIX          35
+ **********
+ PARAMETER   35  IS UNDEFINED. IGNORED.
+ **********
+ **   36 **FIX          36
+ **********
+ PARAMETER   36  IS UNDEFINED. IGNORED.
+ **********
+ **   37 **FIX          37
+ **********
+ PARAMETER   37  IS UNDEFINED. IGNORED.
+ **********
+ **   38 **FIX          38
+ **********
+ PARAMETER   38  IS UNDEFINED. IGNORED.
+ **********
+ **   39 **FIX          39
+ **********
+ PARAMETER   39  IS UNDEFINED. IGNORED.
+ **********
+ **   40 **FIX          40
+ **********
+ PARAMETER   40  IS UNDEFINED. IGNORED.
+ **********
+ **   41 **FIX          41
+ **********
+ PARAMETER   41  IS UNDEFINED. IGNORED.
+ **********
+ **   42 **FIX          42
+ **********
+ PARAMETER   42  IS UNDEFINED. IGNORED.
+ **********
+ **   43 **FIX          43
+ **********
+ PARAMETER   43  IS UNDEFINED. IGNORED.
+ **********
+ **   44 **FIX          44
+ **********
+ PARAMETER   44  IS UNDEFINED. IGNORED.
+ **********
+ **   45 **FIX          45
+ **********
+ PARAMETER   45  IS UNDEFINED. IGNORED.
+ **********
+ **   46 **FIX          46
+ **********
+ PARAMETER   46  IS UNDEFINED. IGNORED.
+ **********
+ **   47 **FIX          47
+ **********
+ PARAMETER   47  IS UNDEFINED. IGNORED.
+ **********
+ **   48 **FIX          48
+ **********
+ PARAMETER   48  IS UNDEFINED. IGNORED.
+ **********
+ **   49 **FIX          49
+ **********
+ PARAMETER   49  IS UNDEFINED. IGNORED.
+ **********
+ **   50 **FIX          50
+ **********
+ PARAMETER   50  IS UNDEFINED. IGNORED.
+ **********
+ **   51 **FIX          51
+ **********
+ PARAMETER   51  IS UNDEFINED. IGNORED.
+ **********
+ **   52 **FIX          52
+ **********
+ PARAMETER   52  IS UNDEFINED. IGNORED.
+ **********
+ **   53 **FIX          53
+ **********
+ PARAMETER   53  IS UNDEFINED. IGNORED.
+ **********
+ **   54 **FIX          54
+ **********
+ PARAMETER   54  IS UNDEFINED. IGNORED.
+ **********
+ **   55 **FIX          55
+ **********
+ PARAMETER   55  IS UNDEFINED. IGNORED.
+ **********
+ **   56 **FIX          56
+ **********
+ PARAMETER   56  IS UNDEFINED. IGNORED.
+ **********
+ **   57 **FIX          57
+ **********
+ PARAMETER   57  IS UNDEFINED. IGNORED.
+ **********
+ **   58 **FIX          58
+ **********
+ PARAMETER   58  IS UNDEFINED. IGNORED.
+ **********
+ **   59 **FIX          59
+ **********
+ PARAMETER   59  IS UNDEFINED. IGNORED.
+ **********
+ **   60 **FIX          60
+ **********
+ PARAMETER   60  IS UNDEFINED. IGNORED.
+ **********
+ **   61 **FIX          61
+ **********
+ PARAMETER   61  IS UNDEFINED. IGNORED.
+ **********
+ **   62 **FIX          62
+ **********
+ PARAMETER   62  IS UNDEFINED. IGNORED.
+ **********
+ **   63 **FIX          63
+ **********
+ PARAMETER   63  IS UNDEFINED. IGNORED.
+ **********
+ **   64 **FIX          64
+ **********
+ PARAMETER   64  IS UNDEFINED. IGNORED.
+ **********
+ **   65 **FIX          65
+ **********
+ PARAMETER   65  IS UNDEFINED. IGNORED.
+ **********
+ **   66 **FIX          66
+ **********
+ PARAMETER   66  IS UNDEFINED. IGNORED.
+ **********
+ **   67 **FIX          67
+ **********
+ PARAMETER   67  IS UNDEFINED. IGNORED.
+ **********
+ **   68 **FIX          68
+ **********
+ PARAMETER   68  IS UNDEFINED. IGNORED.
+ **********
+ **   69 **FIX          69
+ **********
+ PARAMETER   69  IS UNDEFINED. IGNORED.
+ **********
+ **   70 **FIX          70
+ **********
+ PARAMETER   70  IS UNDEFINED. IGNORED.
+ **********
+ **   71 **FIX          71
+ **********
+ PARAMETER   71  IS UNDEFINED. IGNORED.
+ **********
+ **   72 **FIX          72
+ **********
+ PARAMETER   72  IS UNDEFINED. IGNORED.
+ **********
+ **   73 **FIX          73
+ **********
+ PARAMETER   73  IS UNDEFINED. IGNORED.
+ **********
+ **   74 **FIX          74
+ **********
+ PARAMETER   74  IS UNDEFINED. IGNORED.
+ **********
+ **   75 **FIX          75
+ **********
+ PARAMETER   75  IS UNDEFINED. IGNORED.
+ **********
+ **   76 **FIX          76
+ **********
+ PARAMETER   76  IS UNDEFINED. IGNORED.
+ **********
+ **   77 **FIX          77
+ **********
+ PARAMETER   77  IS UNDEFINED. IGNORED.
+ **********
+ **   78 **FIX          78
+ **********
+ PARAMETER   78  IS UNDEFINED. IGNORED.
+ **********
+ **   79 **FIX          79
+ **********
+ PARAMETER   79  IS UNDEFINED. IGNORED.
+ **********
+ **   80 **FIX          80
+ **********
+ PARAMETER   80  IS UNDEFINED. IGNORED.
+ **********
+ **   81 **FIX          81
+ **********
+ PARAMETER   81  IS UNDEFINED. IGNORED.
+ **********
+ **   82 **FIX          82
+ **********
+ PARAMETER   82  IS UNDEFINED. IGNORED.
+ **********
+ **   83 **FIX          83
+ **********
+ PARAMETER   83  IS UNDEFINED. IGNORED.
+ **********
+ **   84 **FIX          84
+ **********
+ PARAMETER   84  IS UNDEFINED. IGNORED.
+ **********
+ **   85 **FIX          85
+ **********
+ PARAMETER   85  IS UNDEFINED. IGNORED.
+ **********
+ **   86 **FIX          86
+ **********
+ PARAMETER   86  IS UNDEFINED. IGNORED.
+ **********
+ **   87 **FIX          87
+ **********
+ PARAMETER   87  IS UNDEFINED. IGNORED.
+ **********
+ **   88 **FIX          88
+ **********
+ PARAMETER   88  IS UNDEFINED. IGNORED.
+ **********
+ **   89 **FIX          89
+ **********
+ PARAMETER   89  IS UNDEFINED. IGNORED.
+ **********
+ **   90 **FIX          90
+ **********
+ PARAMETER   90  IS UNDEFINED. IGNORED.
+ **********
+ **   91 **FIX          91
+ **********
+ PARAMETER   91  IS UNDEFINED. IGNORED.
+ **********
+ **   92 **FIX          92
+ **********
+ PARAMETER   92  IS UNDEFINED. IGNORED.
+ **********
+ **   93 **FIX          93
+ **********
+ PARAMETER   93  IS UNDEFINED. IGNORED.
+ **********
+ **   94 **FIX          94
+ **********
+ PARAMETER   94  IS UNDEFINED. IGNORED.
+ **********
+ **   95 **FIX          95
+ **********
+ PARAMETER   95  IS UNDEFINED. IGNORED.
+ **********
+ **   96 **FIX          96
+ **********
+ PARAMETER   96  IS UNDEFINED. IGNORED.
+ **********
+ **   97 **FIX          97
+ **********
+ PARAMETER   97  IS UNDEFINED. IGNORED.
+ **********
+ **   98 **FIX          98
+ **********
+ PARAMETER   98  IS UNDEFINED. IGNORED.
+ **********
+ **   99 **FIX          99
+ **********
+ **********
+ **  100 **FIX         100
+ **********
+ **********
+ **  101 **RELEASE         100
+ **********
+                   PARAMETER  100  Asymmetry RESTORED TO VARIABLE.
+ **********
+ **  102 **RELEASE          99
+ **********
+                   PARAMETER   99  sigma_tt RESTORED TO VARIABLE.
+ **********
+ **  103 **RELEASE          98
+ **********
+ PARAMETER   98  IS UNDEFINED. IGNORED.
+ **********
+ **  104 **RELEASE          97
+ **********
+ PARAMETER   97  IS UNDEFINED. IGNORED.
+ **********
+ **  105 **RELEASE          96
+ **********
+ PARAMETER   96  IS UNDEFINED. IGNORED.
+ **********
+ **  106 **RELEASE          95
+ **********
+ PARAMETER   95  IS UNDEFINED. IGNORED.
+ **********
+ **  107 **RELEASE          94
+ **********
+ PARAMETER   94  IS UNDEFINED. IGNORED.
+ **********
+ **  108 **RELEASE          93
+ **********
+ PARAMETER   93  IS UNDEFINED. IGNORED.
+ **********
+ **  109 **RELEASE          92
+ **********
+ PARAMETER   92  IS UNDEFINED. IGNORED.
+ **********
+ **  110 **RELEASE          91
+ **********
+ PARAMETER   91  IS UNDEFINED. IGNORED.
+ **********
+ **  111 **RELEASE          90
+ **********
+ PARAMETER   90  IS UNDEFINED. IGNORED.
+ **********
+ **  112 **RELEASE          89
+ **********
+ PARAMETER   89  IS UNDEFINED. IGNORED.
+ **********
+ **  113 **RELEASE          88
+ **********
+ PARAMETER   88  IS UNDEFINED. IGNORED.
+ **********
+ **  114 **RELEASE          87
+ **********
+ PARAMETER   87  IS UNDEFINED. IGNORED.
+ **********
+ **  115 **RELEASE          86
+ **********
+ PARAMETER   86  IS UNDEFINED. IGNORED.
+ **********
+ **  116 **RELEASE          85
+ **********
+ PARAMETER   85  IS UNDEFINED. IGNORED.
+ **********
+ **  117 **RELEASE          84
+ **********
+ PARAMETER   84  IS UNDEFINED. IGNORED.
+ **********
+ **  118 **RELEASE          83
+ **********
+ PARAMETER   83  IS UNDEFINED. IGNORED.
+ **********
+ **  119 **RELEASE          82
+ **********
+ PARAMETER   82  IS UNDEFINED. IGNORED.
+ **********
+ **  120 **RELEASE          81
+ **********
+ PARAMETER   81  IS UNDEFINED. IGNORED.
+ **********
+ **  121 **RELEASE          80
+ **********
+ PARAMETER   80  IS UNDEFINED. IGNORED.
+ **********
+ **  122 **RELEASE          79
+ **********
+ PARAMETER   79  IS UNDEFINED. IGNORED.
+ **********
+ **  123 **RELEASE          78
+ **********
+ PARAMETER   78  IS UNDEFINED. IGNORED.
+ **********
+ **  124 **RELEASE          77
+ **********
+ PARAMETER   77  IS UNDEFINED. IGNORED.
+ **********
+ **  125 **RELEASE          76
+ **********
+ PARAMETER   76  IS UNDEFINED. IGNORED.
+ **********
+ **  126 **RELEASE          75
+ **********
+ PARAMETER   75  IS UNDEFINED. IGNORED.
+ **********
+ **  127 **RELEASE          74
+ **********
+ PARAMETER   74  IS UNDEFINED. IGNORED.
+ **********
+ **  128 **RELEASE          73
+ **********
+ PARAMETER   73  IS UNDEFINED. IGNORED.
+ **********
+ **  129 **RELEASE          72
+ **********
+ PARAMETER   72  IS UNDEFINED. IGNORED.
+ **********
+ **  130 **RELEASE          71
+ **********
+ PARAMETER   71  IS UNDEFINED. IGNORED.
+ **********
+ **  131 **RELEASE          70
+ **********
+ PARAMETER   70  IS UNDEFINED. IGNORED.
+ **********
+ **  132 **RELEASE          69
+ **********
+ PARAMETER   69  IS UNDEFINED. IGNORED.
+ **********
+ **  133 **RELEASE          68
+ **********
+ PARAMETER   68  IS UNDEFINED. IGNORED.
+ **********
+ **  134 **RELEASE          67
+ **********
+ PARAMETER   67  IS UNDEFINED. IGNORED.
+ **********
+ **  135 **RELEASE          66
+ **********
+ PARAMETER   66  IS UNDEFINED. IGNORED.
+ **********
+ **  136 **RELEASE          65
+ **********
+ PARAMETER   65  IS UNDEFINED. IGNORED.
+ **********
+ **  137 **RELEASE          64
+ **********
+ PARAMETER   64  IS UNDEFINED. IGNORED.
+ **********
+ **  138 **RELEASE          63
+ **********
+ PARAMETER   63  IS UNDEFINED. IGNORED.
+ **********
+ **  139 **RELEASE          62
+ **********
+ PARAMETER   62  IS UNDEFINED. IGNORED.
+ **********
+ **  140 **RELEASE          61
+ **********
+ PARAMETER   61  IS UNDEFINED. IGNORED.
+ **********
+ **  141 **RELEASE          60
+ **********
+ PARAMETER   60  IS UNDEFINED. IGNORED.
+ **********
+ **  142 **RELEASE          59
+ **********
+ PARAMETER   59  IS UNDEFINED. IGNORED.
+ **********
+ **  143 **RELEASE          58
+ **********
+ PARAMETER   58  IS UNDEFINED. IGNORED.
+ **********
+ **  144 **RELEASE          57
+ **********
+ PARAMETER   57  IS UNDEFINED. IGNORED.
+ **********
+ **  145 **RELEASE          56
+ **********
+ PARAMETER   56  IS UNDEFINED. IGNORED.
+ **********
+ **  146 **RELEASE          55
+ **********
+ PARAMETER   55  IS UNDEFINED. IGNORED.
+ **********
+ **  147 **RELEASE          54
+ **********
+ PARAMETER   54  IS UNDEFINED. IGNORED.
+ **********
+ **  148 **RELEASE          53
+ **********
+ PARAMETER   53  IS UNDEFINED. IGNORED.
+ **********
+ **  149 **RELEASE          52
+ **********
+ PARAMETER   52  IS UNDEFINED. IGNORED.
+ **********
+ **  150 **RELEASE          51
+ **********
+ PARAMETER   51  IS UNDEFINED. IGNORED.
+ **********
+ **  151 **RELEASE          50
+ **********
+ PARAMETER   50  IS UNDEFINED. IGNORED.
+ **********
+ **  152 **RELEASE          49
+ **********
+ PARAMETER   49  IS UNDEFINED. IGNORED.
+ **********
+ **  153 **RELEASE          48
+ **********
+ PARAMETER   48  IS UNDEFINED. IGNORED.
+ **********
+ **  154 **RELEASE          47
+ **********
+ PARAMETER   47  IS UNDEFINED. IGNORED.
+ **********
+ **  155 **RELEASE          46
+ **********
+ PARAMETER   46  IS UNDEFINED. IGNORED.
+ **********
+ **  156 **RELEASE          45
+ **********
+ PARAMETER   45  IS UNDEFINED. IGNORED.
+ **********
+ **  157 **RELEASE          44
+ **********
+ PARAMETER   44  IS UNDEFINED. IGNORED.
+ **********
+ **  158 **RELEASE          43
+ **********
+ PARAMETER   43  IS UNDEFINED. IGNORED.
+ **********
+ **  159 **RELEASE          42
+ **********
+ PARAMETER   42  IS UNDEFINED. IGNORED.
+ **********
+ **  160 **RELEASE          41
+ **********
+ PARAMETER   41  IS UNDEFINED. IGNORED.
+ **********
+ **  161 **RELEASE          40
+ **********
+ PARAMETER   40  IS UNDEFINED. IGNORED.
+ **********
+ **  162 **RELEASE          39
+ **********
+ PARAMETER   39  IS UNDEFINED. IGNORED.
+ **********
+ **  163 **RELEASE          38
+ **********
+ PARAMETER   38  IS UNDEFINED. IGNORED.
+ **********
+ **  164 **RELEASE          37
+ **********
+ PARAMETER   37  IS UNDEFINED. IGNORED.
+ **********
+ **  165 **RELEASE          36
+ **********
+ PARAMETER   36  IS UNDEFINED. IGNORED.
+ **********
+ **  166 **RELEASE          35
+ **********
+ PARAMETER   35  IS UNDEFINED. IGNORED.
+ **********
+ **  167 **RELEASE          34
+ **********
+ PARAMETER   34  IS UNDEFINED. IGNORED.
+ **********
+ **  168 **RELEASE          33
+ **********
+ PARAMETER   33  IS UNDEFINED. IGNORED.
+ **********
+ **  169 **RELEASE          32
+ **********
+ PARAMETER   32  IS UNDEFINED. IGNORED.
+ **********
+ **  170 **RELEASE          31
+ **********
+ PARAMETER   31  IS UNDEFINED. IGNORED.
+ **********
+ **  171 **RELEASE          30
+ **********
+ PARAMETER   30  IS UNDEFINED. IGNORED.
+ **********
+ **  172 **RELEASE          29
+ **********
+ PARAMETER   29  IS UNDEFINED. IGNORED.
+ **********
+ **  173 **RELEASE          28
+ **********
+ PARAMETER   28  IS UNDEFINED. IGNORED.
+ **********
+ **  174 **RELEASE          27
+ **********
+ PARAMETER   27  IS UNDEFINED. IGNORED.
+ **********
+ **  175 **RELEASE          26
+ **********
+ PARAMETER   26  IS UNDEFINED. IGNORED.
+ **********
+ **  176 **RELEASE          25
+ **********
+ PARAMETER   25  IS UNDEFINED. IGNORED.
+ **********
+ **  177 **RELEASE          24
+ **********
+ PARAMETER   24  IS UNDEFINED. IGNORED.
+ **********
+ **  178 **RELEASE          23
+ **********
+ PARAMETER   23  IS UNDEFINED. IGNORED.
+ **********
+ **  179 **RELEASE          22
+ **********
+ PARAMETER   22  IS UNDEFINED. IGNORED.
+ **********
+ **  180 **RELEASE          21
+ **********
+ PARAMETER   21  IS UNDEFINED. IGNORED.
+ **********
+ **  181 **RELEASE          20
+ **********
+ PARAMETER   20  IS UNDEFINED. IGNORED.
+ **********
+ **  182 **RELEASE          19
+ **********
+ PARAMETER   19  IS UNDEFINED. IGNORED.
+ **********
+ **  183 **RELEASE          18
+ **********
+ PARAMETER   18  IS UNDEFINED. IGNORED.
+ **********
+ **  184 **RELEASE          17
+ **********
+ PARAMETER   17  IS UNDEFINED. IGNORED.
+ **********
+ **  185 **RELEASE          16
+ **********
+ PARAMETER   16  IS UNDEFINED. IGNORED.
+ **********
+ **  186 **RELEASE          15
+ **********
+ PARAMETER   15  IS UNDEFINED. IGNORED.
+ **********
+ **  187 **RELEASE          14
+ **********
+ PARAMETER   14  IS UNDEFINED. IGNORED.
+ **********
+ **  188 **RELEASE          13
+ **********
+ PARAMETER   13  IS UNDEFINED. IGNORED.
+ **********
+ **  189 **RELEASE          12
+ **********
+ PARAMETER   12  IS UNDEFINED. IGNORED.
+ **********
+ **  190 **RELEASE          11
+ **********
+ PARAMETER   11  IS UNDEFINED. IGNORED.
+ **********
+ **  191 **RELEASE          10
+ **********
+ PARAMETER   10  IS UNDEFINED. IGNORED.
+ **********
+ **  192 **RELEASE           9
+ **********
+ PARAMETER    9  IS UNDEFINED. IGNORED.
+ **********
+ **  193 **RELEASE           8
+ **********
+ PARAMETER    8  IS UNDEFINED. IGNORED.
+ **********
+ **  194 **RELEASE           7
+ **********
+ PARAMETER    7  IS UNDEFINED. IGNORED.
+ **********
+ **  195 **RELEASE           6
+ **********
+ PARAMETER    6  IS UNDEFINED. IGNORED.
+ **********
+ **  196 **RELEASE           5
+ **********
+ PARAMETER    5  IS UNDEFINED. IGNORED.
+ **********
+ **  197 **RELEASE           4
+ **********
+ PARAMETER    4  IS UNDEFINED. IGNORED.
+ **********
+ **  198 **RELEASE           3
+ **********
+ PARAMETER    3  IS UNDEFINED. IGNORED.
+ **********
+ **  199 **RELEASE           2
+ **********
+ PARAMETER    2  IS UNDEFINED. IGNORED.
+ **********
+ **  200 **CALL FCN           1
+ **********
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+ FCN=-447345 FROM CALl fcn    STATUS=RESET           1 CALLS           1 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS      PHYSICAL LIMITS       
+  NO.   NAME      VALUE            ERROR       NEGATIVE      POSITIVE  
+  99  sigma_tt     8.31700e+02   1.00000e-05
+ 100  Asymmetry   -1.57000e-04   1.00000e-05
+ **********
+ **  201 **SET PRINT
+ **********
+ **********
+ **  202 **SET RAN   1.235e+08
+ **********
+ **********
+ **  203 **MIGRAD       1e+07       0.001
+ **********
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+ FCN=-447361 FROM MIGRAD    STATUS=CONVERGED      43 CALLS          44 TOTAL
+                     EDM=1.66881e-11    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+  99  sigma_tt     8.06249e+02   6.57228e+00   2.14644e+00  -1.51184e-07
+ 100  Asymmetry   -9.83423e-03   8.15160e-03   2.66218e-03   6.98575e-04
+ **********
+ **  204 **SET ERR         0.5
+ **********
+ **********
+ **  205 **MINOS
+ **********
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+prob_ : 2362.41
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_p : 5546.57 Inputs::N_mc_p_unc ? 80.6922
+prob_ : 3227.5
+GAUSSIAN !! Inputs::N_mc*Inputs::f_mc_m : 5456.34 Inputs::N_mc_m_unc : 67.9131
+ FCN=-447361 FROM MINOS     STATUS=SUCCESSFUL     28 CALLS          72 TOTAL
+                     EDM=1.66881e-11    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                  PARABOLIC         MINOS ERRORS        
+  NO.   NAME      VALUE            ERROR      NEGATIVE      POSITIVE   
+  99  sigma_tt     8.06249e+02   4.64730e+00  -4.64036e+00   4.65426e+00
+ 100  Asymmetry   -9.83423e-03   5.76405e-03  -5.76400e-03   5.76409e-03
+                               ERR DEF= 0.5
+
+
+========================================================================================================= 
+====                             Summary of likelihood fit by Minuit                                ===== 
+========================================================================================================= 
+
+
+----------------------------------------------------------------------------------------------------------
+Asymmetry O1 = -0.00983423 +0.00576409 --0.005764  (MINOS errors)
+xsection ttbar O1 = 806.249 +4.65426 --4.64036  (MINOS errors)
+----------------------------------------------------------------------------------------------------------
+
+
+
+End processing...
+

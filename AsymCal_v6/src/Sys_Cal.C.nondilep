@@ -1,0 +1,831 @@
+#include <iostream>
+#include <fstream>
+#include <sstream>
+#include "TMath.h"
+
+using namespace std;
+
+void Sys_Cal()
+{
+   string channels[3]={"dimuon","dielec","muonelec"};
+   string Channels[3]={"MuMu","ElEl","MuEl"};
+   string variables[13]={"O1","O2","O3","O4","O5","O6","O7","O8","O9","O10","O11","O12","O13"};
+
+   string studyName = "NewSystematic_V7";
+
+   string input_file;
+
+   ofstream fout;
+   fout.open("./sys_out.dat");
+
+   /// Central ///
+   ifstream central_input[3][13];
+   Double_t central[3][13], central_errp[3][13], central_errm[3][13];
+
+   /// Initialize array for Central Value ///
+   for (int i = 0; i < 3; ++i)
+   {
+      for (int j = 0; j < 13; ++j)
+      {
+         central[i][j] = 0;
+         central_errp[i][j] = 0;
+         central_errm[i][j] = 0;
+      }
+   }
+   for (int i=0;i<3;i++) // channel
+   {
+      for (int j=0;j<13;j++) // variables
+      {
+         input_file = "./output/"+studyName+"/"+Channels[i]+"/"+channels[i]+"_"+variables[j]+"_"+ studyName+ ".txt"; // output of Asymmetry Central //
+         cout << "input_file : " << input_file << endl; 
+         central_input[i][j].open(input_file.c_str());
+         central_input[i][j] >> central[i][j] >> central_errp[i][j] >> central_errm[i][j];
+         cout << input_file << " " << central[i][j] << " " << central_errp[i][j] << " " << central_errm[i][j] << endl;
+         central_input[i][j].close();
+      }
+   }
+   /// LeptonID /// 
+   ifstream lepid_input[3][13][2]; //[ch][vari]
+   string lepid_name[2]={"LepIDUp","LepIDDown"}; 
+   Double_t lepid_sys[3][13][2], lepid_errp[3][13][2], lepid_errm[3][13][2];//[ch][vari][up&down]
+   /// Initialize array for Central Value ///
+   for (int i = 0; i < 3; ++i)
+   {
+      for (int j = 0; j < 13; ++j)
+      {
+         for (int k = 0; k < 2; ++k)
+         {
+            lepid_sys[i][j][k] = 0;
+            lepid_errp[i][j][k] = 0;
+            lepid_errm[i][j][k] = 0;
+         }
+      }
+   }
+   for (int i=0;i<3;i++) // channel
+   {
+      for (int j=0;j<13;j++) // variables
+      {
+         for (int k = 0; k < 2; ++k) // Up and Down
+         {
+            input_file = "./output/"+studyName+"/"+Channels[i]+"/"+channels[i]+"_"+variables[j]+"_"+ studyName+"_"+lepid_name[k]+ ".txt"; // output of Asymmetry Central //
+            cout << "input_file : " << input_file << endl; 
+            lepid_input[i][j][k].open(input_file.c_str());
+            lepid_input[i][j][k] >> lepid_sys[i][j][k] >> lepid_errp[i][j][k] >> lepid_errm[i][j][k];
+            cout << input_file << " " << lepid_sys[i][j][k] << " " << lepid_errp[i][j][k] << " " << lepid_errm[i][j][k] << endl;
+            lepid_input[i][j][k].close();
+         }
+      }
+   }
+   /// LeptonIso /// 
+   ifstream lepiso_input[3][13][2]; //[ch][vari]
+   string lepiso_name[2]={"LepIsoUp","LepIsoDown"}; 
+   Double_t lepiso_sys[3][13][2], lepiso_errp[3][13][2], lepiso_errm[3][13][2];//[ch][vari][up&down]
+   /// Initialize array for Central Value ///
+   for (int i = 0; i < 3; ++i)
+   {
+      for (int j = 0; j < 13; ++j)
+      {
+         for (int k = 0; k < 2; ++k)
+         {
+            lepiso_sys[i][j][k] = 0;
+            lepiso_errp[i][j][k] = 0;
+            lepiso_errm[i][j][k] = 0;
+         }
+      }
+   }
+   for (int i=0;i<3;i++) // channel
+   {
+      for (int j=0;j<13;j++) // variables
+      {
+         for (int k = 0; k < 2; ++k) // Up and Down
+         {
+            input_file = "./output/"+studyName+"/"+Channels[i]+"/"+channels[i]+"_"+variables[j]+"_"+ studyName+"_"+lepiso_name[k]+ ".txt"; // output of Asymmetry Central //
+            cout << "input_file : " << input_file << endl; 
+            lepiso_input[i][j][k].open(input_file.c_str());
+            lepiso_input[i][j][k] >> lepiso_sys[i][j][k] >> lepiso_errp[i][j][k] >> lepiso_errm[i][j][k];
+            cout << input_file << " " << lepiso_sys[i][j][k] << " " << lepiso_errp[i][j][k] << " " << lepiso_errm[i][j][k] << endl;
+            lepiso_input[i][j][k].close();
+         }
+      }
+   }
+   /// JES  /// 
+   ifstream jes_input[3][13][2]; //[ch][vari]
+   string jes_name[2]={"JetEnUp","JetEnDown"}; 
+   Double_t jes_sys[3][13][2], jes_errp[3][13][2], jes_errm[3][13][2];//[ch][vari][up&down]
+   /// Initialize array for Central Value ///
+   for (int i = 0; i < 3; ++i)
+   {
+      for (int j = 0; j < 13; ++j)
+      {
+         for (int k = 0; k < 2; ++k)
+         {
+            jes_sys[i][j][k] = 0;
+            jes_errp[i][j][k] = 0;
+            jes_errm[i][j][k] = 0;
+         }
+      }
+   }
+   for (int i=0;i<3;i++) // channel
+   {
+      for (int j=0;j<13;j++) // variables
+      {
+         for (int k = 0; k < 2; ++k) // Up and Down
+         {
+            input_file = "./output/"+studyName+"/"+Channels[i]+"/"+channels[i]+"_"+variables[j]+"_"+ studyName+"_"+jes_name[k]+ ".txt"; // output of Asymmetry Central //
+            cout << "input_file : " << input_file << endl; 
+            jes_input[i][j][k].open(input_file.c_str());
+            jes_input[i][j][k] >> jes_sys[i][j][k] >> jes_errp[i][j][k] >> jes_errm[i][j][k];
+            cout << input_file << " " << jes_sys[i][j][k] << " " << jes_errp[i][j][k] << " " << jes_errm[i][j][k] << endl;
+            jes_input[i][j][k].close();
+         }
+      }
+   }
+   /// BTagEff /// 
+   ifstream btageff_input[3][13][2]; //[ch][vari]
+   string btageff_name[2]={"BTagEffUp","BTagEffDown"}; 
+   Double_t btageff_sys[3][13][2], btageff_errp[3][13][2], btageff_errm[3][13][2];//[ch][vari][up&down]
+   /// Initialize array for Central Value ///
+   for (int i = 0; i < 3; ++i)
+   {
+      for (int j = 0; j < 13; ++j)
+      {
+         for (int k = 0; k < 2; ++k)
+         {
+            btageff_sys[i][j][k] = 0;
+            btageff_errp[i][j][k] = 0;
+            btageff_errm[i][j][k] = 0;
+         }
+      }
+   }
+   for (int i=0;i<3;i++) // channel
+   {
+      for (int j=0;j<13;j++) // variables
+      {
+         for (int k = 0; k < 2; ++k) // Up and Down
+         {
+            input_file = "./output/"+studyName+"/"+Channels[i]+"/"+channels[i]+"_"+variables[j]+"_"+ studyName+"_"+btageff_name[k]+ ".txt"; // output of Asymmetry Central //
+            cout << "input_file : " << input_file << endl; 
+            btageff_input[i][j][k].open(input_file.c_str());
+            btageff_input[i][j][k] >> btageff_sys[i][j][k] >> btageff_errp[i][j][k] >> btageff_errm[i][j][k];
+            cout << input_file << " " << btageff_sys[i][j][k] << " " << btageff_errp[i][j][k] << " " << btageff_errm[i][j][k] << endl;
+            btageff_input[i][j][k].close();
+         }
+      }
+   }
+
+   /// BTagSF /// 
+   ifstream btagsf_input[3][13][2]; //[ch][vari]
+   string btagsf_name[2]={"BTagSFUp","BTagSFDown"}; 
+   Double_t btagsf_sys[3][13][2], btagsf_errp[3][13][2], btagsf_errm[3][13][2];//[ch][vari][up&down]
+   /// Initialize array for Central Value ///
+   for (int i = 0; i < 3; ++i)
+   {
+      for (int j = 0; j < 13; ++j)
+      {
+         for (int k = 0; k < 2; ++k)
+         {
+            btagsf_sys[i][j][k] = 0;
+            btagsf_errp[i][j][k] = 0;
+            btagsf_errm[i][j][k] = 0;
+         }
+      }
+   }
+   for (int i=0;i<3;i++) // channel
+   {
+      for (int j=0;j<13;j++) // variables
+      {
+         for (int k = 0; k < 2; ++k) // Up and Down
+         {
+            input_file = "./output/"+studyName+"/"+Channels[i]+"/"+channels[i]+"_"+variables[j]+"_"+ studyName+"_"+btagsf_name[k]+ ".txt"; // output of Asymmetry Central //
+            cout << "input_file : " << input_file << endl; 
+            btagsf_input[i][j][k].open(input_file.c_str());
+            btagsf_input[i][j][k] >> btagsf_sys[i][j][k] >> btagsf_errp[i][j][k] >> btagsf_errm[i][j][k];
+            cout << input_file << " " << btagsf_sys[i][j][k] << " " << btagsf_errp[i][j][k] << " " << btagsf_errm[i][j][k] << endl;
+            btagsf_input[i][j][k].close();
+         }
+      }
+   }
+
+   /// PileUp /// 
+   ifstream pileup_input[3][13][2]; //[ch][vari]
+   string pileup_name[2]={"PileUpUp","PileUpDown"}; 
+   Double_t pileup_sys[3][13][2], pileup_errp[3][13][2], pileup_errm[3][13][2];//[ch][vari][up&down]
+   /// Initialize array for Central Value ///
+   for (int i = 0; i < 3; ++i)
+   {
+      for (int j = 0; j < 13; ++j)
+      {
+         for (int k = 0; k < 2; ++k)
+         {
+            pileup_sys[i][j][k] = 0;
+            pileup_errp[i][j][k] = 0;
+            pileup_errm[i][j][k] = 0;
+         }
+      }
+   }
+   for (int i=0;i<3;i++) // channel
+   {
+      for (int j=0;j<13;j++) // variables
+      {
+         for (int k = 0; k < 2; ++k) // Up and Down
+         {
+            input_file = "./output/"+studyName+"/"+Channels[i]+"/"+channels[i]+"_"+variables[j]+"_"+ studyName+"_"+pileup_name[k]+ ".txt"; // output of Asymmetry Central //
+            cout << "input_file : " << input_file << endl; 
+            pileup_input[i][j][k].open(input_file.c_str());
+            pileup_input[i][j][k] >> pileup_sys[i][j][k] >> pileup_errp[i][j][k] >> pileup_errm[i][j][k];
+            cout << input_file << " " << pileup_sys[i][j][k] << " " << pileup_errp[i][j][k] << " " << pileup_errm[i][j][k] << endl;
+            pileup_input[i][j][k].close();
+         }
+      }
+   }
+
+/*   /// LepTrack /// 
+   ifstream leptrack_input[3][13][2]; //[ch][vari]
+   string leptrack_name[2]={"LepTrackUp","LepTrackDown"}; 
+   Double_t leptrack[3][13][2], leptrack_errp[3][13][2], leptrack_errm[3][13][2];//[ch][vari][up&down]
+   /// Initialize array for Central Value ///
+   for (int i = 0; i < 3; ++i)
+   {
+      for (int j = 0; j < 13; ++j)
+      {
+         for (int k = 0; k < 2; ++k)
+         {
+            leptrack[i][j][k] = 0;
+            leptrack_errp[i][j][k] = 0;
+            leptrack_errm[i][j][k] = 0;
+         }
+      }
+   }
+   for (int i=0;i<3;i++) // channel
+   {
+      for (int j=0;j<13;j++) // variables
+      {
+         for (int k = 0; k < 2; ++k) // Up and Down
+         {
+            input_file = "./output/"+studyName+"/"+Channels[i]+"/"+channels[i]+"_"+variables[j]+"_"+ studyName+"_"+leptrack_name[k]+ ".txt"; // output of Asymmetry Central //
+            cout << "input_file : " << input_file << endl; 
+            leptrack_input[i][j][k].open(input_file.c_str());
+            leptrack_input[i][j][k] >> leptrack[i][j][k] >> leptrack_errp[i][j][k] >> leptrack_errm[i][j][k];
+            cout << input_file << " " << leptrack[i][j][k] << " " << leptrack_errp[i][j][k] << " " << leptrack_errm[i][j][k] << endl;
+            leptrack_input[i][j][k].close();
+         }
+      }
+   }
+   /// LepReco /// 
+   ifstream lepreco_input[3][13][2]; //[ch][vari]
+   string lepreco_name[2]={"LepRecoUp","LepRecoDown"}; 
+   Double_t lepreco[3][13][2], lepreco_errp[3][13][2], lepreco_errm[3][13][2];//[ch][vari][up&down]
+   /// Initialize array for Central Value ///
+   for (int i = 0; i < 3; ++i)
+   {
+      for (int j = 0; j < 13; ++j)
+      {
+         for (int k = 0; k < 2; ++k)
+         {
+            lepreco[i][j][k] = 0;
+            lepreco_errp[i][j][k] = 0;
+            lepreco_errm[i][j][k] = 0;
+         }
+      }
+   }
+   for (int i=0;i<3;i++) // channel
+   {
+      for (int j=0;j<13;j++) // variables
+      {
+         for (int k = 0; k < 2; ++k) // Up and Down
+         {
+            input_file = "./output/"+studyName+"/"+Channels[i]+"/"+channels[i]+"_"+variables[j]+"_"+ studyName+"_"+lepreco_name[k]+ ".txt"; // output of Asymmetry Central //
+            cout << "input_file : " << input_file << endl; 
+            lepreco_input[i][j][k].open(input_file.c_str());
+            lepreco_input[i][j][k] >> lepreco[i][j][k] >> lepreco_errp[i][j][k] >> lepreco_errm[i][j][k];
+            cout << input_file << " " << lepreco[i][j][k] << " " << lepreco_errp[i][j][k] << " " << lepreco_errm[i][j][k] << endl;
+            lepreco_input[i][j][k].close();
+         }
+      }
+   }
+*/
+   //////////////////////////////////
+   /// Calculator Systematic Unc. ///
+   //////////////////////////////////
+   Double_t sys_uncern_lepid[3][13][2];
+   for (int i = 0; i < 3; ++i)
+   {
+      for (int j = 0; j < 13; ++j)
+      {
+         for (int k = 0; k < 2; ++k)
+         {
+            sys_uncern_lepid[i][j][k] = 0;
+         }
+      }
+   }
+
+   for (int i=0;i<3;i++)
+   {
+      for (int j=0;j<13;j++)
+      {
+         fout << "lepid_" << channels[i] << "_" << variables[j] << ":   ";
+         for (int k=0;k<2;k++)
+         {
+            sys_uncern_lepid[i][j][k] = lepid_sys[i][j][k] - central[i][j];
+            
+            //cout << "central : " << central[i][j] << " lepid_sys : " << lepid_sys[i][j][k] << " sys_uncern_lepid : " <<  sys_uncern_lepid[i][j][k] << endl;
+            fout << sys_uncern_lepid[i][j][k] << "   ";
+         }
+         fout << endl << endl;
+      }
+   } 
+   fout << endl << endl;
+   for (int i=0;i<3;i++)
+   {
+      for (int j=0;j<13;j++)
+      {
+         if (sys_uncern_lepid[i][j][0] * sys_uncern_lepid[i][j][1] < 0)
+         {
+            if (sys_uncern_lepid[i][j][0] < 0)
+            {
+               Double_t updown = sys_uncern_lepid[i][j][0];
+               sys_uncern_lepid[i][j][0] = sys_uncern_lepid[i][j][1];
+               sys_uncern_lepid[i][j][1] = updown;
+            }
+         }
+
+         if (sys_uncern_lepid[i][j][0] * sys_uncern_lepid[i][j][1] > 0)
+         {
+            Double_t one_side_uncen = 0;
+            if (TMath::Abs(sys_uncern_lepid[i][j][0]) > TMath::Abs(sys_uncern_lepid[i][j][1]))
+            {
+               one_side_uncen = sys_uncern_lepid[i][j][0];
+            }
+            else
+            {
+               one_side_uncen = sys_uncern_lepid[i][j][1];
+            }
+
+            if (sys_uncern_lepid[i][j][0] > 0)
+            {
+               sys_uncern_lepid[i][j][0] = one_side_uncen;
+               sys_uncern_lepid[i][j][1] = 0;
+            }
+            else
+            {
+               sys_uncern_lepid[i][j][0] = 0;
+               sys_uncern_lepid[i][j][1] = one_side_uncen;
+            }
+         }
+      }
+   }
+   /// LepIso ///
+   Double_t sys_uncern_lepiso[3][13][2];
+   for (int i = 0; i < 3; ++i)
+   {
+      for (int j = 0; j < 13; ++j)
+      {
+         for (int k = 0; k < 2; ++k)
+         {
+            sys_uncern_lepiso[i][j][k] = 0;
+         }
+      }
+   }
+
+   for (int i=0;i<3;i++)
+   {
+      for (int j=0;j<13;j++)
+      {
+         fout << "lepiso_" << channels[i] << "_" << variables[j] << ":   ";
+         for (int k=0;k<2;k++)
+         {
+            sys_uncern_lepiso[i][j][k] = lepiso_sys[i][j][k] - central[i][j];
+            
+            //cout << "central : " << central[i][j] << " lepiso_sys : " << lepiso_sys[i][j][k] << " sys_uncern_lepiso : " <<  sys_uncern_lepiso[i][j][k] << endl;
+            fout << sys_uncern_lepiso[i][j][k] << "   ";
+         }
+         fout << endl << endl;
+      }
+   } 
+   fout << endl << endl;
+   for (int i=0;i<3;i++)
+   {
+      for (int j=0;j<13;j++)
+      {
+         if (sys_uncern_lepiso[i][j][0] * sys_uncern_lepiso[i][j][1] < 0)
+         {
+            if (sys_uncern_lepiso[i][j][0] < 0)
+            {
+               Double_t updown = sys_uncern_lepiso[i][j][0];
+               sys_uncern_lepiso[i][j][0] = sys_uncern_lepiso[i][j][1];
+               sys_uncern_lepiso[i][j][1] = updown;
+            }
+         }
+
+         if (sys_uncern_lepiso[i][j][0] * sys_uncern_lepiso[i][j][1] > 0)
+         {
+            Double_t one_side_uncen = 0;
+            if (TMath::Abs(sys_uncern_lepiso[i][j][0]) > TMath::Abs(sys_uncern_lepiso[i][j][1]))
+            {
+               one_side_uncen = sys_uncern_lepiso[i][j][0];
+            }
+            else
+            {
+               one_side_uncen = sys_uncern_lepiso[i][j][1];
+            }
+
+            if (sys_uncern_lepiso[i][j][0] > 0)
+            {
+               sys_uncern_lepiso[i][j][0] = one_side_uncen;
+               sys_uncern_lepiso[i][j][1] = 0;
+            }
+            else
+            {
+               sys_uncern_lepiso[i][j][0] = 0;
+               sys_uncern_lepiso[i][j][1] = one_side_uncen;
+            }
+         }
+      }
+   }
+   /// JES ///
+   Double_t sys_uncern_jes[3][13][2];
+   for (int i = 0; i < 3; ++i)
+   {
+      for (int j = 0; j < 13; ++j)
+      {
+         for (int k = 0; k < 2; ++k)
+         {
+            sys_uncern_jes[i][j][k] = 0;
+         }
+      }
+   }
+
+   for (int i=0;i<3;i++)
+   {
+      for (int j=0;j<13;j++)
+      {
+         fout << "jes_" << channels[i] << "_" << variables[j] << ":   ";
+         for (int k=0;k<2;k++)
+         {
+            sys_uncern_jes[i][j][k] = jes_sys[i][j][k] - central[i][j];
+            
+            //cout << "central : " << central[i][j] << " jes_sys : " << jes_sys[i][j][k] << " sys_uncern_jes : " <<  sys_uncern_jes[i][j][k] << endl;
+            fout << sys_uncern_jes[i][j][k] << "   ";
+         }
+         fout << endl << endl;
+      }
+   } 
+   fout << endl << endl;
+   for (int i=0;i<3;i++)
+   {
+      for (int j=0;j<13;j++)
+      {
+         if (sys_uncern_jes[i][j][0] * sys_uncern_jes[i][j][1] < 0)
+         {
+            if (sys_uncern_jes[i][j][0] < 0)
+            {
+               Double_t updown = sys_uncern_jes[i][j][0];
+               sys_uncern_jes[i][j][0] = sys_uncern_jes[i][j][1];
+               sys_uncern_jes[i][j][1] = updown;
+            }
+         }
+
+         if (sys_uncern_jes[i][j][0] * sys_uncern_jes[i][j][1] > 0)
+         {
+            Double_t one_side_uncen = 0;
+            if (TMath::Abs(sys_uncern_jes[i][j][0]) > TMath::Abs(sys_uncern_jes[i][j][1]))
+            {
+               one_side_uncen = sys_uncern_jes[i][j][0];
+            }
+            else
+            {
+               one_side_uncen = sys_uncern_jes[i][j][1];
+            }
+
+            if (sys_uncern_jes[i][j][0] > 0)
+            {
+               sys_uncern_jes[i][j][0] = one_side_uncen;
+               sys_uncern_jes[i][j][1] = 0;
+            }
+            else
+            {
+               sys_uncern_jes[i][j][0] = 0;
+               sys_uncern_jes[i][j][1] = one_side_uncen;
+            }
+         }
+      }
+   }
+   /// BTagEff ///
+   Double_t sys_uncern_btageff[3][13][2];
+   for (int i = 0; i < 3; ++i)
+   {
+      for (int j = 0; j < 13; ++j)
+      {
+         for (int k = 0; k < 2; ++k)
+         {
+            sys_uncern_btageff[i][j][k] = 0;
+         }
+      }
+   }
+
+   for (int i=0;i<3;i++)
+   {
+      for (int j=0;j<13;j++)
+      {
+         fout << "btageff_" << channels[i] << "_" << variables[j] << ":   ";
+         for (int k=0;k<2;k++)
+         {
+            sys_uncern_btageff[i][j][k] = btageff_sys[i][j][k] - central[i][j];
+            
+            //cout << "central : " << central[i][j] << " btageff_sys : " << btageff_sys[i][j][k] << " sys_uncern_btageff : " <<  sys_uncern_btageff[i][j][k] << endl;
+            fout << sys_uncern_btageff[i][j][k] << "   ";
+         }
+         fout << endl << endl;
+      }
+   } 
+   fout << endl << endl;
+   for (int i=0;i<3;i++)
+   {
+      for (int j=0;j<13;j++)
+      {
+         if (sys_uncern_btageff[i][j][0] * sys_uncern_btageff[i][j][1] < 0)
+         {
+            if (sys_uncern_btageff[i][j][0] < 0)
+            {
+               Double_t updown = sys_uncern_btageff[i][j][0];
+               sys_uncern_btageff[i][j][0] = sys_uncern_btageff[i][j][1];
+               sys_uncern_btageff[i][j][1] = updown;
+            }
+         }
+
+         if (sys_uncern_btageff[i][j][0] * sys_uncern_btageff[i][j][1] > 0)
+         {
+            Double_t one_side_uncen = 0;
+            if (TMath::Abs(sys_uncern_btageff[i][j][0]) > TMath::Abs(sys_uncern_btageff[i][j][1]))
+            {
+               one_side_uncen = sys_uncern_btageff[i][j][0];
+            }
+            else
+            {
+               one_side_uncen = sys_uncern_btageff[i][j][1];
+            }
+
+            if (sys_uncern_btageff[i][j][0] > 0)
+            {
+               sys_uncern_btageff[i][j][0] = one_side_uncen;
+               sys_uncern_btageff[i][j][1] = 0;
+            }
+            else
+            {
+               sys_uncern_btageff[i][j][0] = 0;
+               sys_uncern_btageff[i][j][1] = one_side_uncen;
+            }
+         }
+      }
+   }
+   /// BTagSf ///
+   Double_t sys_uncern_btagsf[3][13][2];
+   for (int i = 0; i < 3; ++i)
+   {
+      for (int j = 0; j < 13; ++j)
+      {
+         for (int k = 0; k < 2; ++k)
+         {
+            sys_uncern_btagsf[i][j][k] = 0;
+         }
+      }
+   }
+
+   for (int i=0;i<3;i++)
+   {
+      for (int j=0;j<13;j++)
+      {
+         fout << "btagsf_" << channels[i] << "_" << variables[j] << ":   ";
+         for (int k=0;k<2;k++)
+         {
+            sys_uncern_btagsf[i][j][k] = btagsf_sys[i][j][k] - central[i][j];
+            
+            //cout << "central : " << central[i][j] << " btagsf_sys : " << btagsf_sys[i][j][k] << " sys_uncern_btagsf : " <<  sys_uncern_btagsf[i][j][k] << endl;
+            fout << sys_uncern_btagsf[i][j][k] << "   ";
+         }
+         fout << endl << endl;
+      }
+   } 
+   fout << endl << endl;
+   for (int i=0;i<3;i++)
+   {
+      for (int j=0;j<13;j++)
+      {
+         if (sys_uncern_btagsf[i][j][0] * sys_uncern_btagsf[i][j][1] < 0)
+         {
+            if (sys_uncern_btagsf[i][j][0] < 0)
+            {
+               Double_t updown = sys_uncern_btagsf[i][j][0];
+               sys_uncern_btagsf[i][j][0] = sys_uncern_btagsf[i][j][1];
+               sys_uncern_btagsf[i][j][1] = updown;
+            }
+         }
+
+         if (sys_uncern_btagsf[i][j][0] * sys_uncern_btagsf[i][j][1] > 0)
+         {
+            Double_t one_side_uncen = 0;
+            if (TMath::Abs(sys_uncern_btagsf[i][j][0]) > TMath::Abs(sys_uncern_btagsf[i][j][1]))
+            {
+               one_side_uncen = sys_uncern_btagsf[i][j][0];
+            }
+            else
+            {
+               one_side_uncen = sys_uncern_btagsf[i][j][1];
+            }
+
+            if (sys_uncern_btagsf[i][j][0] > 0)
+            {
+               sys_uncern_btagsf[i][j][0] = one_side_uncen;
+               sys_uncern_btagsf[i][j][1] = 0;
+            }
+            else
+            {
+               sys_uncern_btagsf[i][j][0] = 0;
+               sys_uncern_btagsf[i][j][1] = one_side_uncen;
+            }
+         }
+      }
+   }
+   /// PileUp ///
+   Double_t sys_uncern_pileup[3][13][2];
+   for (int i = 0; i < 3; ++i)
+   {
+      for (int j = 0; j < 13; ++j)
+      {
+         for (int k = 0; k < 2; ++k)
+         {
+            sys_uncern_pileup[i][j][k] = 0;
+         }
+      }
+   }
+
+   for (int i=0;i<3;i++)
+   {
+      for (int j=0;j<13;j++)
+      {
+         fout << "pileup_" << channels[i] << "_" << variables[j] << ":   ";
+         for (int k=0;k<2;k++)
+         {
+            sys_uncern_pileup[i][j][k] = pileup_sys[i][j][k] - central[i][j];
+            
+         //   cout << "central : " << central[i][j] << " pileup_sys : " << pileup_sys[i][j][k] << " sys_uncern_pileup : " <<  sys_uncern_pileup[i][j][k] << endl;
+            fout << sys_uncern_pileup[i][j][k] << "   ";
+         }
+         fout << endl << endl;
+      }
+   } 
+   fout << endl << endl;
+   for (int i=0;i<3;i++)
+   {
+      for (int j=0;j<13;j++)
+      {
+         if (sys_uncern_pileup[i][j][0] * sys_uncern_pileup[i][j][1] < 0)
+         {
+            if (sys_uncern_pileup[i][j][0] < 0)
+            {
+               Double_t updown = sys_uncern_pileup[i][j][0];
+               sys_uncern_pileup[i][j][0] = sys_uncern_pileup[i][j][1];
+               sys_uncern_pileup[i][j][1] = updown;
+            }
+         }
+
+         if (sys_uncern_pileup[i][j][0] * sys_uncern_pileup[i][j][1] > 0)
+         {
+            Double_t one_side_uncen = 0;
+            if (TMath::Abs(sys_uncern_pileup[i][j][0]) > TMath::Abs(sys_uncern_pileup[i][j][1]))
+            {
+               one_side_uncen = sys_uncern_pileup[i][j][0];
+            }
+            else
+            {
+               one_side_uncen = sys_uncern_pileup[i][j][1];
+            }
+
+            if (sys_uncern_pileup[i][j][0] > 0)
+            {
+               sys_uncern_pileup[i][j][0] = one_side_uncen;
+               sys_uncern_pileup[i][j][1] = 0;
+            }
+            else
+            {
+               sys_uncern_pileup[i][j][0] = 0;
+               sys_uncern_pileup[i][j][1] = one_side_uncen;
+            }
+         }
+      }
+   }
+   //////////////////////////
+   /// Calculate Total MC ///
+   //////////////////////////
+   Double_t total_sys[3][13][2];
+   /// Initialize tatal_sysp[][][] ///
+   for (int i = 0; i < 3; ++i)
+   {
+      for (int j = 0; j < 13; ++j)
+      {
+         for (int k = 0; k < 2; ++k)
+         {
+            total_sys[i][j][k] =0.;
+         }
+      }
+   }
+
+   for (int i = 0; i < 3; ++i)
+   {
+      for (int j = 0; j < 13; ++j)
+      {
+         for (int k = 0; k < 2; ++k)
+         {
+            total_sys[i][j][k] = sqrt( pow(sys_uncern_lepid[i][j][k],2)  + pow(sys_uncern_lepiso[i][j][k],2)  + pow(sys_uncern_jes[i][j][k],2) 
+                                     + pow(sys_uncern_pileup[i][j][k],2) + pow(sys_uncern_btageff[i][j][k],2) + pow(sys_uncern_btagsf[i][j][k],2) );
+         }
+      }
+   }
+   FILE *table;
+   for (int i = 0; i < 3; ++i)
+   {
+      string fname = studyName + "_" + Channels[i] + ".txt";
+      table = fopen(fname.c_str(),"w");
+      fprintf(table,"\\documentclass[10pt]{article}\n");
+      fprintf(table,"\\usepackage{graphicx}\n");
+      fprintf(table,"\\begin{document}\n");
+      fprintf(table,"\\begin{center}\n");
+      fprintf(table,"\\rotatebox{0}{\n");
+      fprintf(table,"\\scalebox{1}{\n");
+      fprintf(table,"\\begin{tabular}{"); // Table //
+      fprintf(table,"|p{3cm}||p{3cm}|p{3cm}|p{3cm}|");
+      fprintf(table,"}\n"); // c last line
+      fprintf(table," \\hline \n"); 
+      fprintf(table," \\multicolumn{4}{|c|}{ Asymmtery Table (%s) } \\\\\n",channels[i].c_str());
+      fprintf(table," \\hline \n"); 
+      fprintf (table," &Asymmetry & Stat.(+) & Stat.(-) \\\\ \n");
+      fprintf(table," \\hline \n"); 
+      for (int j =0; j < 13; ++j){
+         fprintf (table," $A_{%s}:$ & %1.3f & %1.3f & %1.3f \\\\ \n",variables[j].c_str(),central[i][j],central_errp[i][j],central_errm[i][j]);
+         fprintf(table," \\hline \n"); 
+      }
+      fprintf(table,"\\end{tabular}\n"); // Table End //
+      fprintf(table,"}\n"); // scale end
+      fprintf(table,"}\n"); //rotatebox //
+      fprintf(table,"\\end{center}\n");
+      fprintf(table,"\\end{document}\n");
+
+      fclose(table);
+   }
+   FILE *systable;
+   for (int i = 0; i < 3; ++i)
+   {
+      string fname = studyName + "_" + Channels[i]+ "_sys" + ".txt";
+      systable = fopen(fname.c_str(),"w");
+      fprintf(systable,"\\documentclass[10pt,a4paper,twocolumn]{report}\n");
+      fprintf(systable,"\\usepackage{graphicx}\n");
+      fprintf(systable,"\\begin{document}\n");
+      for (int j = 0; j < 13; ++j)
+      {
+         if (j%4 == 0 ) {
+            fprintf(systable,"\\begin{table}[!ht]\n");
+            fprintf(systable,"\\scalebox{0.7}{\n");
+         }
+         fprintf(systable,"\\begin{tabular}{"); // Table //
+         fprintf(systable,"|p{2cm}||p{1cm}|p{1cm}|");
+         fprintf(systable,"}\n"); // c last line
+         fprintf(systable," \\hline \n");
+         fprintf(systable," \\multicolumn{3}{|c|}{  $A_{%s}:$  (%1.3f) } \\\\\n",variables[j].c_str(),central[i][j]);
+         fprintf(systable," \\hline \n"); 
+         fprintf (systable," Source & $+\\sigma$ & $-\\sigma$ \\\\ \n" );
+         fprintf(systable," \\hline \n");
+         
+         fprintf (systable," LepID & %1.3f & %1.3f \\\\ \n",sys_uncern_lepid[i][j][0],sys_uncern_lepid[i][j][1]);
+         fprintf(systable," \\hline \n");
+         
+         fprintf (systable," LepIso & %1.3f & %1.3f \\\\ \n",sys_uncern_lepiso[i][j][0],sys_uncern_lepiso[i][j][1]);
+         fprintf(systable," \\hline \n");
+         
+         fprintf (systable," PileUp & %1.3f & %1.3f \\\\ \n",sys_uncern_pileup[i][j][0],sys_uncern_pileup[i][j][1]);
+         fprintf(systable," \\hline \n");
+         
+         fprintf (systable," JES & %1.3f & %1.3f \\\\ \n",sys_uncern_jes[i][j][0],sys_uncern_jes[i][j][1]);
+         fprintf(systable," \\hline \n");
+         
+         fprintf (systable," BTagEff & %1.3f & %1.3f \\\\ \n",sys_uncern_btageff[i][j][0],sys_uncern_btageff[i][j][1]);
+         fprintf(systable," \\hline \n");
+         
+         fprintf (systable," BTagSF & %1.3f & %1.3f \\\\ \n",sys_uncern_btagsf[i][j][0],sys_uncern_btagsf[i][j][1]);
+         fprintf(systable," \\hline \n");
+         fprintf(systable," \\hline \n");
+
+         fprintf (systable," Total Syst. & %1.3f & - %1.3f \\\\ \n",total_sys[i][j][0],total_sys[i][j][1]);
+         fprintf(systable," \\hline \n");
+         fprintf(systable,"\\end{tabular}\n"); //  End tabular //
+         if ( ( j !=0 ) ){ 
+            if(  ( j%4 == 3) || ( j ==12) ) {
+               fprintf(systable,"                                   }\n"); // scale end
+               fprintf(systable,"\\end{table}\n");
+            }
+         }
+      }
+      fprintf(systable,"\\end{document}\n");
+      fclose(systable);
+   }
+//
+}

@@ -1,0 +1,789 @@
+#define Auto_ControlPlot_cxx
+#include "../include/Auto_ControlPlot.hpp"
+#include <iostream>
+#include <sstream>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+using namespace std;
+void Auto_ControlPlot::SetChannel( TString ch )
+{
+   channel = ch;
+   if (channel == "MuMu") {cout << "MuMu? " << endl; chan = "dimu";}
+   else if (channel == "ElEl") {cout << "ElEl? " << endl; chan = "diel";}
+   else if (channel == "MuEl") {cout << "MuEl? " << endl; chan = "muel";}
+   else if (channel == "MuJet") {cout << "MuJet? " << endl; chan = "mujet";}
+   else if (channel == "ElJet") {cout << "ElJet? " << endl; chan = "eljet";}
+   else {cout << "Check out your channel!!!" << endl;}
+}
+void Auto_ControlPlot::SetHistOutputDir( TString HistDir )
+{
+   SaveHistDir = Form("./%s",HistDir.Data()  );
+   cout << "Save Hist Dir ? : " << SaveHistDir << endl;
+}
+void Auto_ControlPlot::SetDatOutputDir( TString DatDir )
+{
+   SaveDatDir = Form("./%s",DatDir.Data()  );
+   cout << "Save Dat Dir ? : " << SaveDatDir << endl;
+}
+void Auto_ControlPlot::SetOutputDatName( TString outname )
+{
+   outName = outname;
+   cout << "outName? " << outName << endl;
+}
+void Auto_ControlPlot::SelectedHistInfo( map<TString,TString> map_histinfo )
+{
+   m_hn_xaxis.clear();
+   m_hn_xaxis = map_histinfo;
+   cout << "m_hn_xaxis : " << m_hn_xaxis.size() << endl;
+}
+//void Auto_ControlPlot::GetHistInfo(TFile* f)
+std::map<TString,TH1F*> Auto_ControlPlot::GetHistInfo(TFile* f)
+{
+
+   f1 = f;
+   f1->cd();
+   TDirectory *current_sourcedir = gDirectory;
+   cout << "f name : " << f->GetName() << endl;
+   TIter nextkey( current_sourcedir->GetListOfKeys() );
+   m_hn_hist.clear();
+   TKey *key;
+   TObject *obj;
+   string histkey =""; 
+   TString HistTitle = "";
+   while ( (key= (TKey*)nextkey()))
+   {
+      f1->cd();
+      
+      obj = key->ReadObj();
+      if( TString(obj->ClassName()).Contains("TH1"))
+      {       
+         histkey = key->GetName();
+         f1->cd();
+         TH1F *Hist = (TH1F*)gDirectory->Get(key->GetName())->Clone(histkey.c_str());
+         //cout << "Before Erase Hist ->Name : "<< Hist->GetName() << endl;
+         Hist = EraseSysName(Hist);
+         bool findhist = false;
+         TString HistName = Hist->GetName();
+         for(map<TString,TString>::iterator it = m_hn_xaxis.begin(); it != m_hn_xaxis.end(); ++it ){
+            if (HistName == it->first){findhist=true;}
+         }
+         if (findhist == false) continue; 
+         HistTitle = Hist->GetTitle(); 
+         if (HistTitle.Contains("AnTop"))
+         {  
+            HistTitle.ReplaceAll("AnTop","Anti-Top");
+            Hist->SetTitle(Form("%s",HistTitle.Data())); 
+         }
+         cout << "After Erase  Hist ->Name : "<< Hist->GetName() << endl;
+         m_hn_hist[Hist->GetName()] = Hist;
+      }// if
+   }// while
+   f1->Delete("foo");
+   return m_hn_hist;
+}
+std::map<TString,TH1F*> Auto_ControlPlot::SelectedGetHistInfo(TFile* f,TString selname)
+{
+   if (selname == "") {cout << "You Shold Selcet Hist Name" << endl;}
+   f1 = f;
+   f1->cd();
+   TDirectory *current_sourcedir = gDirectory;
+   cout << "f name : " << f->GetName() << endl;
+   TIter nextkey( current_sourcedir->GetListOfKeys() );
+   m_hn_hist.clear();
+   TKey *key;
+   TObject *obj;
+   string histkey =""; 
+   while ( (key= (TKey*)nextkey()))
+   {
+      f1->cd();
+      
+      obj = key->ReadObj();
+      if( TString(obj->ClassName()).Contains("TH1"))
+      {       
+         histkey = key->GetName();
+         f1->cd();
+         TH1F *Hist = (TH1F*)gDirectory->Get(key->GetName())->Clone(histkey.c_str());
+         if( TString(Hist->GetName()).Contains(selname) ){continue;}
+         m_hn_hist[Hist->GetName()] = Hist;
+      }// if
+   }// while
+
+   return m_hn_hist;
+}
+void Auto_ControlPlot::GetColorCode( vector<TString> v_sn, std::map<TString,string> m_sn_col, std::map<TString,int> m_sn_subcol )
+{
+   m_sn_color.clear();
+   for ( int i = 0; i < v_sn.size(); ++i )
+   {
+      Color_t color;
+      if(m_sn_col[v_sn[i]] == "kWhite")        color =kWhite  + m_sn_subcol[v_sn[i]];
+      else if(m_sn_col[v_sn[i]] == "kBlack")   color =kBlack  + m_sn_subcol[v_sn[i]];
+      else if(m_sn_col[v_sn[i]] == "kGray")    color =kGray   + m_sn_subcol[v_sn[i]];
+      else if(m_sn_col[v_sn[i]] == "kRed")     color =kRed    + m_sn_subcol[v_sn[i]];
+      else if(m_sn_col[v_sn[i]] == "kGreen")   color =kGreen  + m_sn_subcol[v_sn[i]];
+      else if(m_sn_col[v_sn[i]] == "kBlue")    color =kBlue   + m_sn_subcol[v_sn[i]];
+      else if(m_sn_col[v_sn[i]] == "kYellow")  color =kYellow + m_sn_subcol[v_sn[i]];
+      else if(m_sn_col[v_sn[i]] == "kMagenta") color =kMagenta+ m_sn_subcol[v_sn[i]];
+      else if(m_sn_col[v_sn[i]] == "kCyan")    color =kCyan   + m_sn_subcol[v_sn[i]];
+      else if(m_sn_col[v_sn[i]] == "kOrange")  color =kOrange + m_sn_subcol[v_sn[i]];
+      else if(m_sn_col[v_sn[i]] == "kSpring")  color =kSpring + m_sn_subcol[v_sn[i]];
+      else if(m_sn_col[v_sn[i]] == "kTeal")    color =kTeal   + m_sn_subcol[v_sn[i]];
+      else if(m_sn_col[v_sn[i]] == "kAzure")   color =kAzure  + m_sn_subcol[v_sn[i]];
+      else if(m_sn_col[v_sn[i]] =="kViolet")   color =kViolet + m_sn_subcol[v_sn[i]];
+      else if(m_sn_col[v_sn[i]] =="kPink")     color =kPink   + m_sn_subcol[v_sn[i]];
+      else {}
+      m_sn_color[v_sn[i]] = color;
+   }
+
+}
+void Auto_ControlPlot::GetReScale( std::map<TString,double> m_sn_scale_ )
+{
+   m_sn_scale.clear();
+   m_sn_scale = m_sn_scale_;
+}
+void Auto_ControlPlot::GetRebinSize( std::map<TString,int> m_hn_rebin_ )
+{
+   m_hn_rebin.clear();
+   m_hn_rebin = m_hn_rebin_;
+   /*for (std::map<TString, int>::iterator histoIter = m_hn_rebin.begin(); histoIter != m_hn_rebin.end(); ++histoIter)
+   {
+      cout << "test : " << histoIter->first << " : " << histoIter->second << endl;
+   }*/
+}
+void Auto_ControlPlot::SetCondition( vector<TString> v_sn, vector< std::map< TString,TH1F* > > v_map_hist )
+{
+   string histName ="";
+   string rebinName ="";
+   v_sampleName.clear();
+   v_map_Hist.clear();
+   cout << " v_sn.size : " << v_sn.size() << " v_map_hist.size() " << v_map_hist.size() << endl;
+   for ( int i =0; i < v_sn.size(); ++i )
+   {
+      cout << v_sn[i] << " " << m_sn_scale[v_sn[i]] << endl;
+      for (std::map<TString, TH1F *>::iterator histoIter = v_map_hist[i].begin(); histoIter != v_map_hist[i].end(); ++histoIter)
+      {  
+         histName = histoIter->first.Data();
+         /// Do the rebin !!! ///
+         for (std::map<TString, int>::iterator reIter = m_hn_rebin.begin(); reIter != m_hn_rebin.end(); ++reIter)
+         {
+            rebinName = reIter->first;
+            if ( histoIter->first.Contains( reIter->first ) ) { 
+               //cout << "histoIter->first ? " << histoIter->first << endl;
+               histoIter->second->Rebin(reIter->second);
+            }
+            else { /*cout << " else? " << histoIter->first << endl;*/ }
+         }
+         /// Do the Scaleing ///
+         if (  m_sn_scale[v_sn[i]] != 1 &&  m_sn_scale[v_sn[i]] != 0 ){ histoIter->second->Scale( m_sn_scale[v_sn[i]] );}
+         /// Set the Histogram Style ///
+         //histoIter->second->SetLineColor( m_sn_color[v_sn[i]] );
+         histoIter->second->SetLineColor( kBlack );
+         if (v_sn[i] == "Data") {
+            histoIter->second->SetMarkerStyle(20);
+            histoIter->second->SetMarkerColor( m_sn_color[v_sn[i]]  );
+         }
+         else {
+            histoIter->second->SetFillColor( m_sn_color[v_sn[i]] );
+            histoIter->second->SetFillStyle(1001);
+         }
+      }
+      v_sampleName.push_back( v_sn[i] );
+      v_map_Hist.push_back(v_map_hist[i]);
+   }
+}
+
+void Auto_ControlPlot::Stack()
+{
+   int data_idx = -1;
+   int sig_idx = -1;
+   int others_idx = -1;
+   setTDRStyle();
+   for(int i = 0; i < v_sampleName.size(); i++)
+   {
+      if( v_sampleName[i] == "Data" ) { data_idx = i;}
+      if ( v_sampleName[i].Contains("TTJets_Signal")) {sig_idx = i;}
+      if ( v_sampleName[i].Contains("TTJets_others")) {others_idx =i;}
+   }
+   c1 = new TCanvas("c1","canvas",1200,1200);
+   TString histtitle;
+   TString histName;
+   for (std::map<TString, TH1F *>::iterator histoIter = v_map_Hist[0].begin(); histoIter != v_map_Hist[0].end(); ++histoIter)
+   {
+      histtitle ="";
+      histName = "";
+      histtitle = histoIter->second->GetTitle();
+      histName  = histoIter->second->GetName();
+      Int_t nbins = histoIter->second->GetNbinsX();
+      /// Stack !!! //
+      MCStack = new THStack(Form("%s_Stack",histName.Data()), histtitle.Data());
+      //MCStack->SetName(Form("%s_Stack",histName.Data()));
+      /// Make MC uncertainties ///
+      Tot_MC = new TH1F(Form("%s_MCTotal",histName.Data()), histtitle.Data(),nbins,histoIter->second->GetXaxis()->GetXmin(), histoIter->second->GetXaxis()->GetXmax() ) ;
+      for(int k=0;k<v_map_Hist.size();k++) 
+      {
+         if (k != data_idx) {Tot_MC->Add( v_map_Hist[k][histName] );}
+         if( k == data_idx || k == sig_idx || k == others_idx ) {continue;}
+         MCStack->Add( v_map_Hist[k][histName] );
+      }
+      /// Get Map for MC total
+      MCStack->Add( v_map_Hist[others_idx][histName] );
+      MCStack->Add( v_map_Hist[sig_idx][histName] );
+      /// Canvas declare ///
+      Tot_MC->SetFillColor(kBlack);
+      Tot_MC->SetLineColor(kBlack);
+      Tot_MC->SetFillStyle(3004);
+      Tot_MC->SetLineWidth(1);
+
+
+      double MCmax = Tot_MC->GetMaximum();
+      double datamax = v_map_Hist[data_idx][histName]->GetMaximum();
+      double max = (MCmax>datamax)? MCmax : datamax;
+
+      // Set the Maximum sclae for each histogram //
+      MCStack->SetMaximum(max*1.2);
+
+      // Canvas setup //
+      c1->Divide(1,2);
+
+      TPad *canvas_up = (TPad*)c1->GetListOfPrimitives()->FindObject("c1_1");
+      TPad *canvas_dw = (TPad*)c1->GetListOfPrimitives()->FindObject("c1_2"); 
+      // define the size
+      double up_height     = 0.8; // please tune so that the upper figures size will meet your requirement
+      double dw_correction = 1.290;//1.390 // please tune so that the smaller canvas size will work in your environment
+      //double font_size_dw  = 10; // please tune the font size parameter for bottom figure
+     
+     
+      double dw_height    = (1. - up_height) * dw_correction;
+     
+      // set pad size
+      canvas_up->SetPad(0., 1 - up_height, 1., 1.);
+      canvas_dw->SetPad(0., 0., 1., dw_height);
+      canvas_up->SetTopMargin(0.1);// test by seungkyu 
+      canvas_up->SetFrameFillColor(0);
+      canvas_up->SetFillColor(0);
+      canvas_up->SetLeftMargin(0.1);
+      canvas_dw->SetGridy();
+      canvas_dw->SetFillColor(0);
+      canvas_dw->SetFrameFillColor(0);
+      // set top margin 0 for bottom figure
+      canvas_dw->SetTopMargin(0.03);//0.03
+      canvas_dw->SetLeftMargin(0.1);
+      canvas_dw->SetBottomMargin(0.3);
+      // stack plot 
+      canvas_up->cd();
+      // Draw MC STACK //
+      MCStack->Draw("HIST");
+      MCStack->GetXaxis()->SetLabelOffset(999);
+      MCStack->GetYaxis()->SetTitle("Entries");
+      MCStack->GetYaxis()->SetTitleSize(0.043); // original
+      MCStack->GetYaxis()->SetTitleOffset(0.8); // original
+      MCStack->GetYaxis()->SetLabelSize(0.03); // test thistline
+
+      // apply stack style //
+      c1->Update();
+      // Draw Data //
+      //Tot_MC->SetMarkerSize(0);
+      Tot_MC->Draw("SameE2");
+      v_map_Hist[data_idx][histName]->Draw("samePE1");
+      // Draw MC Uncertainty //
+      // Setup Legend //
+      //TLegend *leg = new TLegend(0.7,0.7,0.98,0.99);
+      TLegend *leg = new TLegend(0.7,0.55,0.98,0.85);
+/*
+      leg->SetBorderSize(1);
+      leg->SetLineColor(kBlack);
+      leg->SetFillColor(0);
+      leg->SetLineWidth(2);
+*/    
+    leg->SetBorderSize(0);
+    leg->SetLineColor(1);
+    leg->SetLineStyle(1);
+    leg->SetLineWidth(1);
+    leg->SetFillColor(0);
+    leg->SetFillStyle(0);
+    //leg->SetTextSize(0.04);
+    leg->SetTextSize(0.02);
+    leg->SetTextFont(42);
+
+
+ 
+      char legentry[100];
+     
+     
+      //leg->SetNColumns(2);
+      bool setLeg_evt = false; 
+      // For Data 
+      sprintf(legentry, "%1.0f",v_map_Hist[data_idx][histName]->Integral());
+      leg->AddEntry(v_map_Hist[data_idx][histName],v_sampleName[data_idx],"APE");
+      //leg->AddEntry((TObject*)0,legentry,"");
+      // For MC 
+      for(int i=0;i<v_map_Hist.size();i++)       
+      {
+         if ( i == data_idx || i == sig_idx ) {continue;}
+        // sprintf(legentry, "%1.0f",v_map_Hist[i][histName]->Integral());
+         leg->AddEntry(v_map_Hist[i][histName],v_sampleName[i],"f");
+       //  leg->AddEntry((TObject*)0,legentry,"");
+      }
+      // For Signal //
+      //sprintf(legentry, "%1.0f",v_map_Hist[sig_idx][histName]->Integral()); 
+      leg->AddEntry(v_map_Hist[sig_idx][histName],v_sampleName[sig_idx],"f");
+      //leg->AddEntry((TObject*)0,legentry,"");
+     
+      //sprintf(legentry, "%1.0f",Tot_MC->Integral());
+      leg->AddEntry(Tot_MC,"Stat. Unc.","f");
+      //leg->AddEntry((TObject*)0,legentry,"");
+     
+      leg->Draw("SAME");
+      //////////////////
+      /// Ratio Plot ///
+      //////////////////
+      canvas_dw->cd();
+
+      TH1F* dividend = new TH1F(*v_map_Hist[data_idx][histName]);
+      TH1F *mcunc = (TH1F*)Tot_MC->Clone("mcunc");
+      //dividend->Sumw2();
+      //dividend->Divide(v_map_Hist[data_idx][histName],Tot_MC,1,1,"B"); // Bayesian Error
+      SetRatioUnc(dividend,v_map_Hist[data_idx][histName],Tot_MC);
+      dividend->Divide(v_map_Hist[data_idx][histName],Tot_MC,1,1); // Bayesian Error
+      dividend->SetLineColor(kBlack);
+      dividend->SetMarkerColor(kBlack);
+      dividend->SetMarkerSize(1);
+      dividend->SetMarkerStyle(20);
+      dividend->GetYaxis()->SetRangeUser(0.7,1.3);
+      dividend->SetTitle(0);
+      dividend->SetStats(0);
+      dividend->GetYaxis()->SetLabelSize(0.09);
+      dividend->GetXaxis()->SetLabelSize(0.09);
+      dividend->GetYaxis()->SetNdivisions(502);
+      dividend->GetXaxis()->SetTickLength(0.07);
+      dividend->GetYaxis()->SetTickLength(0.03);
+      dividend->GetYaxis()->SetTitle("Data / MC");
+      dividend->GetXaxis()->SetTitleOffset(0.81);
+      dividend->GetXaxis()->SetTitleSize(0.12);
+      dividend->GetYaxis()->SetTitleOffset(0.28);
+      dividend->GetYaxis()->SetTitleSize(0.12);
+      dividend->Draw("PE1");
+
+      /// Set X -Label ///
+      //SetXLabel(dividend,histName); 
+      SetXLabel2(dividend); 
+
+      mcunc->Divide(Tot_MC,Tot_MC,1,1,""); // Error 
+      TGraphErrors *thegraph = new TGraphErrors(mcunc);
+      thegraph->SetFillStyle(3004);
+      thegraph->SetFillColor(1);
+      thegraph->Draw("e2SAME");
+
+//// Test Margin ///
+	int W = 1200;
+	int H = 1200;
+	int H_ref = 1200;
+	int W_ref = 1200;
+
+	// references for T, B, L, R
+	float T = 0.08*H_ref;
+	float B = 0.12*H_ref;
+	float L = 0.12*W_ref;
+	float R = 0.04*W_ref;
+      c1->SetFillColor(0);
+      c1->SetLeftMargin(L/W);
+      c1->SetRightMargin(R/W);
+      c1->SetTopMargin(T/H);
+      c1->SetBottomMargin(B/H);
+
+      CMS_lumi(c1, 4, 0);
+      c1->Update();
+      c1->Update();
+      c1->RedrawAxis();
+      TGaxis::SetMaxDigits(3);
+      c1->GetFrame()->Draw();
+
+      c1->SaveAs(Form("%s/%s.pdf",SaveHistDir.Data(),v_map_Hist[data_idx][histName]->GetName()));  
+      MCStack->Clear();
+      Tot_MC->Clear();
+      c1->Clear();
+
+   }/// Map Loop ///
+   cout << "Finishied Stack !!!" << endl;
+}
+void Auto_ControlPlot::MakeDAT()
+{
+   int data_idx = -1;
+   int sig_idx = -1;
+   int others_idx = -1;
+
+   TString histtitle ="";
+   TString histName ="";
+   for(int i = 0; i < v_sampleName.size(); i++)
+   {
+      if( v_sampleName[i] == "Data" ) { data_idx = i;}
+      if ( v_sampleName[i].Contains("TTJets_Signal")) {sig_idx = i;}
+      if ( v_sampleName[i].Contains("TTJets_others")) {others_idx =i;}
+   }
+   string datName; 
+   FILE *datfile;
+   datName = Form("./%s/Asymmetry_%s_%s.dat",SaveDatDir.Data(),chan.Data(),outName.Data());
+   datfile = fopen(datName.c_str(),"w");
+//   printf("Luminosity:  %f \n"  , Lumi);
+   fprintf(datfile,"Luminosity:  %f \n"  , Lumi);
+   fprintf(datfile,"\n" );
+   for (std::map<TString, TH1F *>::iterator histoIter = v_map_Hist[0].begin(); histoIter != v_map_Hist[0].end(); ++histoIter)
+   {
+      histtitle ="";
+      histName = "";
+      histtitle = histoIter->second->GetTitle();
+      histName  = histoIter->second->GetName();
+      if (!TString(histoIter->second->GetName()).Contains("_Reco_CPO") || TString(histoIter->second->GetName()).Contains("ReRange") ) {continue;}
+      for (int i = 0; i < v_sampleName.size(); ++i)
+      {
+         CalAsymVari(v_map_Hist[i][histName]);
+         for (int j = 0; j < v_asymvari.size(); ++j)
+         {
+            TString CPvari = histName;
+            //cout << "histName in MakeDAT : " <<histName<< endl;
+            CPvari = CPvari.ReplaceAll("_Reco_CP","");
+            if ( CPvari.Contains("h_sys") ){ CPvari =  CPvari.ReplaceAll("h_sys","h"); }
+//            CPvari = EraseSysName(CPvari);
+//            cout << "CPvari ? " << CPvari << endl;
+//            printf("%s_%s_4%s_%s:  %f \n"  , chan.Data(), CPvari.Data(), v_sampleName[i].Data(), v_asymvariName[j].Data(), v_asymvari[j]);
+            fprintf(datfile,"%s_%s_4%s_%s:  %f \n"  , chan.Data(), CPvari.Data(), v_sampleName[i].Data(), v_asymvariName[j].Data(), v_asymvari[j]);
+         }
+         fprintf(datfile,"\n");
+      }
+   }
+   fclose(datfile);
+}
+void Auto_ControlPlot::MakeYield()
+{
+   int data_idx = -1;
+   int sig_idx = -1;
+   int others_idx = -1;
+
+   TString histtitle ="";
+   TString histName ="";
+   for(int i = 0; i < v_sampleName.size(); i++)
+   {
+      if( v_sampleName[i] == "Data" ) { data_idx = i;}
+      if ( v_sampleName[i].Contains("TTJets_Signal")) {sig_idx = i;}
+      if ( v_sampleName[i].Contains("TTJets_others")) {others_idx =i;}
+   }
+   int idx_ =0;
+   M_sam_m_hn_hist.clear();
+   for (std::vector<std::map< TString,TH1F* > >::iterator it = v_map_Hist.begin(); it != v_map_Hist.end(); ++it )
+   {
+      M_sam_m_hn_hist[ v_sampleName[idx_] ] = *it;
+      //// index ///
+      idx_++;
+   }
+   bool isSys = false;
+   for (std::map<TString,TH1F*>::iterator itest = M_sam_m_hn_hist["Data"].begin(); itest != M_sam_m_hn_hist["Data"].end(); ++itest)
+   {
+      if (itest->first.Contains("h_cf_sys")) { isSys = true; break;}
+   }
+   if (isSys == true){return;}
+   TH1F* totalMC;
+   for (std::vector<TString>::iterator ihn = v_hn_yield.begin(); ihn != v_hn_yield.end(); ++ihn){
+      totalMC = (TH1F*)M_sam_m_hn_hist["Data"][*ihn]->Clone(M_sam_m_hn_hist["Data"][*ihn]->GetName() );
+      //cout << "before " << totalMC->GetName() << " :: " << totalMC->Integral() << endl;
+      totalMC->Reset();
+      m_hn_histTotal[totalMC->GetName()] = totalMC;
+   }
+
+   ///// Rebinning to calc. Unc. of Stat. ////
+   for (std::vector<TString>::iterator isam = v_sampleName.begin(); isam != v_sampleName.end(); ++isam ){
+      int idx_ = 0;
+      for (std::vector<TString>::iterator ihn = v_hn_yield.begin(); ihn != v_hn_yield.end(); ++ihn){
+         int inbins = M_sam_m_hn_hist[*isam][*ihn]->GetNbinsX();
+         M_sam_m_hn_hist[*isam][*ihn]->Rebin(inbins);
+         if (m_hn_histTotal[*ihn]->GetNbinsX()!= 1) {m_hn_histTotal[*ihn]->Rebin(inbins);}
+         if ( (*isam) != "Data" ) {m_hn_histTotal[*ihn]->Add(M_sam_m_hn_hist[*isam][*ihn]);}
+      }
+   }
+   for (std::map<TString,TH1F*>::iterator it = m_hn_histTotal.begin(); it != m_hn_histTotal.end(); ++it)
+   {
+      cout << "it first : " << it->first << " it second : " << it->second->Integral() << endl;
+   }
+
+   WriteEvtYield();
+}
+void Auto_ControlPlot::WriteEvtYield()
+{
+   string tablepath;
+   FILE *table;
+   tablepath = Form("./%s/EventYield_%s_%s.txt",SaveHistDir.Data(),chan.Data(),outName.Data());
+   table = fopen(tablepath.c_str(),"w");
+   if (table ==NULL) {cout << "Wrong EventYield PATH !!!! " << tablepath<< endl;return;} 
+   int data_idx = -1;
+   int sig_idx = -1;
+   int others_idx = -1;
+
+   TString histtitle ="";
+   TString histName ="";
+
+
+   fprintf(table,"\\documentclass[10pt]{article}\n");
+   fprintf(table,"\\usepackage{graphicx}\n");
+   fprintf(table,"\\begin{document}\n");
+   fprintf(table,"\\begin{center}\n");
+   fprintf(table,"\\rotatebox{270}{\n");
+   fprintf(table,"\\scalebox{0.7}{\n");
+   fprintf(table,"\\begin{tabular}{");
+   for(int i=0;i<9;i++){
+           fprintf(table,"c");
+   }
+   fprintf(table,"}\n");
+   fprintf(table,"\\hline\\hline\n");
+   //fprintf(table,"Selection & Di-lepton & Z Mass veto & NJets >1 & MET & 1 or more bTagging & 2 or more bTagging & exactly 2 bTagging & Top Reconstruction\n");
+   fprintf(table,"Selection & Di-lepton & Z Mass veto & NJets >1 & MET & 1 or more bTagging & Top Reconstruction\n");
+   fprintf(table,"\\\\\n");
+   fprintf(table," & S1 & S2 & S3 & S4 & S5 & S6 & S7 & S8\n");
+   fprintf(table,"\\\\\n");
+   fprintf(table,"\\hline\n");
+    
+   for(std::vector<TString>::iterator isn = v_sampleName.begin(); isn != v_sampleName.end(); isn++){
+      if( (*isn) == "Data" || (*isn).Contains("TTJets") ) {continue;}
+      TString samName = (*isn);
+      fprintf(table,
+              "%s &%1.0lf$\\pm%1.1lf$ &%1.0lf$\\pm%1.1lf$ &%1.0lf$\\pm%1.1lf$ &%1.0lf$\\pm%1.1lf$ &%1.0lf$\\pm%1.1lf$ &%1.0lf$\\pm%1.1lf$ &%1.0lf$\\pm%1.1lf$ &%1.0lf$\\pm%1.1lf$\\\\\n",
+              (samName.ReplaceAll("_"," ")).Data(),
+              M_sam_m_hn_hist[*isn]["h_Num_PV_1"]->Integral(), M_sam_m_hn_hist[*isn]["h_Num_PV_1"]->GetBinError(1),
+              M_sam_m_hn_hist[*isn]["h_Num_PV_2"]->Integral(), M_sam_m_hn_hist[*isn]["h_Num_PV_2"]->GetBinError(1),
+              M_sam_m_hn_hist[*isn]["h_Num_PV_3"]->Integral(), M_sam_m_hn_hist[*isn]["h_Num_PV_3"]->GetBinError(1),
+              M_sam_m_hn_hist[*isn]["h_Num_PV_4"]->Integral(), M_sam_m_hn_hist[*isn]["h_Num_PV_4"]->GetBinError(1),
+              M_sam_m_hn_hist[*isn]["h_Num_PV_5"]->Integral(), M_sam_m_hn_hist[*isn]["h_Num_PV_5"]->GetBinError(1),
+              M_sam_m_hn_hist[*isn]["h_Num_PV_6"]->Integral(), M_sam_m_hn_hist[*isn]["h_Num_PV_6"]->GetBinError(1),
+              M_sam_m_hn_hist[*isn]["h_Num_PV_7"]->Integral(), M_sam_m_hn_hist[*isn]["h_Num_PV_7"]->GetBinError(1),
+              M_sam_m_hn_hist[*isn]["h_Num_PV_8"]->Integral(), M_sam_m_hn_hist[*isn]["h_Num_PV_8"]->GetBinError(1));
+   }
+   fprintf(table,
+              "%s &%1.0lf$\\pm%1.1lf$ &%1.0lf$\\pm%1.1lf$ &%1.0lf$\\pm%1.1lf$ &%1.0lf$\\pm%1.1lf$ &%1.0lf$\\pm%1.1lf$ &%1.0lf$\\pm%1.1lf$ &%1.0lf$\\pm%1.1lf$ &%1.0lf$\\pm%1.1lf$\\\\\n",
+              "TTJets others",
+              M_sam_m_hn_hist["TTJets_others"]["h_Num_PV_1"]->Integral(), M_sam_m_hn_hist["TTJets_others"]["h_Num_PV_1"]->GetBinError(1),
+              M_sam_m_hn_hist["TTJets_others"]["h_Num_PV_2"]->Integral(), M_sam_m_hn_hist["TTJets_others"]["h_Num_PV_2"]->GetBinError(1),
+              M_sam_m_hn_hist["TTJets_others"]["h_Num_PV_3"]->Integral(), M_sam_m_hn_hist["TTJets_others"]["h_Num_PV_3"]->GetBinError(1),
+              M_sam_m_hn_hist["TTJets_others"]["h_Num_PV_4"]->Integral(), M_sam_m_hn_hist["TTJets_others"]["h_Num_PV_4"]->GetBinError(1),
+              M_sam_m_hn_hist["TTJets_others"]["h_Num_PV_5"]->Integral(), M_sam_m_hn_hist["TTJets_others"]["h_Num_PV_5"]->GetBinError(1),
+              M_sam_m_hn_hist["TTJets_others"]["h_Num_PV_6"]->Integral(), M_sam_m_hn_hist["TTJets_others"]["h_Num_PV_6"]->GetBinError(1),
+              M_sam_m_hn_hist["TTJets_others"]["h_Num_PV_7"]->Integral(), M_sam_m_hn_hist["TTJets_others"]["h_Num_PV_7"]->GetBinError(1),
+              M_sam_m_hn_hist["TTJets_others"]["h_Num_PV_8"]->Integral(), M_sam_m_hn_hist["TTJets_others"]["h_Num_PV_8"]->GetBinError(1) );
+   fprintf(table,"\\hline\n");
+   fprintf(table,
+              "%s &%1.0lf$\\pm%1.1lf$ &%1.0lf$\\pm%1.1lf$ &%1.0lf$\\pm%1.1lf$ &%1.0lf$\\pm%1.1lf$ &%1.0lf$\\pm%1.1lf$ &%1.0lf$\\pm%1.1lf$ &%1.0lf$\\pm%1.1lf$ &%1.0lf$\\pm%1.1lf$\\\\\n",
+              "TTJets Signal",
+              M_sam_m_hn_hist["TTJets_Signal"]["h_Num_PV_1"]->Integral(), M_sam_m_hn_hist["TTJets_Signal"]["h_Num_PV_1"]->GetBinError(1),
+              M_sam_m_hn_hist["TTJets_Signal"]["h_Num_PV_2"]->Integral(), M_sam_m_hn_hist["TTJets_Signal"]["h_Num_PV_2"]->GetBinError(1),
+              M_sam_m_hn_hist["TTJets_Signal"]["h_Num_PV_3"]->Integral(), M_sam_m_hn_hist["TTJets_Signal"]["h_Num_PV_3"]->GetBinError(1),
+              M_sam_m_hn_hist["TTJets_Signal"]["h_Num_PV_4"]->Integral(), M_sam_m_hn_hist["TTJets_Signal"]["h_Num_PV_4"]->GetBinError(1),
+              M_sam_m_hn_hist["TTJets_Signal"]["h_Num_PV_5"]->Integral(), M_sam_m_hn_hist["TTJets_Signal"]["h_Num_PV_5"]->GetBinError(1),
+              M_sam_m_hn_hist["TTJets_Signal"]["h_Num_PV_6"]->Integral(), M_sam_m_hn_hist["TTJets_Signal"]["h_Num_PV_6"]->GetBinError(1),
+              M_sam_m_hn_hist["TTJets_Signal"]["h_Num_PV_7"]->Integral(), M_sam_m_hn_hist["TTJets_Signal"]["h_Num_PV_7"]->GetBinError(1),
+              M_sam_m_hn_hist["TTJets_Signal"]["h_Num_PV_8"]->Integral(), M_sam_m_hn_hist["TTJets_Signal"]["h_Num_PV_8"]->GetBinError(1) );
+   fprintf(table,"\\hline\\hline\n");
+   fprintf(table,"MC total &%1.0lf$\\pm%1.1lf$ &%1.0lf$\\pm%1.1lf$ &%1.0lf$\\pm%1.1lf$ &%1.0lf$\\pm%1.1lf$ &%1.0lf$\\pm%1.1lf$ &%1.0lf$\\pm%1.1lf$ &%1.0lf$\\pm%1.1lf$ &%1.0lf$\\pm%1.1lf$\\\\\n",
+           m_hn_histTotal["h_Num_PV_1"]->Integral(), m_hn_histTotal["h_Num_PV_1"]->GetBinError(1),
+           m_hn_histTotal["h_Num_PV_2"]->Integral(), m_hn_histTotal["h_Num_PV_2"]->GetBinError(1),
+           m_hn_histTotal["h_Num_PV_3"]->Integral(), m_hn_histTotal["h_Num_PV_3"]->GetBinError(1),
+           m_hn_histTotal["h_Num_PV_4"]->Integral(), m_hn_histTotal["h_Num_PV_4"]->GetBinError(1),
+           m_hn_histTotal["h_Num_PV_5"]->Integral(), m_hn_histTotal["h_Num_PV_5"]->GetBinError(1),
+           m_hn_histTotal["h_Num_PV_6"]->Integral(), m_hn_histTotal["h_Num_PV_6"]->GetBinError(1),
+           m_hn_histTotal["h_Num_PV_7"]->Integral(), m_hn_histTotal["h_Num_PV_7"]->GetBinError(1),
+           m_hn_histTotal["h_Num_PV_8"]->Integral(), m_hn_histTotal["h_Num_PV_8"]->GetBinError(1)); 
+        
+   fprintf(table,"\\hline\n");
+
+   fprintf(table,
+           "Data &%1.0lf$\\pm%1.1lf$ &%1.0lf$\\pm%1.1lf$ &%1.0lf$\\pm%1.1lf$ &%1.0lf$\\pm%1.1lf$ &%1.0lf$\\pm%1.1lf$ &%1.0lf$\\pm%1.1lf$ &%1.0lf$\\pm%1.1lf$ &%1.0lf$\\pm%1.1lf$\\\\\n",
+           M_sam_m_hn_hist["Data"]["h_Num_PV_1"]->Integral(), M_sam_m_hn_hist["Data"]["h_Num_PV_1"]->GetBinError(1),
+           M_sam_m_hn_hist["Data"]["h_Num_PV_2"]->Integral(), M_sam_m_hn_hist["Data"]["h_Num_PV_2"]->GetBinError(1),
+           M_sam_m_hn_hist["Data"]["h_Num_PV_3"]->Integral(), M_sam_m_hn_hist["Data"]["h_Num_PV_3"]->GetBinError(1),
+           M_sam_m_hn_hist["Data"]["h_Num_PV_4"]->Integral(), M_sam_m_hn_hist["Data"]["h_Num_PV_4"]->GetBinError(1),
+           M_sam_m_hn_hist["Data"]["h_Num_PV_5"]->Integral(), M_sam_m_hn_hist["Data"]["h_Num_PV_5"]->GetBinError(1),
+           M_sam_m_hn_hist["Data"]["h_Num_PV_6"]->Integral(), M_sam_m_hn_hist["Data"]["h_Num_PV_6"]->GetBinError(1),
+           M_sam_m_hn_hist["Data"]["h_Num_PV_7"]->Integral(), M_sam_m_hn_hist["Data"]["h_Num_PV_7"]->GetBinError(1),
+           M_sam_m_hn_hist["Data"]["h_Num_PV_8"]->Integral(), M_sam_m_hn_hist["Data"]["h_Num_PV_8"]->GetBinError(1));
+   
+   fprintf(table,"\\hline\\hline\n");
+   fprintf(table,"\\\\\n");
+   fprintf(table,"\\end{tabular}\n");
+   fprintf(table,"}\n");
+   fprintf(table,"}\n");
+   fprintf(table,"\\end{center}\n");
+   fprintf(table,"\\end{document}\n");
+   
+   fclose(table);
+
+}
+void Auto_ControlPlot::SetXLabel(TH1F* h1, TString h_name)
+{
+   if (h_name.Contains("Energy")) h1->GetXaxis()->SetTitle("Energy (GeV)");
+   else if (h_name.Contains("pt")) h1->GetXaxis()->SetTitle("pT (GeV)");
+   else if (h_name.Contains("eta")) h1->GetXaxis()->SetTitle("#eta");
+   else if (h_name.Contains("phi")) h1->GetXaxis()->SetTitle("#phi");
+   else if (h_name.Contains("Mass")) h1->GetXaxis()->SetTitle("Mass (GeV)");
+   else if (h_name.Contains("mass")) h1->GetXaxis()->SetTitle("Mass (GeV)");
+   else if (h_name.Contains("CPO1")  && 
+           !h_name.Contains("CPO10") &&
+           !h_name.Contains("CPO11") &&
+           !h_name.Contains("CPO12") 
+           ) h1->GetXaxis()->SetTitle("O_{1}/m_{t}^{4}");
+   else if (h_name.Contains("CPO2")) h1->GetXaxis()->SetTitle("O_{2}/m_{t}^{4}");
+   else if (h_name.Contains("CPO3")) h1->GetXaxis()->SetTitle("O_{3}/m_{t}^{4}");
+   else if (h_name.Contains("CPO4")) h1->GetXaxis()->SetTitle("O_{4}/m_{t}^{4}");
+   else if (h_name.Contains("CPO5")) h1->GetXaxis()->SetTitle("O_{5}/m_{t}^{7}");
+   else if (h_name.Contains("CPO6")) h1->GetXaxis()->SetTitle("O_{6}/m_{t}^{5}");
+   else if (h_name.Contains("CPO7")) h1->GetXaxis()->SetTitle("O_{7}/m_{t}^{8}");
+   else if (h_name.Contains("CPO8")) h1->GetXaxis()->SetTitle("O_{8}/m_{t}^{11}");
+   else if (h_name.Contains("CPO9")) h1->GetXaxis()->SetTitle("O_{9}/m_{t}^{7}");
+   else if (h_name.Contains("CPO10")) h1->GetXaxis()->SetTitle("O_{10}/m_{t}^{7}");
+   else if (h_name.Contains("CPO11")) h1->GetXaxis()->SetTitle("O_{11}/m_{t}^{8}");
+   else if (h_name.Contains("CPO12")) h1->GetXaxis()->SetTitle("O_{11}/m_{t}^{8}");
+   else if (h_name.Contains("CPO13")) h1->GetXaxis()->SetTitle("O_{12}/m_{t}^{9}");
+   else if (h_name.Contains("Num_PV")) h1->GetXaxis()->SetTitle("Num. Primary Vertex");
+   else if (h_name.Contains("Num_Jets")) h1->GetXaxis()->SetTitle("Num. Jet Multiplicity");
+   else {}
+}
+void Auto_ControlPlot::SetXLabel2(TH1F* h1)
+{
+   TString h1name = h1->GetName();
+   TString tmp = m_hn_xaxis[h1name]; 
+   tmp.ReplaceAll("_"," "); 
+   tmp.ReplaceAll("p {T}","p_{T}");
+   tmp.ReplaceAll("O {1}","O_{1}");
+   tmp.ReplaceAll("O {3}","O_{3}");
+   tmp.ReplaceAll("m {t}","m_{t}");
+   cout << "tmp"<< tmp.Data() << endl; 
+   h1->GetXaxis()->SetTitle(Form(tmp.Data()));
+}
+
+void Auto_ControlPlot::CalAsymVari(TH1F* h1)
+{
+
+   // vector clear and declare variables
+   v_asymvari.clear(); 
+   v_asymvariName.clear(); 
+   int nbin = h1->GetNbinsX();
+   double asym     = 0.0;
+   double asym_err = 0.0;
+   double posi     = 0.0;
+   double nega     = 0.0;
+   double posi_err = 0.0;
+   double nega_err = 0.0;
+   double fposi    = 0.0;
+   double fnega    = 0.0;
+   double total    = 0.0;
+   nega = h1->Integral(1,nbin/2); // Negative 
+   posi = h1->Integral((nbin/2) +1,nbin); // Positive 
+   total = h1->Integral(); // Total 
+   if (total != 0) // nan check !!
+   {
+      fnega = nega/total; // Negative fraction 
+      fposi = posi/total; // Positive fraction
+      asym  = (posi - nega)/total;
+      asym_err = sqrt(  (1-asym*asym) / total ); // Asym. Error // Not Use //
+   }
+   TH1F *hnew = (TH1F*)h1->Clone("hnew");
+   hnew->Rebin(nbin/2);
+   posi_err = hnew->GetBinError(2);
+   nega_err = hnew->GetBinError(1);
+   //cout << "hnew NBins : " << hnew->GetNbinsX() << endl;
+   //cout << "h1 NBins : " << h1->GetNbinsX() << endl;
+   v_asymvari.push_back(asym);
+   v_asymvariName.push_back("asym");
+   v_asymvari.push_back(asym_err);
+   v_asymvariName.push_back("asym_err");
+   v_asymvari.push_back(posi);
+   v_asymvariName.push_back("Nplus");
+   v_asymvari.push_back(posi_err);
+   v_asymvariName.push_back("Nplus_err");
+   v_asymvari.push_back(fposi);
+   v_asymvariName.push_back("fplus");
+   v_asymvari.push_back(nega);
+   v_asymvariName.push_back("Nminus");
+   v_asymvari.push_back(nega_err);
+   v_asymvariName.push_back("Nminus_err");
+   v_asymvari.push_back(fnega);
+   v_asymvariName.push_back("fminus");
+   v_asymvari.push_back(total);
+   v_asymvariName.push_back("total");
+
+/*   if (((TString)h1->GetName()).Contains("CPO9"))
+   {
+   cout << "cp o9 : " << endl;
+      for (int i =0; i <v_asymvari.size() ; ++i )
+      {
+         cout << v_asymvariName[i] << " : " << v_asymvari[i] << endl;
+      }
+   }*/
+}
+TH1F* Auto_ControlPlot::EraseSysName(TH1F* h1)
+{
+   std::vector<TString> v_selec_syst;
+   v_selec_syst.clear();
+   for (int i = 0; i < v_syst_Name.size(); ++i)
+   {
+      if ( TString(h1->GetName()).Contains(Form("%s",v_syst_Name[i].Data())) ){
+         v_selec_syst.push_back(v_syst_Name[i]);
+      }
+   }
+//   for (int i = 0; i < v_syst_Name.size(); ++i)
+//   {
+//      if ( TString(h1->GetName()).Contains(Form("%s_",v_syst_Name[i].Data())) )
+   if (!v_selec_syst.empty() ){
+      if ( TString(h1->GetName()).Contains(Form("_%s",v_selec_syst.back().Data())) )
+      {
+         TString name = h1->GetName();
+        // //name = name.ReplaceAll(v_syst_Name[i]);
+         //name = name.ReplaceAll(Form("_%s",v_syst_Name[i].Data()),"");
+         name = name.ReplaceAll(Form("_%s",v_selec_syst.back().Data()),"");
+         h1->SetName( name );
+      }
+   }
+//   }
+   return h1;
+}
+TString Auto_ControlPlot::EraseSysName(TString hisn)
+{
+   TString name =hisn;
+   for (int i = 0; i < v_syst_Name.size(); ++i)
+   {
+      if ( name.Contains(v_syst_Name[i]) ){ name = name.ReplaceAll(Form("_%s",v_syst_Name[i].Data()),""); }
+   }
+   return name;
+}
+void Auto_ControlPlot::SetRatioUnc(TH1F* Target,TH1F* Numer,TH1F* Deno)
+{
+   if (Numer->GetNbinsX() != Deno->GetNbinsX()) {cout << "Error for Calculating ratio Unc." << endl; return;}
+   double err_ = 0.0;
+   double numer = 0.0;
+   double deno = 0.0;
+   for (int i = 0; i < Deno->GetNbinsX(); ++i)
+   {
+      numer = Numer->GetBinContent(i+1);
+      deno = Deno->GetBinContent(i+1);
+      if (numer == 0.0) {err_ =0;}
+      else if (deno == 0.0)  {err_ = Numer->GetBinError(i+1);}
+      else { err_ = numer/deno;
+      //err_ = Numer->GetBinError(i+1)/Deno->GetBinContent(i+1);
+      }
+      cout << "Numer : " << numer << " Deno : " << deno << " Error : " << err_ << endl;
+   }
+}
+void Auto_ControlPlot::End()
+{
+   
+}
+void Auto_ControlPlot::Clear()
+{
+   for (int i = 0; i<v_map_Hist.size(); ++i)  
+   {
+      int j = 0;
+      for (std::map<TString, TH1F *>::iterator histoIter = v_map_Hist[i].begin(); histoIter != v_map_Hist[i].end(); ++histoIter)
+      {
+         histoIter->second->Delete("foo;*"); 
+      }
+   }
+   cout << "finish clear () "<< endl;
+}
+

@@ -1,0 +1,1822 @@
+Luminosity: 35867.059983 
+
+dimu_hO1_4DYJetsToLL_M_10To50_asym: -0.181465 
+dimu_hO1_4DYJetsToLL_M_10To50_asym_err: 0.206623 
+dimu_hO1_4DYJetsToLL_M_10To50_Nplus: 163.058310 
+dimu_hO1_4DYJetsToLL_M_10To50_Nplus_err: 52.950828 
+dimu_hO1_4DYJetsToLL_M_10To50_fplus: 0.409267 
+dimu_hO1_4DYJetsToLL_M_10To50_Nminus: 235.356928 
+dimu_hO1_4DYJetsToLL_M_10To50_Nminus_err: 65.371431 
+dimu_hO1_4DYJetsToLL_M_10To50_fminus: 0.590733 
+dimu_hO1_4DYJetsToLL_M_10To50_total: 398.415239 
+
+dimu_hO1_4DYJetsToLL_M_50_asym: 0.043764 
+dimu_hO1_4DYJetsToLL_M_50_asym_err: 0.035655 
+dimu_hO1_4DYJetsToLL_M_50_Nplus: 641.231049 
+dimu_hO1_4DYJetsToLL_M_50_Nplus_err: 31.736306 
+dimu_hO1_4DYJetsToLL_M_50_fplus: 0.521882 
+dimu_hO1_4DYJetsToLL_M_50_Nminus: 587.458639 
+dimu_hO1_4DYJetsToLL_M_50_Nminus_err: 30.269930 
+dimu_hO1_4DYJetsToLL_M_50_fminus: 0.478118 
+dimu_hO1_4DYJetsToLL_M_50_total: 1228.689688 
+
+dimu_hO1_4Data_asym: 0.005126 
+dimu_hO1_4Data_asym_err: 0.004226 
+dimu_hO1_4Data_Nplus: 28140.000000 
+dimu_hO1_4Data_Nplus_err: 167.749814 
+dimu_hO1_4Data_fplus: 0.502563 
+dimu_hO1_4Data_Nminus: 27853.000000 
+dimu_hO1_4Data_Nminus_err: 166.892181 
+dimu_hO1_4Data_fminus: 0.497437 
+dimu_hO1_4Data_total: 55993.000000 
+
+dimu_hO1_4ST_tW_antitop_asym: -0.002791 
+dimu_hO1_4ST_tW_antitop_asym_err: 0.014193 
+dimu_hO1_4ST_tW_antitop_Nplus: 446.114511 
+dimu_hO1_4ST_tW_antitop_Nplus_err: 8.972750 
+dimu_hO1_4ST_tW_antitop_fplus: 0.498604 
+dimu_hO1_4ST_tW_antitop_Nminus: 448.611724 
+dimu_hO1_4ST_tW_antitop_Nminus_err: 8.986651 
+dimu_hO1_4ST_tW_antitop_fminus: 0.501396 
+dimu_hO1_4ST_tW_antitop_total: 894.726236 
+
+dimu_hO1_4ST_tW_top_asym: 0.018945 
+dimu_hO1_4ST_tW_top_asym_err: 0.014156 
+dimu_hO1_4ST_tW_top_Nplus: 457.784474 
+dimu_hO1_4ST_tW_top_Nplus_err: 9.093390 
+dimu_hO1_4ST_tW_top_fplus: 0.509472 
+dimu_hO1_4ST_tW_top_Nminus: 440.761799 
+dimu_hO1_4ST_tW_top_Nminus_err: 8.898225 
+dimu_hO1_4ST_tW_top_fminus: 0.490528 
+dimu_hO1_4ST_tW_top_total: 898.546272 
+
+dimu_hO1_4TTJets_Signal_asym: 0.002738 
+dimu_hO1_4TTJets_Signal_asym_err: 0.002039 
+dimu_hO1_4TTJets_Signal_Nplus: 22971.639313 
+dimu_hO1_4TTJets_Signal_Nplus_err: 66.132909 
+dimu_hO1_4TTJets_Signal_fplus: 0.501369 
+dimu_hO1_4TTJets_Signal_Nminus: 22846.179360 
+dimu_hO1_4TTJets_Signal_Nminus_err: 65.976664 
+dimu_hO1_4TTJets_Signal_fminus: 0.498631 
+dimu_hO1_4TTJets_Signal_total: 45817.818673 
+
+dimu_hO1_4TTJets_others_asym: -0.001286 
+dimu_hO1_4TTJets_others_asym_err: 0.005026 
+dimu_hO1_4TTJets_others_Nplus: 3746.284157 
+dimu_hO1_4TTJets_others_Nplus_err: 26.643805 
+dimu_hO1_4TTJets_others_fplus: 0.499357 
+dimu_hO1_4TTJets_others_Nminus: 3755.934043 
+dimu_hO1_4TTJets_others_Nminus_err: 26.675927 
+dimu_hO1_4TTJets_others_fminus: 0.500643 
+dimu_hO1_4TTJets_others_total: 7502.218200 
+
+dimu_hO1_4TTbar_WJetToLNu_asym: 0.004404 
+dimu_hO1_4TTbar_WJetToLNu_asym_err: 0.011614 
+dimu_hO1_4TTbar_WJetToLNu_Nplus: 19.135483 
+dimu_hO1_4TTbar_WJetToLNu_Nplus_err: 0.312870 
+dimu_hO1_4TTbar_WJetToLNu_fplus: 0.502202 
+dimu_hO1_4TTbar_WJetToLNu_Nminus: 18.967682 
+dimu_hO1_4TTbar_WJetToLNu_Nminus_err: 0.312961 
+dimu_hO1_4TTbar_WJetToLNu_fminus: 0.497798 
+dimu_hO1_4TTbar_WJetToLNu_total: 38.103165 
+
+dimu_hO1_4TTbar_WQQ_asym: 0.060841 
+dimu_hO1_4TTbar_WQQ_asym_err: 0.044369 
+dimu_hO1_4TTbar_WQQ_Nplus: 16.567515 
+dimu_hO1_4TTbar_WQQ_Nplus_err: 0.989402 
+dimu_hO1_4TTbar_WQQ_fplus: 0.530421 
+dimu_hO1_4TTbar_WQQ_Nminus: 14.667163 
+dimu_hO1_4TTbar_WQQ_Nminus_err: 0.969233 
+dimu_hO1_4TTbar_WQQ_fminus: 0.469579 
+dimu_hO1_4TTbar_WQQ_total: 31.234679 
+
+dimu_hO1_4TTbar_ZQQ_asym: -0.027004 
+dimu_hO1_4TTbar_ZQQ_asym_err: 0.049939 
+dimu_hO1_4TTbar_ZQQ_Nplus: 21.718024 
+dimu_hO1_4TTbar_ZQQ_Nplus_err: 1.592695 
+dimu_hO1_4TTbar_ZQQ_fplus: 0.486498 
+dimu_hO1_4TTbar_ZQQ_Nminus: 22.923535 
+dimu_hO1_4TTbar_ZQQ_Nminus_err: 1.556780 
+dimu_hO1_4TTbar_ZQQ_fminus: 0.513502 
+dimu_hO1_4TTbar_ZQQ_total: 44.641560 
+
+dimu_hO1_4TTbar_ZToLLNuNu_asym: 0.007962 
+dimu_hO1_4TTbar_ZToLLNuNu_asym_err: 0.010054 
+dimu_hO1_4TTbar_ZToLLNuNu_Nplus: 15.095819 
+dimu_hO1_4TTbar_ZToLLNuNu_Nplus_err: 0.213734 
+dimu_hO1_4TTbar_ZToLLNuNu_fplus: 0.503981 
+dimu_hO1_4TTbar_ZToLLNuNu_Nminus: 14.857346 
+dimu_hO1_4TTbar_ZToLLNuNu_Nminus_err: 0.212166 
+dimu_hO1_4TTbar_ZToLLNuNu_fminus: 0.496019 
+dimu_hO1_4TTbar_ZToLLNuNu_total: 29.953164 
+
+dimu_hO1_4WW_asym: -0.246341 
+dimu_hO1_4WW_asym_err: 0.122786 
+dimu_hO1_4WW_Nplus: 12.197433 
+dimu_hO1_4WW_Nplus_err: 2.501876 
+dimu_hO1_4WW_fplus: 0.376830 
+dimu_hO1_4WW_Nminus: 20.171138 
+dimu_hO1_4WW_Nminus_err: 3.269797 
+dimu_hO1_4WW_fminus: 0.623170 
+dimu_hO1_4WW_total: 32.368570 
+
+dimu_hO1_4WZ_asym: -0.097759 
+dimu_hO1_4WZ_asym_err: 0.236304 
+dimu_hO1_4WZ_Nplus: 4.314634 
+dimu_hO1_4WZ_Nplus_err: 1.528286 
+dimu_hO1_4WZ_fplus: 0.451120 
+dimu_hO1_4WZ_Nminus: 5.249631 
+dimu_hO1_4WZ_Nminus_err: 1.678439 
+dimu_hO1_4WZ_fminus: 0.548880 
+dimu_hO1_4WZ_total: 9.564266 
+
+dimu_hO1_4ZZ_asym: -0.027229 
+dimu_hO1_4ZZ_asym_err: 0.139458 
+dimu_hO1_4ZZ_Nplus: 13.640292 
+dimu_hO1_4ZZ_Nplus_err: 2.694918 
+dimu_hO1_4ZZ_fplus: 0.486386 
+dimu_hO1_4ZZ_Nminus: 14.403904 
+dimu_hO1_4ZZ_Nminus_err: 2.840015 
+dimu_hO1_4ZZ_fminus: 0.513614 
+dimu_hO1_4ZZ_total: 28.044196 
+
+dimu_hO2_4DYJetsToLL_M_10To50_asym: -0.169126 
+dimu_hO2_4DYJetsToLL_M_10To50_asym_err: 0.208463 
+dimu_hO2_4DYJetsToLL_M_10To50_Nplus: 165.516452 
+dimu_hO2_4DYJetsToLL_M_10To50_Nplus_err: 54.540039 
+dimu_hO2_4DYJetsToLL_M_10To50_fplus: 0.415437 
+dimu_hO2_4DYJetsToLL_M_10To50_Nminus: 232.898787 
+dimu_hO2_4DYJetsToLL_M_10To50_Nminus_err: 64.051529 
+dimu_hO2_4DYJetsToLL_M_10To50_fminus: 0.584563 
+dimu_hO2_4DYJetsToLL_M_10To50_total: 398.415239 
+
+dimu_hO2_4DYJetsToLL_M_50_asym: 0.016466 
+dimu_hO2_4DYJetsToLL_M_50_asym_err: 0.035689 
+dimu_hO2_4DYJetsToLL_M_50_Nplus: 624.460776 
+dimu_hO2_4DYJetsToLL_M_50_Nplus_err: 31.268955 
+dimu_hO2_4DYJetsToLL_M_50_fplus: 0.508233 
+dimu_hO2_4DYJetsToLL_M_50_Nminus: 604.228912 
+dimu_hO2_4DYJetsToLL_M_50_Nminus_err: 30.752467 
+dimu_hO2_4DYJetsToLL_M_50_fminus: 0.491767 
+dimu_hO2_4DYJetsToLL_M_50_total: 1228.689688 
+
+dimu_hO2_4Data_asym: 0.000982 
+dimu_hO2_4Data_asym_err: 0.004226 
+dimu_hO2_4Data_Nplus: 28024.000000 
+dimu_hO2_4Data_Nplus_err: 167.403704 
+dimu_hO2_4Data_fplus: 0.500491 
+dimu_hO2_4Data_Nminus: 27969.000000 
+dimu_hO2_4Data_Nminus_err: 167.239349 
+dimu_hO2_4Data_fminus: 0.499509 
+dimu_hO2_4Data_total: 55993.000000 
+
+dimu_hO2_4ST_tW_antitop_asym: -0.013348 
+dimu_hO2_4ST_tW_antitop_asym_err: 0.014192 
+dimu_hO2_4ST_tW_antitop_Nplus: 441.391492 
+dimu_hO2_4ST_tW_antitop_Nplus_err: 8.927827 
+dimu_hO2_4ST_tW_antitop_fplus: 0.493326 
+dimu_hO2_4ST_tW_antitop_Nminus: 453.334744 
+dimu_hO2_4ST_tW_antitop_Nminus_err: 9.031282 
+dimu_hO2_4ST_tW_antitop_fminus: 0.506674 
+dimu_hO2_4ST_tW_antitop_total: 894.726236 
+
+dimu_hO2_4ST_tW_top_asym: -0.000070 
+dimu_hO2_4ST_tW_top_asym_err: 0.014159 
+dimu_hO2_4ST_tW_top_Nplus: 449.241498 
+dimu_hO2_4ST_tW_top_Nplus_err: 8.993803 
+dimu_hO2_4ST_tW_top_fplus: 0.499965 
+dimu_hO2_4ST_tW_top_Nminus: 449.304774 
+dimu_hO2_4ST_tW_top_Nminus_err: 8.998869 
+dimu_hO2_4ST_tW_top_fminus: 0.500035 
+dimu_hO2_4ST_tW_top_total: 898.546272 
+
+dimu_hO2_4TTJets_Signal_asym: -0.003539 
+dimu_hO2_4TTJets_Signal_asym_err: 0.002039 
+dimu_hO2_4TTJets_Signal_Nplus: 22827.841264 
+dimu_hO2_4TTJets_Signal_Nplus_err: 65.946434 
+dimu_hO2_4TTJets_Signal_fplus: 0.498231 
+dimu_hO2_4TTJets_Signal_Nminus: 22989.977409 
+dimu_hO2_4TTJets_Signal_Nminus_err: 66.163054 
+dimu_hO2_4TTJets_Signal_fminus: 0.501769 
+dimu_hO2_4TTJets_Signal_total: 45817.818673 
+
+dimu_hO2_4TTJets_others_asym: -0.004750 
+dimu_hO2_4TTJets_others_asym_err: 0.005026 
+dimu_hO2_4TTJets_others_Nplus: 3733.292585 
+dimu_hO2_4TTJets_others_Nplus_err: 26.607087 
+dimu_hO2_4TTJets_others_fplus: 0.497625 
+dimu_hO2_4TTJets_others_Nminus: 3768.925615 
+dimu_hO2_4TTJets_others_Nminus_err: 26.712551 
+dimu_hO2_4TTJets_others_fminus: 0.502375 
+dimu_hO2_4TTJets_others_total: 7502.218200 
+
+dimu_hO2_4TTbar_WJetToLNu_asym: 0.002180 
+dimu_hO2_4TTbar_WJetToLNu_asym_err: 0.011614 
+dimu_hO2_4TTbar_WJetToLNu_Nplus: 19.093110 
+dimu_hO2_4TTbar_WJetToLNu_Nplus_err: 0.313305 
+dimu_hO2_4TTbar_WJetToLNu_fplus: 0.501090 
+dimu_hO2_4TTbar_WJetToLNu_Nminus: 19.010055 
+dimu_hO2_4TTbar_WJetToLNu_Nminus_err: 0.312525 
+dimu_hO2_4TTbar_WJetToLNu_fminus: 0.498910 
+dimu_hO2_4TTbar_WJetToLNu_total: 38.103165 
+
+dimu_hO2_4TTbar_WQQ_asym: 0.036257 
+dimu_hO2_4TTbar_WQQ_asym_err: 0.044358 
+dimu_hO2_4TTbar_WQQ_Nplus: 16.183579 
+dimu_hO2_4TTbar_WQQ_Nplus_err: 0.983591 
+dimu_hO2_4TTbar_WQQ_fplus: 0.518129 
+dimu_hO2_4TTbar_WQQ_Nminus: 15.051100 
+dimu_hO2_4TTbar_WQQ_Nminus_err: 0.975130 
+dimu_hO2_4TTbar_WQQ_fminus: 0.481871 
+dimu_hO2_4TTbar_WQQ_total: 31.234679 
+
+dimu_hO2_4TTbar_ZQQ_asym: 0.084340 
+dimu_hO2_4TTbar_ZQQ_asym_err: 0.049923 
+dimu_hO2_4TTbar_ZQQ_Nplus: 24.203322 
+dimu_hO2_4TTbar_ZQQ_Nplus_err: 1.601627 
+dimu_hO2_4TTbar_ZQQ_fplus: 0.542170 
+dimu_hO2_4TTbar_ZQQ_Nminus: 20.438238 
+dimu_hO2_4TTbar_ZQQ_Nminus_err: 1.547590 
+dimu_hO2_4TTbar_ZQQ_fminus: 0.457830 
+dimu_hO2_4TTbar_ZQQ_total: 44.641560 
+
+dimu_hO2_4TTbar_ZToLLNuNu_asym: -0.005416 
+dimu_hO2_4TTbar_ZToLLNuNu_asym_err: 0.010055 
+dimu_hO2_4TTbar_ZToLLNuNu_Nplus: 14.895474 
+dimu_hO2_4TTbar_ZToLLNuNu_Nplus_err: 0.213224 
+dimu_hO2_4TTbar_ZToLLNuNu_fplus: 0.497292 
+dimu_hO2_4TTbar_ZToLLNuNu_Nminus: 15.057690 
+dimu_hO2_4TTbar_ZToLLNuNu_Nminus_err: 0.212679 
+dimu_hO2_4TTbar_ZToLLNuNu_fminus: 0.502708 
+dimu_hO2_4TTbar_ZToLLNuNu_total: 29.953164 
+
+dimu_hO2_4WW_asym: -0.072955 
+dimu_hO2_4WW_asym_err: 0.126822 
+dimu_hO2_4WW_Nplus: 15.003555 
+dimu_hO2_4WW_Nplus_err: 2.797342 
+dimu_hO2_4WW_fplus: 0.463522 
+dimu_hO2_4WW_Nminus: 17.365015 
+dimu_hO2_4WW_Nminus_err: 3.020900 
+dimu_hO2_4WW_fminus: 0.536478 
+dimu_hO2_4WW_total: 32.368570 
+
+dimu_hO2_4WZ_asym: 0.258495 
+dimu_hO2_4WZ_asym_err: 0.227665 
+dimu_hO2_4WZ_Nplus: 6.018289 
+dimu_hO2_4WZ_Nplus_err: 1.818629 
+dimu_hO2_4WZ_fplus: 0.629247 
+dimu_hO2_4WZ_Nminus: 3.545977 
+dimu_hO2_4WZ_Nminus_err: 1.358456 
+dimu_hO2_4WZ_fminus: 0.370753 
+dimu_hO2_4WZ_total: 9.564266 
+
+dimu_hO2_4ZZ_asym: -0.022969 
+dimu_hO2_4ZZ_asym_err: 0.139592 
+dimu_hO2_4ZZ_Nplus: 13.700021 
+dimu_hO2_4ZZ_Nplus_err: 2.746314 
+dimu_hO2_4ZZ_fplus: 0.488515 
+dimu_hO2_4ZZ_Nminus: 14.344175 
+dimu_hO2_4ZZ_Nminus_err: 2.790345 
+dimu_hO2_4ZZ_fminus: 0.511485 
+dimu_hO2_4ZZ_total: 28.044196 
+
+dimu_hO3_4DYJetsToLL_M_10To50_asym: -0.184555 
+dimu_hO3_4DYJetsToLL_M_10To50_asym_err: 0.207414 
+dimu_hO3_4DYJetsToLL_M_10To50_Nplus: 162.442952 
+dimu_hO3_4DYJetsToLL_M_10To50_Nplus_err: 53.625360 
+dimu_hO3_4DYJetsToLL_M_10To50_fplus: 0.407723 
+dimu_hO3_4DYJetsToLL_M_10To50_Nminus: 235.972287 
+dimu_hO3_4DYJetsToLL_M_10To50_Nminus_err: 64.819249 
+dimu_hO3_4DYJetsToLL_M_10To50_fminus: 0.592277 
+dimu_hO3_4DYJetsToLL_M_10To50_total: 398.415239 
+
+dimu_hO3_4DYJetsToLL_M_50_asym: 0.051913 
+dimu_hO3_4DYJetsToLL_M_50_asym_err: 0.035642 
+dimu_hO3_4DYJetsToLL_M_50_Nplus: 646.237036 
+dimu_hO3_4DYJetsToLL_M_50_Nplus_err: 31.841755 
+dimu_hO3_4DYJetsToLL_M_50_fplus: 0.525956 
+dimu_hO3_4DYJetsToLL_M_50_Nminus: 582.452651 
+dimu_hO3_4DYJetsToLL_M_50_Nminus_err: 30.158986 
+dimu_hO3_4DYJetsToLL_M_50_fminus: 0.474044 
+dimu_hO3_4DYJetsToLL_M_50_total: 1228.689688 
+
+dimu_hO3_4Data_asym: 0.004376 
+dimu_hO3_4Data_asym_err: 0.004226 
+dimu_hO3_4Data_Nplus: 28119.000000 
+dimu_hO3_4Data_Nplus_err: 167.687209 
+dimu_hO3_4Data_fplus: 0.502188 
+dimu_hO3_4Data_Nminus: 27874.000000 
+dimu_hO3_4Data_Nminus_err: 166.955084 
+dimu_hO3_4Data_fminus: 0.497812 
+dimu_hO3_4Data_total: 55993.000000 
+
+dimu_hO3_4ST_tW_antitop_asym: -0.009569 
+dimu_hO3_4ST_tW_antitop_asym_err: 0.014193 
+dimu_hO3_4ST_tW_antitop_Nplus: 443.082273 
+dimu_hO3_4ST_tW_antitop_Nplus_err: 8.943724 
+dimu_hO3_4ST_tW_antitop_fplus: 0.495215 
+dimu_hO3_4ST_tW_antitop_Nminus: 451.643963 
+dimu_hO3_4ST_tW_antitop_Nminus_err: 9.015539 
+dimu_hO3_4ST_tW_antitop_fminus: 0.504785 
+dimu_hO3_4ST_tW_antitop_total: 894.726236 
+
+dimu_hO3_4ST_tW_top_asym: 0.000579 
+dimu_hO3_4ST_tW_top_asym_err: 0.014159 
+dimu_hO3_4ST_tW_top_Nplus: 449.533465 
+dimu_hO3_4ST_tW_top_Nplus_err: 9.012225 
+dimu_hO3_4ST_tW_top_fplus: 0.500290 
+dimu_hO3_4ST_tW_top_Nminus: 449.012807 
+dimu_hO3_4ST_tW_top_Nminus_err: 8.980419 
+dimu_hO3_4ST_tW_top_fminus: 0.499710 
+dimu_hO3_4ST_tW_top_total: 898.546272 
+
+dimu_hO3_4TTJets_Signal_asym: -0.000510 
+dimu_hO3_4TTJets_Signal_asym_err: 0.002039 
+dimu_hO3_4TTJets_Signal_Nplus: 22897.234507 
+dimu_hO3_4TTJets_Signal_Nplus_err: 66.027584 
+dimu_hO3_4TTJets_Signal_fplus: 0.499745 
+dimu_hO3_4TTJets_Signal_Nminus: 22920.584166 
+dimu_hO3_4TTJets_Signal_Nminus_err: 66.082070 
+dimu_hO3_4TTJets_Signal_fminus: 0.500255 
+dimu_hO3_4TTJets_Signal_total: 45817.818673 
+
+dimu_hO3_4TTJets_others_asym: -0.000588 
+dimu_hO3_4TTJets_others_asym_err: 0.005026 
+dimu_hO3_4TTJets_others_Nplus: 3748.902794 
+dimu_hO3_4TTJets_others_Nplus_err: 26.671520 
+dimu_hO3_4TTJets_others_fplus: 0.499706 
+dimu_hO3_4TTJets_others_Nminus: 3753.315406 
+dimu_hO3_4TTJets_others_Nminus_err: 26.648217 
+dimu_hO3_4TTJets_others_fminus: 0.500294 
+dimu_hO3_4TTJets_others_total: 7502.218200 
+
+dimu_hO3_4TTbar_WJetToLNu_asym: -0.000380 
+dimu_hO3_4TTbar_WJetToLNu_asym_err: 0.011614 
+dimu_hO3_4TTbar_WJetToLNu_Nplus: 19.044340 
+dimu_hO3_4TTbar_WJetToLNu_Nplus_err: 0.311816 
+dimu_hO3_4TTbar_WJetToLNu_fplus: 0.499810 
+dimu_hO3_4TTbar_WJetToLNu_Nminus: 19.058824 
+dimu_hO3_4TTbar_WJetToLNu_Nminus_err: 0.314010 
+dimu_hO3_4TTbar_WJetToLNu_fminus: 0.500190 
+dimu_hO3_4TTbar_WJetToLNu_total: 38.103165 
+
+dimu_hO3_4TTbar_WQQ_asym: 0.046267 
+dimu_hO3_4TTbar_WQQ_asym_err: 0.044353 
+dimu_hO3_4TTbar_WQQ_Nplus: 16.339908 
+dimu_hO3_4TTbar_WQQ_Nplus_err: 0.988336 
+dimu_hO3_4TTbar_WQQ_fplus: 0.523134 
+dimu_hO3_4TTbar_WQQ_Nminus: 14.894771 
+dimu_hO3_4TTbar_WQQ_Nminus_err: 0.970320 
+dimu_hO3_4TTbar_WQQ_fminus: 0.476866 
+dimu_hO3_4TTbar_WQQ_total: 31.234679 
+
+dimu_hO3_4TTbar_ZQQ_asym: 0.029161 
+dimu_hO3_4TTbar_ZQQ_asym_err: 0.049908 
+dimu_hO3_4TTbar_ZQQ_Nplus: 22.971680 
+dimu_hO3_4TTbar_ZQQ_Nplus_err: 1.576543 
+dimu_hO3_4TTbar_ZQQ_fplus: 0.514581 
+dimu_hO3_4TTbar_ZQQ_Nminus: 21.669880 
+dimu_hO3_4TTbar_ZQQ_Nminus_err: 1.573136 
+dimu_hO3_4TTbar_ZQQ_fminus: 0.485419 
+dimu_hO3_4TTbar_ZQQ_total: 44.641560 
+
+dimu_hO3_4TTbar_ZToLLNuNu_asym: -0.001692 
+dimu_hO3_4TTbar_ZToLLNuNu_asym_err: 0.010054 
+dimu_hO3_4TTbar_ZToLLNuNu_Nplus: 14.951238 
+dimu_hO3_4TTbar_ZToLLNuNu_Nplus_err: 0.213337 
+dimu_hO3_4TTbar_ZToLLNuNu_fplus: 0.499154 
+dimu_hO3_4TTbar_ZToLLNuNu_Nminus: 15.001926 
+dimu_hO3_4TTbar_ZToLLNuNu_Nminus_err: 0.212565 
+dimu_hO3_4TTbar_ZToLLNuNu_fminus: 0.500846 
+dimu_hO3_4TTbar_ZToLLNuNu_total: 29.953164 
+
+dimu_hO3_4WW_asym: -0.115359 
+dimu_hO3_4WW_asym_err: 0.126224 
+dimu_hO3_4WW_Nplus: 14.317278 
+dimu_hO3_4WW_Nplus_err: 2.725274 
+dimu_hO3_4WW_fplus: 0.442320 
+dimu_hO3_4WW_Nminus: 18.051292 
+dimu_hO3_4WW_Nminus_err: 3.086072 
+dimu_hO3_4WW_fminus: 0.557680 
+dimu_hO3_4WW_total: 32.368570 
+
+dimu_hO3_4WZ_asym: -0.055739 
+dimu_hO3_4WZ_asym_err: 0.237667 
+dimu_hO3_4WZ_Nplus: 4.515580 
+dimu_hO3_4WZ_Nplus_err: 1.602593 
+dimu_hO3_4WZ_fplus: 0.472130 
+dimu_hO3_4WZ_Nminus: 5.048686 
+dimu_hO3_4WZ_Nminus_err: 1.607640 
+dimu_hO3_4WZ_fminus: 0.527870 
+dimu_hO3_4WZ_total: 9.564266 
+
+dimu_hO3_4ZZ_asym: -0.103449 
+dimu_hO3_4ZZ_asym_err: 0.138894 
+dimu_hO3_4ZZ_Nplus: 12.571527 
+dimu_hO3_4ZZ_Nplus_err: 2.625093 
+dimu_hO3_4ZZ_fplus: 0.448276 
+dimu_hO3_4ZZ_Nminus: 15.472669 
+dimu_hO3_4ZZ_Nminus_err: 2.904678 
+dimu_hO3_4ZZ_fminus: 0.551724 
+dimu_hO3_4ZZ_total: 28.044196 
+
+dimu_hO4_4DYJetsToLL_M_10To50_asym: 0.184555 
+dimu_hO4_4DYJetsToLL_M_10To50_asym_err: 0.207414 
+dimu_hO4_4DYJetsToLL_M_10To50_Nplus: 235.972287 
+dimu_hO4_4DYJetsToLL_M_10To50_Nplus_err: 64.819249 
+dimu_hO4_4DYJetsToLL_M_10To50_fplus: 0.592277 
+dimu_hO4_4DYJetsToLL_M_10To50_Nminus: 162.442952 
+dimu_hO4_4DYJetsToLL_M_10To50_Nminus_err: 53.625360 
+dimu_hO4_4DYJetsToLL_M_10To50_fminus: 0.407723 
+dimu_hO4_4DYJetsToLL_M_10To50_total: 398.415239 
+
+dimu_hO4_4DYJetsToLL_M_50_asym: -0.051913 
+dimu_hO4_4DYJetsToLL_M_50_asym_err: 0.035642 
+dimu_hO4_4DYJetsToLL_M_50_Nplus: 582.452651 
+dimu_hO4_4DYJetsToLL_M_50_Nplus_err: 30.158986 
+dimu_hO4_4DYJetsToLL_M_50_fplus: 0.474044 
+dimu_hO4_4DYJetsToLL_M_50_Nminus: 646.237036 
+dimu_hO4_4DYJetsToLL_M_50_Nminus_err: 31.841755 
+dimu_hO4_4DYJetsToLL_M_50_fminus: 0.525956 
+dimu_hO4_4DYJetsToLL_M_50_total: 1228.689688 
+
+dimu_hO4_4Data_asym: -0.004376 
+dimu_hO4_4Data_asym_err: 0.004226 
+dimu_hO4_4Data_Nplus: 27874.000000 
+dimu_hO4_4Data_Nplus_err: 166.955084 
+dimu_hO4_4Data_fplus: 0.497812 
+dimu_hO4_4Data_Nminus: 28119.000000 
+dimu_hO4_4Data_Nminus_err: 167.687209 
+dimu_hO4_4Data_fminus: 0.502188 
+dimu_hO4_4Data_total: 55993.000000 
+
+dimu_hO4_4ST_tW_antitop_asym: 0.009569 
+dimu_hO4_4ST_tW_antitop_asym_err: 0.014193 
+dimu_hO4_4ST_tW_antitop_Nplus: 451.643963 
+dimu_hO4_4ST_tW_antitop_Nplus_err: 9.015539 
+dimu_hO4_4ST_tW_antitop_fplus: 0.504785 
+dimu_hO4_4ST_tW_antitop_Nminus: 443.082273 
+dimu_hO4_4ST_tW_antitop_Nminus_err: 8.943724 
+dimu_hO4_4ST_tW_antitop_fminus: 0.495215 
+dimu_hO4_4ST_tW_antitop_total: 894.726236 
+
+dimu_hO4_4ST_tW_top_asym: -0.000579 
+dimu_hO4_4ST_tW_top_asym_err: 0.014159 
+dimu_hO4_4ST_tW_top_Nplus: 449.012807 
+dimu_hO4_4ST_tW_top_Nplus_err: 8.980419 
+dimu_hO4_4ST_tW_top_fplus: 0.499710 
+dimu_hO4_4ST_tW_top_Nminus: 449.533465 
+dimu_hO4_4ST_tW_top_Nminus_err: 9.012225 
+dimu_hO4_4ST_tW_top_fminus: 0.500290 
+dimu_hO4_4ST_tW_top_total: 898.546272 
+
+dimu_hO4_4TTJets_Signal_asym: 0.000510 
+dimu_hO4_4TTJets_Signal_asym_err: 0.002039 
+dimu_hO4_4TTJets_Signal_Nplus: 22920.584166 
+dimu_hO4_4TTJets_Signal_Nplus_err: 66.082070 
+dimu_hO4_4TTJets_Signal_fplus: 0.500255 
+dimu_hO4_4TTJets_Signal_Nminus: 22897.234507 
+dimu_hO4_4TTJets_Signal_Nminus_err: 66.027584 
+dimu_hO4_4TTJets_Signal_fminus: 0.499745 
+dimu_hO4_4TTJets_Signal_total: 45817.818673 
+
+dimu_hO4_4TTJets_others_asym: 0.000588 
+dimu_hO4_4TTJets_others_asym_err: 0.005026 
+dimu_hO4_4TTJets_others_Nplus: 3753.315406 
+dimu_hO4_4TTJets_others_Nplus_err: 26.648217 
+dimu_hO4_4TTJets_others_fplus: 0.500294 
+dimu_hO4_4TTJets_others_Nminus: 3748.902794 
+dimu_hO4_4TTJets_others_Nminus_err: 26.671520 
+dimu_hO4_4TTJets_others_fminus: 0.499706 
+dimu_hO4_4TTJets_others_total: 7502.218200 
+
+dimu_hO4_4TTbar_WJetToLNu_asym: 0.000380 
+dimu_hO4_4TTbar_WJetToLNu_asym_err: 0.011614 
+dimu_hO4_4TTbar_WJetToLNu_Nplus: 19.058824 
+dimu_hO4_4TTbar_WJetToLNu_Nplus_err: 0.314010 
+dimu_hO4_4TTbar_WJetToLNu_fplus: 0.500190 
+dimu_hO4_4TTbar_WJetToLNu_Nminus: 19.044340 
+dimu_hO4_4TTbar_WJetToLNu_Nminus_err: 0.311816 
+dimu_hO4_4TTbar_WJetToLNu_fminus: 0.499810 
+dimu_hO4_4TTbar_WJetToLNu_total: 38.103165 
+
+dimu_hO4_4TTbar_WQQ_asym: -0.046267 
+dimu_hO4_4TTbar_WQQ_asym_err: 0.044353 
+dimu_hO4_4TTbar_WQQ_Nplus: 14.894771 
+dimu_hO4_4TTbar_WQQ_Nplus_err: 0.970320 
+dimu_hO4_4TTbar_WQQ_fplus: 0.476866 
+dimu_hO4_4TTbar_WQQ_Nminus: 16.339908 
+dimu_hO4_4TTbar_WQQ_Nminus_err: 0.988336 
+dimu_hO4_4TTbar_WQQ_fminus: 0.523134 
+dimu_hO4_4TTbar_WQQ_total: 31.234679 
+
+dimu_hO4_4TTbar_ZQQ_asym: -0.029161 
+dimu_hO4_4TTbar_ZQQ_asym_err: 0.049908 
+dimu_hO4_4TTbar_ZQQ_Nplus: 21.669880 
+dimu_hO4_4TTbar_ZQQ_Nplus_err: 1.573136 
+dimu_hO4_4TTbar_ZQQ_fplus: 0.485419 
+dimu_hO4_4TTbar_ZQQ_Nminus: 22.971680 
+dimu_hO4_4TTbar_ZQQ_Nminus_err: 1.576543 
+dimu_hO4_4TTbar_ZQQ_fminus: 0.514581 
+dimu_hO4_4TTbar_ZQQ_total: 44.641560 
+
+dimu_hO4_4TTbar_ZToLLNuNu_asym: 0.001692 
+dimu_hO4_4TTbar_ZToLLNuNu_asym_err: 0.010054 
+dimu_hO4_4TTbar_ZToLLNuNu_Nplus: 15.001926 
+dimu_hO4_4TTbar_ZToLLNuNu_Nplus_err: 0.212565 
+dimu_hO4_4TTbar_ZToLLNuNu_fplus: 0.500846 
+dimu_hO4_4TTbar_ZToLLNuNu_Nminus: 14.951238 
+dimu_hO4_4TTbar_ZToLLNuNu_Nminus_err: 0.213337 
+dimu_hO4_4TTbar_ZToLLNuNu_fminus: 0.499154 
+dimu_hO4_4TTbar_ZToLLNuNu_total: 29.953164 
+
+dimu_hO4_4WW_asym: 0.115359 
+dimu_hO4_4WW_asym_err: 0.126224 
+dimu_hO4_4WW_Nplus: 18.051292 
+dimu_hO4_4WW_Nplus_err: 3.086072 
+dimu_hO4_4WW_fplus: 0.557680 
+dimu_hO4_4WW_Nminus: 14.317278 
+dimu_hO4_4WW_Nminus_err: 2.725274 
+dimu_hO4_4WW_fminus: 0.442320 
+dimu_hO4_4WW_total: 32.368570 
+
+dimu_hO4_4WZ_asym: 0.055739 
+dimu_hO4_4WZ_asym_err: 0.237667 
+dimu_hO4_4WZ_Nplus: 5.048686 
+dimu_hO4_4WZ_Nplus_err: 1.607640 
+dimu_hO4_4WZ_fplus: 0.527870 
+dimu_hO4_4WZ_Nminus: 4.515580 
+dimu_hO4_4WZ_Nminus_err: 1.602593 
+dimu_hO4_4WZ_fminus: 0.472130 
+dimu_hO4_4WZ_total: 9.564266 
+
+dimu_hO4_4ZZ_asym: 0.103449 
+dimu_hO4_4ZZ_asym_err: 0.138894 
+dimu_hO4_4ZZ_Nplus: 15.472669 
+dimu_hO4_4ZZ_Nplus_err: 2.904678 
+dimu_hO4_4ZZ_fplus: 0.551724 
+dimu_hO4_4ZZ_Nminus: 12.571527 
+dimu_hO4_4ZZ_Nminus_err: 2.625093 
+dimu_hO4_4ZZ_fminus: 0.448276 
+dimu_hO4_4ZZ_total: 28.044196 
+
+dimu_hO5_4DYJetsToLL_M_10To50_asym: -0.123584 
+dimu_hO5_4DYJetsToLL_M_10To50_asym_err: 0.209322 
+dimu_hO5_4DYJetsToLL_M_10To50_Nplus: 174.588701 
+dimu_hO5_4DYJetsToLL_M_10To50_Nplus_err: 55.433304 
+dimu_hO5_4DYJetsToLL_M_10To50_fplus: 0.438208 
+dimu_hO5_4DYJetsToLL_M_10To50_Nminus: 223.826538 
+dimu_hO5_4DYJetsToLL_M_10To50_Nminus_err: 63.280037 
+dimu_hO5_4DYJetsToLL_M_10To50_fminus: 0.561792 
+dimu_hO5_4DYJetsToLL_M_10To50_total: 398.415239 
+
+dimu_hO5_4DYJetsToLL_M_50_asym: -0.039669 
+dimu_hO5_4DYJetsToLL_M_50_asym_err: 0.035666 
+dimu_hO5_4DYJetsToLL_M_50_Nplus: 589.974321 
+dimu_hO5_4DYJetsToLL_M_50_Nplus_err: 30.393097 
+dimu_hO5_4DYJetsToLL_M_50_fplus: 0.480165 
+dimu_hO5_4DYJetsToLL_M_50_Nminus: 638.715367 
+dimu_hO5_4DYJetsToLL_M_50_Nminus_err: 31.618372 
+dimu_hO5_4DYJetsToLL_M_50_fminus: 0.519835 
+dimu_hO5_4DYJetsToLL_M_50_total: 1228.689688 
+
+dimu_hO5_4Data_asym: 0.000982 
+dimu_hO5_4Data_asym_err: 0.004226 
+dimu_hO5_4Data_Nplus: 28024.000000 
+dimu_hO5_4Data_Nplus_err: 167.403704 
+dimu_hO5_4Data_fplus: 0.500491 
+dimu_hO5_4Data_Nminus: 27969.000000 
+dimu_hO5_4Data_Nminus_err: 167.239349 
+dimu_hO5_4Data_fminus: 0.499509 
+dimu_hO5_4Data_total: 55993.000000 
+
+dimu_hO5_4ST_tW_antitop_asym: 0.002445 
+dimu_hO5_4ST_tW_antitop_asym_err: 0.014193 
+dimu_hO5_4ST_tW_antitop_Nplus: 448.457078 
+dimu_hO5_4ST_tW_antitop_Nplus_err: 8.985221 
+dimu_hO5_4ST_tW_antitop_fplus: 0.501223 
+dimu_hO5_4ST_tW_antitop_Nminus: 446.269158 
+dimu_hO5_4ST_tW_antitop_Nminus_err: 8.974182 
+dimu_hO5_4ST_tW_antitop_fminus: 0.498777 
+dimu_hO5_4ST_tW_antitop_total: 894.726236 
+
+dimu_hO5_4ST_tW_top_asym: 0.009041 
+dimu_hO5_4ST_tW_top_asym_err: 0.014159 
+dimu_hO5_4ST_tW_top_Nplus: 453.335037 
+dimu_hO5_4ST_tW_top_Nplus_err: 9.034013 
+dimu_hO5_4ST_tW_top_fplus: 0.504521 
+dimu_hO5_4ST_tW_top_Nminus: 445.211235 
+dimu_hO5_4ST_tW_top_Nminus_err: 8.958502 
+dimu_hO5_4ST_tW_top_fminus: 0.495479 
+dimu_hO5_4ST_tW_top_total: 898.546272 
+
+dimu_hO5_4TTJets_Signal_asym: -0.002153 
+dimu_hO5_4TTJets_Signal_asym_err: 0.002039 
+dimu_hO5_4TTJets_Signal_Nplus: 22859.595368 
+dimu_hO5_4TTJets_Signal_Nplus_err: 65.984687 
+dimu_hO5_4TTJets_Signal_fplus: 0.498924 
+dimu_hO5_4TTJets_Signal_Nminus: 22958.223305 
+dimu_hO5_4TTJets_Signal_Nminus_err: 66.124904 
+dimu_hO5_4TTJets_Signal_fminus: 0.501076 
+dimu_hO5_4TTJets_Signal_total: 45817.818673 
+
+dimu_hO5_4TTJets_others_asym: -0.001836 
+dimu_hO5_4TTJets_others_asym_err: 0.005026 
+dimu_hO5_4TTJets_others_Nplus: 3744.223274 
+dimu_hO5_4TTJets_others_Nplus_err: 26.631639 
+dimu_hO5_4TTJets_others_fplus: 0.499082 
+dimu_hO5_4TTJets_others_Nminus: 3757.994926 
+dimu_hO5_4TTJets_others_Nminus_err: 26.688073 
+dimu_hO5_4TTJets_others_fminus: 0.500918 
+dimu_hO5_4TTJets_others_total: 7502.218200 
+
+dimu_hO5_4TTbar_WJetToLNu_asym: -0.009553 
+dimu_hO5_4TTbar_WJetToLNu_asym_err: 0.011615 
+dimu_hO5_4TTbar_WJetToLNu_Nplus: 18.869582 
+dimu_hO5_4TTbar_WJetToLNu_Nplus_err: 0.312992 
+dimu_hO5_4TTbar_WJetToLNu_fplus: 0.495223 
+dimu_hO5_4TTbar_WJetToLNu_Nminus: 19.233583 
+dimu_hO5_4TTbar_WJetToLNu_Nminus_err: 0.312839 
+dimu_hO5_4TTbar_WJetToLNu_fminus: 0.504777 
+dimu_hO5_4TTbar_WJetToLNu_total: 38.103165 
+
+dimu_hO5_4TTbar_WQQ_asym: -0.060637 
+dimu_hO5_4TTbar_WQQ_asym_err: 0.044353 
+dimu_hO5_4TTbar_WQQ_Nplus: 14.670355 
+dimu_hO5_4TTbar_WQQ_Nplus_err: 0.966272 
+dimu_hO5_4TTbar_WQQ_fplus: 0.469682 
+dimu_hO5_4TTbar_WQQ_Nminus: 16.564324 
+dimu_hO5_4TTbar_WQQ_Nminus_err: 0.992294 
+dimu_hO5_4TTbar_WQQ_fminus: 0.530318 
+dimu_hO5_4TTbar_WQQ_total: 31.234679 
+
+dimu_hO5_4TTbar_ZQQ_asym: -0.001630 
+dimu_hO5_4TTbar_ZQQ_asym_err: 0.049890 
+dimu_hO5_4TTbar_ZQQ_Nplus: 22.284389 
+dimu_hO5_4TTbar_ZQQ_Nplus_err: 1.577253 
+dimu_hO5_4TTbar_ZQQ_fplus: 0.499185 
+dimu_hO5_4TTbar_ZQQ_Nminus: 22.357171 
+dimu_hO5_4TTbar_ZQQ_Nminus_err: 1.572424 
+dimu_hO5_4TTbar_ZQQ_fminus: 0.500815 
+dimu_hO5_4TTbar_ZQQ_total: 44.641560 
+
+dimu_hO5_4TTbar_ZToLLNuNu_asym: -0.006755 
+dimu_hO5_4TTbar_ZToLLNuNu_asym_err: 0.010054 
+dimu_hO5_4TTbar_ZToLLNuNu_Nplus: 14.875422 
+dimu_hO5_4TTbar_ZToLLNuNu_Nplus_err: 0.212189 
+dimu_hO5_4TTbar_ZToLLNuNu_fplus: 0.496623 
+dimu_hO5_4TTbar_ZToLLNuNu_Nminus: 15.077742 
+dimu_hO5_4TTbar_ZToLLNuNu_Nminus_err: 0.213711 
+dimu_hO5_4TTbar_ZToLLNuNu_fminus: 0.503377 
+dimu_hO5_4TTbar_ZToLLNuNu_total: 29.953164 
+
+dimu_hO5_4WW_asym: -0.027997 
+dimu_hO5_4WW_asym_err: 0.127059 
+dimu_hO5_4WW_Nplus: 15.731171 
+dimu_hO5_4WW_Nplus_err: 2.834018 
+dimu_hO5_4WW_fplus: 0.486001 
+dimu_hO5_4WW_Nminus: 16.637399 
+dimu_hO5_4WW_Nminus_err: 2.986519 
+dimu_hO5_4WW_fminus: 0.513999 
+dimu_hO5_4WW_total: 32.368570 
+
+dimu_hO5_4WZ_asym: -0.250694 
+dimu_hO5_4WZ_asym_err: 0.228625 
+dimu_hO5_4WZ_Nplus: 3.583281 
+dimu_hO5_4WZ_Nplus_err: 1.372231 
+dimu_hO5_4WZ_fplus: 0.374653 
+dimu_hO5_4WZ_Nminus: 5.980985 
+dimu_hO5_4WZ_Nminus_err: 1.808257 
+dimu_hO5_4WZ_fminus: 0.625347 
+dimu_hO5_4WZ_total: 9.564266 
+
+dimu_hO5_4ZZ_asym: -0.155202 
+dimu_hO5_4ZZ_asym_err: 0.137221 
+dimu_hO5_4ZZ_Nplus: 11.845836 
+dimu_hO5_4ZZ_Nplus_err: 2.496636 
+dimu_hO5_4ZZ_fplus: 0.422399 
+dimu_hO5_4ZZ_Nminus: 16.198360 
+dimu_hO5_4ZZ_Nminus_err: 3.015804 
+dimu_hO5_4ZZ_fminus: 0.577601 
+dimu_hO5_4ZZ_total: 28.044196 
+
+dimu_hO6_4DYJetsToLL_M_10To50_asym: 0.211087 
+dimu_hO6_4DYJetsToLL_M_10To50_asym_err: 0.205391 
+dimu_hO6_4DYJetsToLL_M_10To50_Nplus: 241.257820 
+dimu_hO6_4DYJetsToLL_M_10To50_Nplus_err: 66.054767 
+dimu_hO6_4DYJetsToLL_M_10To50_fplus: 0.605544 
+dimu_hO6_4DYJetsToLL_M_10To50_Nminus: 157.157418 
+dimu_hO6_4DYJetsToLL_M_10To50_Nminus_err: 52.095892 
+dimu_hO6_4DYJetsToLL_M_10To50_fminus: 0.394456 
+dimu_hO6_4DYJetsToLL_M_10To50_total: 398.415239 
+
+dimu_hO6_4DYJetsToLL_M_50_asym: -0.046994 
+dimu_hO6_4DYJetsToLL_M_50_asym_err: 0.035654 
+dimu_hO6_4DYJetsToLL_M_50_Nplus: 585.474069 
+dimu_hO6_4DYJetsToLL_M_50_Nplus_err: 30.267601 
+dimu_hO6_4DYJetsToLL_M_50_fplus: 0.476503 
+dimu_hO6_4DYJetsToLL_M_50_Nminus: 643.215619 
+dimu_hO6_4DYJetsToLL_M_50_Nminus_err: 31.738527 
+dimu_hO6_4DYJetsToLL_M_50_fminus: 0.523497 
+dimu_hO6_4DYJetsToLL_M_50_total: 1228.689688 
+
+dimu_hO6_4Data_asym: -0.000018 
+dimu_hO6_4Data_asym_err: 0.004226 
+dimu_hO6_4Data_Nplus: 27996.000000 
+dimu_hO6_4Data_Nplus_err: 167.320053 
+dimu_hO6_4Data_fplus: 0.499991 
+dimu_hO6_4Data_Nminus: 27997.000000 
+dimu_hO6_4Data_Nminus_err: 167.323041 
+dimu_hO6_4Data_fminus: 0.500009 
+dimu_hO6_4Data_total: 55993.000000 
+
+dimu_hO6_4ST_tW_antitop_asym: -0.000102 
+dimu_hO6_4ST_tW_antitop_asym_err: 0.014193 
+dimu_hO6_4ST_tW_antitop_Nplus: 447.317595 
+dimu_hO6_4ST_tW_antitop_Nplus_err: 8.978625 
+dimu_hO6_4ST_tW_antitop_fplus: 0.499949 
+dimu_hO6_4ST_tW_antitop_Nminus: 447.408640 
+dimu_hO6_4ST_tW_antitop_Nminus_err: 8.980781 
+dimu_hO6_4ST_tW_antitop_fminus: 0.500051 
+dimu_hO6_4ST_tW_antitop_total: 894.726236 
+
+dimu_hO6_4ST_tW_top_asym: -0.015892 
+dimu_hO6_4ST_tW_top_asym_err: 0.014157 
+dimu_hO6_4ST_tW_top_Nplus: 442.133486 
+dimu_hO6_4ST_tW_top_Nplus_err: 8.917551 
+dimu_hO6_4ST_tW_top_fplus: 0.492054 
+dimu_hO6_4ST_tW_top_Nminus: 456.412787 
+dimu_hO6_4ST_tW_top_Nminus_err: 9.074438 
+dimu_hO6_4ST_tW_top_fminus: 0.507946 
+dimu_hO6_4ST_tW_top_total: 898.546272 
+
+dimu_hO6_4TTJets_Signal_asym: 0.002213 
+dimu_hO6_4TTJets_Signal_asym_err: 0.002039 
+dimu_hO6_4TTJets_Signal_Nplus: 22959.606920 
+dimu_hO6_4TTJets_Signal_Nplus_err: 66.141329 
+dimu_hO6_4TTJets_Signal_fplus: 0.501107 
+dimu_hO6_4TTJets_Signal_Nminus: 22858.211753 
+dimu_hO6_4TTJets_Signal_Nminus_err: 65.968223 
+dimu_hO6_4TTJets_Signal_fminus: 0.498893 
+dimu_hO6_4TTJets_Signal_total: 45817.818673 
+
+dimu_hO6_4TTJets_others_asym: -0.006850 
+dimu_hO6_4TTJets_others_asym_err: 0.005025 
+dimu_hO6_4TTJets_others_Nplus: 3725.414750 
+dimu_hO6_4TTJets_others_Nplus_err: 26.557922 
+dimu_hO6_4TTJets_others_fplus: 0.496575 
+dimu_hO6_4TTJets_others_Nminus: 3776.803450 
+dimu_hO6_4TTJets_others_Nminus_err: 26.761431 
+dimu_hO6_4TTJets_others_fminus: 0.503425 
+dimu_hO6_4TTJets_others_total: 7502.218200 
+
+dimu_hO6_4TTbar_WJetToLNu_asym: 0.000503 
+dimu_hO6_4TTbar_WJetToLNu_asym_err: 0.011614 
+dimu_hO6_4TTbar_WJetToLNu_Nplus: 19.061171 
+dimu_hO6_4TTbar_WJetToLNu_Nplus_err: 0.312186 
+dimu_hO6_4TTbar_WJetToLNu_fplus: 0.500252 
+dimu_hO6_4TTbar_WJetToLNu_Nminus: 19.041994 
+dimu_hO6_4TTbar_WJetToLNu_Nminus_err: 0.313643 
+dimu_hO6_4TTbar_WJetToLNu_fminus: 0.499748 
+dimu_hO6_4TTbar_WJetToLNu_total: 38.103165 
+
+dimu_hO6_4TTbar_WQQ_asym: 0.003487 
+dimu_hO6_4TTbar_WQQ_asym_err: 0.044343 
+dimu_hO6_4TTbar_WQQ_Nplus: 15.671791 
+dimu_hO6_4TTbar_WQQ_Nplus_err: 0.980201 
+dimu_hO6_4TTbar_WQQ_fplus: 0.501743 
+dimu_hO6_4TTbar_WQQ_Nminus: 15.562888 
+dimu_hO6_4TTbar_WQQ_Nminus_err: 0.978537 
+dimu_hO6_4TTbar_WQQ_fminus: 0.498257 
+dimu_hO6_4TTbar_WQQ_total: 31.234679 
+
+dimu_hO6_4TTbar_ZQQ_asym: 0.027514 
+dimu_hO6_4TTbar_ZQQ_asym_err: 0.049869 
+dimu_hO6_4TTbar_ZQQ_Nplus: 22.934914 
+dimu_hO6_4TTbar_ZQQ_Nplus_err: 1.597661 
+dimu_hO6_4TTbar_ZQQ_fplus: 0.513757 
+dimu_hO6_4TTbar_ZQQ_Nminus: 21.706646 
+dimu_hO6_4TTbar_ZQQ_Nminus_err: 1.551684 
+dimu_hO6_4TTbar_ZQQ_fminus: 0.486243 
+dimu_hO6_4TTbar_ZQQ_total: 44.641560 
+
+dimu_hO6_4TTbar_ZToLLNuNu_asym: -0.009803 
+dimu_hO6_4TTbar_ZToLLNuNu_asym_err: 0.010055 
+dimu_hO6_4TTbar_ZToLLNuNu_Nplus: 14.829772 
+dimu_hO6_4TTbar_ZToLLNuNu_Nplus_err: 0.212677 
+dimu_hO6_4TTbar_ZToLLNuNu_fplus: 0.495099 
+dimu_hO6_4TTbar_ZToLLNuNu_Nminus: 15.123393 
+dimu_hO6_4TTbar_ZToLLNuNu_Nminus_err: 0.213226 
+dimu_hO6_4TTbar_ZToLLNuNu_fminus: 0.504901 
+dimu_hO6_4TTbar_ZToLLNuNu_total: 29.953164 
+
+dimu_hO6_4WW_asym: -0.102447 
+dimu_hO6_4WW_asym_err: 0.126618 
+dimu_hO6_4WW_Nplus: 14.526261 
+dimu_hO6_4WW_Nplus_err: 2.768759 
+dimu_hO6_4WW_fplus: 0.448777 
+dimu_hO6_4WW_Nminus: 17.842310 
+dimu_hO6_4WW_Nminus_err: 3.047119 
+dimu_hO6_4WW_fminus: 0.551223 
+dimu_hO6_4WW_total: 32.368570 
+
+dimu_hO6_4WZ_asym: -0.350505 
+dimu_hO6_4WZ_asym_err: 0.220537 
+dimu_hO6_4WZ_Nplus: 3.105969 
+dimu_hO6_4WZ_Nplus_err: 1.273937 
+dimu_hO6_4WZ_fplus: 0.324747 
+dimu_hO6_4WZ_Nminus: 6.458297 
+dimu_hO6_4WZ_Nminus_err: 1.878802 
+dimu_hO6_4WZ_fminus: 0.675253 
+dimu_hO6_4WZ_total: 9.564266 
+
+dimu_hO6_4ZZ_asym: 0.145031 
+dimu_hO6_4ZZ_asym_err: 0.138613 
+dimu_hO6_4ZZ_Nplus: 16.055732 
+dimu_hO6_4ZZ_Nplus_err: 2.931622 
+dimu_hO6_4ZZ_fplus: 0.572515 
+dimu_hO6_4ZZ_Nminus: 11.988463 
+dimu_hO6_4ZZ_Nminus_err: 2.594968 
+dimu_hO6_4ZZ_fminus: 0.427485 
+dimu_hO6_4ZZ_total: 28.044196 
+
+dimu_hO7_4DYJetsToLL_M_10To50_asym: 0.312117 
+dimu_hO7_4DYJetsToLL_M_10To50_asym_err: 0.195315 
+dimu_hO7_4DYJetsToLL_M_10To50_Nplus: 261.383686 
+dimu_hO7_4DYJetsToLL_M_10To50_Nplus_err: 70.066327 
+dimu_hO7_4DYJetsToLL_M_10To50_fplus: 0.656058 
+dimu_hO7_4DYJetsToLL_M_10To50_Nminus: 137.031553 
+dimu_hO7_4DYJetsToLL_M_10To50_Nminus_err: 46.560972 
+dimu_hO7_4DYJetsToLL_M_10To50_fminus: 0.343942 
+dimu_hO7_4DYJetsToLL_M_10To50_total: 398.415239 
+
+dimu_hO7_4DYJetsToLL_M_50_asym: -0.041103 
+dimu_hO7_4DYJetsToLL_M_50_asym_err: 0.035655 
+dimu_hO7_4DYJetsToLL_M_50_Nplus: 589.093621 
+dimu_hO7_4DYJetsToLL_M_50_Nplus_err: 30.266812 
+dimu_hO7_4DYJetsToLL_M_50_fplus: 0.479449 
+dimu_hO7_4DYJetsToLL_M_50_Nminus: 639.596066 
+dimu_hO7_4DYJetsToLL_M_50_Nminus_err: 31.739279 
+dimu_hO7_4DYJetsToLL_M_50_fminus: 0.520551 
+dimu_hO7_4DYJetsToLL_M_50_total: 1228.689688 
+
+dimu_hO7_4Data_asym: -0.006483 
+dimu_hO7_4Data_asym_err: 0.004226 
+dimu_hO7_4Data_Nplus: 27815.000000 
+dimu_hO7_4Data_Nplus_err: 166.778296 
+dimu_hO7_4Data_fplus: 0.496759 
+dimu_hO7_4Data_Nminus: 28178.000000 
+dimu_hO7_4Data_Nminus_err: 167.863039 
+dimu_hO7_4Data_fminus: 0.503241 
+dimu_hO7_4Data_total: 55993.000000 
+
+dimu_hO7_4ST_tW_antitop_asym: -0.008993 
+dimu_hO7_4ST_tW_antitop_asym_err: 0.014193 
+dimu_hO7_4ST_tW_antitop_Nplus: 443.339975 
+dimu_hO7_4ST_tW_antitop_Nplus_err: 8.943089 
+dimu_hO7_4ST_tW_antitop_fplus: 0.495503 
+dimu_hO7_4ST_tW_antitop_Nminus: 451.386261 
+dimu_hO7_4ST_tW_antitop_Nminus_err: 9.016169 
+dimu_hO7_4ST_tW_antitop_fminus: 0.504497 
+dimu_hO7_4ST_tW_antitop_total: 894.726236 
+
+dimu_hO7_4ST_tW_top_asym: -0.032046 
+dimu_hO7_4ST_tW_top_asym_err: 0.014152 
+dimu_hO7_4ST_tW_top_Nplus: 434.875768 
+dimu_hO7_4ST_tW_top_Nplus_err: 8.851146 
+dimu_hO7_4ST_tW_top_fplus: 0.483977 
+dimu_hO7_4ST_tW_top_Nminus: 463.670504 
+dimu_hO7_4ST_tW_top_Nminus_err: 9.139221 
+dimu_hO7_4ST_tW_top_fminus: 0.516023 
+dimu_hO7_4ST_tW_top_total: 898.546272 
+
+dimu_hO7_4TTJets_Signal_asym: -0.003146 
+dimu_hO7_4TTJets_Signal_asym_err: 0.002039 
+dimu_hO7_4TTJets_Signal_Nplus: 22836.847268 
+dimu_hO7_4TTJets_Signal_Nplus_err: 65.950158 
+dimu_hO7_4TTJets_Signal_fplus: 0.498427 
+dimu_hO7_4TTJets_Signal_Nminus: 22980.971405 
+dimu_hO7_4TTJets_Signal_Nminus_err: 66.159342 
+dimu_hO7_4TTJets_Signal_fminus: 0.501573 
+dimu_hO7_4TTJets_Signal_total: 45817.818673 
+
+dimu_hO7_4TTJets_others_asym: 0.001683 
+dimu_hO7_4TTJets_others_asym_err: 0.005026 
+dimu_hO7_4TTJets_others_Nplus: 3757.423468 
+dimu_hO7_4TTJets_others_Nplus_err: 26.683875 
+dimu_hO7_4TTJets_others_fplus: 0.500842 
+dimu_hO7_4TTJets_others_Nminus: 3744.794733 
+dimu_hO7_4TTJets_others_Nminus_err: 26.635846 
+dimu_hO7_4TTJets_others_fminus: 0.499158 
+dimu_hO7_4TTJets_others_total: 7502.218200 
+
+dimu_hO7_4TTbar_WJetToLNu_asym: 0.010315 
+dimu_hO7_4TTbar_WJetToLNu_asym_err: 0.011613 
+dimu_hO7_4TTbar_WJetToLNu_Nplus: 19.248102 
+dimu_hO7_4TTbar_WJetToLNu_Nplus_err: 0.314546 
+dimu_hO7_4TTbar_WJetToLNu_fplus: 0.505158 
+dimu_hO7_4TTbar_WJetToLNu_Nminus: 18.855063 
+dimu_hO7_4TTbar_WJetToLNu_Nminus_err: 0.311276 
+dimu_hO7_4TTbar_WJetToLNu_fminus: 0.494842 
+dimu_hO7_4TTbar_WJetToLNu_total: 38.103165 
+
+dimu_hO7_4TTbar_WQQ_asym: 0.047376 
+dimu_hO7_4TTbar_WQQ_asym_err: 0.044334 
+dimu_hO7_4TTbar_WQQ_Nplus: 16.357232 
+dimu_hO7_4TTbar_WQQ_Nplus_err: 0.992909 
+dimu_hO7_4TTbar_WQQ_fplus: 0.523688 
+dimu_hO7_4TTbar_WQQ_Nminus: 14.877447 
+dimu_hO7_4TTbar_WQQ_Nminus_err: 0.965641 
+dimu_hO7_4TTbar_WQQ_fminus: 0.476312 
+dimu_hO7_4TTbar_WQQ_total: 31.234679 
+
+dimu_hO7_4TTbar_ZQQ_asym: -0.003255 
+dimu_hO7_4TTbar_ZQQ_asym_err: 0.049885 
+dimu_hO7_4TTbar_ZQQ_Nplus: 22.248133 
+dimu_hO7_4TTbar_ZQQ_Nplus_err: 1.548474 
+dimu_hO7_4TTbar_ZQQ_fplus: 0.498373 
+dimu_hO7_4TTbar_ZQQ_Nminus: 22.393427 
+dimu_hO7_4TTbar_ZQQ_Nminus_err: 1.600772 
+dimu_hO7_4TTbar_ZQQ_fminus: 0.501627 
+dimu_hO7_4TTbar_ZQQ_total: 44.641560 
+
+dimu_hO7_4TTbar_ZToLLNuNu_asym: -0.010025 
+dimu_hO7_4TTbar_ZToLLNuNu_asym_err: 0.010055 
+dimu_hO7_4TTbar_ZToLLNuNu_Nplus: 14.826441 
+dimu_hO7_4TTbar_ZToLLNuNu_Nplus_err: 0.212732 
+dimu_hO7_4TTbar_ZToLLNuNu_fplus: 0.494987 
+dimu_hO7_4TTbar_ZToLLNuNu_Nminus: 15.126723 
+dimu_hO7_4TTbar_ZToLLNuNu_Nminus_err: 0.213170 
+dimu_hO7_4TTbar_ZToLLNuNu_fminus: 0.505013 
+dimu_hO7_4TTbar_ZToLLNuNu_total: 29.953164 
+
+dimu_hO7_4WW_asym: 0.172567 
+dimu_hO7_4WW_asym_err: 0.124851 
+dimu_hO7_4WW_Nplus: 18.977157 
+dimu_hO7_4WW_Nplus_err: 3.178636 
+dimu_hO7_4WW_fplus: 0.586283 
+dimu_hO7_4WW_Nminus: 13.391413 
+dimu_hO7_4WW_Nminus_err: 2.616721 
+dimu_hO7_4WW_fminus: 0.413717 
+dimu_hO7_4WW_total: 32.368570 
+
+dimu_hO7_4WZ_asym: 0.149423 
+dimu_hO7_4WZ_asym_err: 0.234860 
+dimu_hO7_4WZ_Nplus: 5.496694 
+dimu_hO7_4WZ_Nplus_err: 1.716999 
+dimu_hO7_4WZ_fplus: 0.574712 
+dimu_hO7_4WZ_Nminus: 4.067572 
+dimu_hO7_4WZ_Nminus_err: 1.484832 
+dimu_hO7_4WZ_fminus: 0.425288 
+dimu_hO7_4WZ_total: 9.564266 
+
+dimu_hO7_4ZZ_asym: 0.201935 
+dimu_hO7_4ZZ_asym_err: 0.135996 
+dimu_hO7_4ZZ_Nplus: 16.853655 
+dimu_hO7_4ZZ_Nplus_err: 3.067045 
+dimu_hO7_4ZZ_fplus: 0.600968 
+dimu_hO7_4ZZ_Nminus: 11.190541 
+dimu_hO7_4ZZ_Nminus_err: 2.433413 
+dimu_hO7_4ZZ_fminus: 0.399032 
+dimu_hO7_4ZZ_total: 28.044196 
+
+dimu_hO8_4DYJetsToLL_M_10To50_asym: 0.070217 
+dimu_hO8_4DYJetsToLL_M_10To50_asym_err: 0.210679 
+dimu_hO8_4DYJetsToLL_M_10To50_Nplus: 213.195475 
+dimu_hO8_4DYJetsToLL_M_10To50_Nplus_err: 61.445691 
+dimu_hO8_4DYJetsToLL_M_10To50_fplus: 0.535109 
+dimu_hO8_4DYJetsToLL_M_10To50_Nminus: 185.219764 
+dimu_hO8_4DYJetsToLL_M_10To50_Nminus_err: 57.459911 
+dimu_hO8_4DYJetsToLL_M_10To50_fminus: 0.464891 
+dimu_hO8_4DYJetsToLL_M_10To50_total: 398.415239 
+
+dimu_hO8_4DYJetsToLL_M_50_asym: 0.041118 
+dimu_hO8_4DYJetsToLL_M_50_asym_err: 0.035668 
+dimu_hO8_4DYJetsToLL_M_50_Nplus: 639.605244 
+dimu_hO8_4DYJetsToLL_M_50_Nplus_err: 31.604536 
+dimu_hO8_4DYJetsToLL_M_50_fplus: 0.520559 
+dimu_hO8_4DYJetsToLL_M_50_Nminus: 589.084444 
+dimu_hO8_4DYJetsToLL_M_50_Nminus_err: 30.407484 
+dimu_hO8_4DYJetsToLL_M_50_fminus: 0.479441 
+dimu_hO8_4DYJetsToLL_M_50_total: 1228.689688 
+
+dimu_hO8_4Data_asym: 0.007269 
+dimu_hO8_4Data_asym_err: 0.004226 
+dimu_hO8_4Data_Nplus: 28200.000000 
+dimu_hO8_4Data_Nplus_err: 167.928556 
+dimu_hO8_4Data_fplus: 0.503634 
+dimu_hO8_4Data_Nminus: 27793.000000 
+dimu_hO8_4Data_Nminus_err: 166.712327 
+dimu_hO8_4Data_fminus: 0.496366 
+dimu_hO8_4Data_total: 55993.000000 
+
+dimu_hO8_4ST_tW_antitop_asym: -0.001047 
+dimu_hO8_4ST_tW_antitop_asym_err: 0.014193 
+dimu_hO8_4ST_tW_antitop_Nplus: 446.894714 
+dimu_hO8_4ST_tW_antitop_Nplus_err: 8.982904 
+dimu_hO8_4ST_tW_antitop_fplus: 0.499476 
+dimu_hO8_4ST_tW_antitop_Nminus: 447.831521 
+dimu_hO8_4ST_tW_antitop_Nminus_err: 8.976501 
+dimu_hO8_4ST_tW_antitop_fminus: 0.500524 
+dimu_hO8_4ST_tW_antitop_total: 894.726236 
+
+dimu_hO8_4ST_tW_top_asym: -0.010103 
+dimu_hO8_4ST_tW_top_asym_err: 0.014158 
+dimu_hO8_4ST_tW_top_Nplus: 444.733992 
+dimu_hO8_4ST_tW_top_Nplus_err: 8.944400 
+dimu_hO8_4ST_tW_top_fplus: 0.494948 
+dimu_hO8_4ST_tW_top_Nminus: 453.812280 
+dimu_hO8_4ST_tW_top_Nminus_err: 9.047974 
+dimu_hO8_4ST_tW_top_fminus: 0.505052 
+dimu_hO8_4ST_tW_top_total: 898.546272 
+
+dimu_hO8_4TTJets_Signal_asym: -0.001402 
+dimu_hO8_4TTJets_Signal_asym_err: 0.002039 
+dimu_hO8_4TTJets_Signal_Nplus: 22876.801203 
+dimu_hO8_4TTJets_Signal_Nplus_err: 66.010656 
+dimu_hO8_4TTJets_Signal_fplus: 0.499299 
+dimu_hO8_4TTJets_Signal_Nminus: 22941.017469 
+dimu_hO8_4TTJets_Signal_Nminus_err: 66.098980 
+dimu_hO8_4TTJets_Signal_fminus: 0.500701 
+dimu_hO8_4TTJets_Signal_total: 45817.818673 
+
+dimu_hO8_4TTJets_others_asym: -0.001548 
+dimu_hO8_4TTJets_others_asym_err: 0.005026 
+dimu_hO8_4TTJets_others_Nplus: 3745.303890 
+dimu_hO8_4TTJets_others_Nplus_err: 26.648510 
+dimu_hO8_4TTJets_others_fplus: 0.499226 
+dimu_hO8_4TTJets_others_Nminus: 3756.914311 
+dimu_hO8_4TTJets_others_Nminus_err: 26.671227 
+dimu_hO8_4TTJets_others_fminus: 0.500774 
+dimu_hO8_4TTJets_others_total: 7502.218200 
+
+dimu_hO8_4TTbar_WJetToLNu_asym: -0.014688 
+dimu_hO8_4TTbar_WJetToLNu_asym_err: 0.011614 
+dimu_hO8_4TTbar_WJetToLNu_Nplus: 18.771755 
+dimu_hO8_4TTbar_WJetToLNu_Nplus_err: 0.311941 
+dimu_hO8_4TTbar_WJetToLNu_fplus: 0.492656 
+dimu_hO8_4TTbar_WJetToLNu_Nminus: 19.331410 
+dimu_hO8_4TTbar_WJetToLNu_Nminus_err: 0.313886 
+dimu_hO8_4TTbar_WJetToLNu_fminus: 0.507344 
+dimu_hO8_4TTbar_WJetToLNu_total: 38.103165 
+
+dimu_hO8_4TTbar_WQQ_asym: 0.054204 
+dimu_hO8_4TTbar_WQQ_asym_err: 0.044437 
+dimu_hO8_4TTbar_WQQ_Nplus: 16.463862 
+dimu_hO8_4TTbar_WQQ_Nplus_err: 0.973403 
+dimu_hO8_4TTbar_WQQ_fplus: 0.527102 
+dimu_hO8_4TTbar_WQQ_Nminus: 14.770816 
+dimu_hO8_4TTbar_WQQ_Nminus_err: 0.985300 
+dimu_hO8_4TTbar_WQQ_fminus: 0.472898 
+dimu_hO8_4TTbar_WQQ_total: 31.234679 
+
+dimu_hO8_4TTbar_ZQQ_asym: 0.027157 
+dimu_hO8_4TTbar_ZQQ_asym_err: 0.049949 
+dimu_hO8_4TTbar_ZQQ_Nplus: 22.926935 
+dimu_hO8_4TTbar_ZQQ_Nplus_err: 1.551028 
+dimu_hO8_4TTbar_ZQQ_fplus: 0.513578 
+dimu_hO8_4TTbar_ZQQ_Nminus: 21.714625 
+dimu_hO8_4TTbar_ZQQ_Nminus_err: 1.598298 
+dimu_hO8_4TTbar_ZQQ_fminus: 0.486422 
+dimu_hO8_4TTbar_ZQQ_total: 44.641560 
+
+dimu_hO8_4TTbar_ZToLLNuNu_asym: -0.004360 
+dimu_hO8_4TTbar_ZToLLNuNu_asym_err: 0.010055 
+dimu_hO8_4TTbar_ZToLLNuNu_Nplus: 14.911280 
+dimu_hO8_4TTbar_ZToLLNuNu_Nplus_err: 0.213474 
+dimu_hO8_4TTbar_ZToLLNuNu_fplus: 0.497820 
+dimu_hO8_4TTbar_ZToLLNuNu_Nminus: 15.041884 
+dimu_hO8_4TTbar_ZToLLNuNu_Nminus_err: 0.212427 
+dimu_hO8_4TTbar_ZToLLNuNu_fminus: 0.502180 
+dimu_hO8_4TTbar_ZToLLNuNu_total: 29.953164 
+
+dimu_hO8_4WW_asym: -0.166103 
+dimu_hO8_4WW_asym_err: 0.125550 
+dimu_hO8_4WW_Nplus: 13.496033 
+dimu_hO8_4WW_Nplus_err: 2.667464 
+dimu_hO8_4WW_fplus: 0.416949 
+dimu_hO8_4WW_Nminus: 18.872537 
+dimu_hO8_4WW_Nminus_err: 3.136175 
+dimu_hO8_4WW_fminus: 0.583051 
+dimu_hO8_4WW_total: 32.368570 
+
+dimu_hO8_4WZ_asym: 0.008596 
+dimu_hO8_4WZ_asym_err: 0.237336 
+dimu_hO8_4WZ_Nplus: 4.823239 
+dimu_hO8_4WZ_Nplus_err: 1.610172 
+dimu_hO8_4WZ_fplus: 0.504298 
+dimu_hO8_4WZ_Nminus: 4.741027 
+dimu_hO8_4WZ_Nminus_err: 1.600049 
+dimu_hO8_4WZ_fminus: 0.495702 
+dimu_hO8_4WZ_total: 9.564266 
+
+dimu_hO8_4ZZ_asym: 0.040074 
+dimu_hO8_4ZZ_asym_err: 0.139514 
+dimu_hO8_4ZZ_Nplus: 14.584015 
+dimu_hO8_4ZZ_Nplus_err: 2.818444 
+dimu_hO8_4ZZ_fplus: 0.520037 
+dimu_hO8_4ZZ_Nminus: 13.460181 
+dimu_hO8_4ZZ_Nminus_err: 2.717469 
+dimu_hO8_4ZZ_fminus: 0.479963 
+dimu_hO8_4ZZ_total: 28.044196 
+
+dimu_hO9_4DYJetsToLL_M_10To50_asym: -0.262695 
+dimu_hO9_4DYJetsToLL_M_10To50_asym_err: 0.203151 
+dimu_hO9_4DYJetsToLL_M_10To50_Nplus: 146.876728 
+dimu_hO9_4DYJetsToLL_M_10To50_Nplus_err: 50.725156 
+dimu_hO9_4DYJetsToLL_M_10To50_fplus: 0.368652 
+dimu_hO9_4DYJetsToLL_M_10To50_Nminus: 251.538510 
+dimu_hO9_4DYJetsToLL_M_10To50_Nminus_err: 67.113134 
+dimu_hO9_4DYJetsToLL_M_10To50_fminus: 0.631348 
+dimu_hO9_4DYJetsToLL_M_10To50_total: 398.415239 
+
+dimu_hO9_4DYJetsToLL_M_50_asym: -0.005094 
+dimu_hO9_4DYJetsToLL_M_50_asym_err: 0.035695 
+dimu_hO9_4DYJetsToLL_M_50_Nplus: 611.215184 
+dimu_hO9_4DYJetsToLL_M_50_Nplus_err: 31.058811 
+dimu_hO9_4DYJetsToLL_M_50_fplus: 0.497453 
+dimu_hO9_4DYJetsToLL_M_50_Nminus: 617.474503 
+dimu_hO9_4DYJetsToLL_M_50_Nminus_err: 30.964690 
+dimu_hO9_4DYJetsToLL_M_50_fminus: 0.502547 
+dimu_hO9_4DYJetsToLL_M_50_total: 1228.689688 
+
+dimu_hO9_4Data_asym: -0.002054 
+dimu_hO9_4Data_asym_err: 0.004226 
+dimu_hO9_4Data_Nplus: 27939.000000 
+dimu_hO9_4Data_Nplus_err: 167.149634 
+dimu_hO9_4Data_fplus: 0.498973 
+dimu_hO9_4Data_Nminus: 28054.000000 
+dimu_hO9_4Data_Nminus_err: 167.493283 
+dimu_hO9_4Data_fminus: 0.501027 
+dimu_hO9_4Data_total: 55993.000000 
+
+dimu_hO9_4ST_tW_antitop_asym: 0.020240 
+dimu_hO9_4ST_tW_antitop_asym_err: 0.014190 
+dimu_hO9_4ST_tW_antitop_Nplus: 456.417900 
+dimu_hO9_4ST_tW_antitop_Nplus_err: 9.071479 
+dimu_hO9_4ST_tW_antitop_fplus: 0.510120 
+dimu_hO9_4ST_tW_antitop_Nminus: 438.308336 
+dimu_hO9_4ST_tW_antitop_Nminus_err: 8.886979 
+dimu_hO9_4ST_tW_antitop_fminus: 0.489880 
+dimu_hO9_4ST_tW_antitop_total: 894.726236 
+
+dimu_hO9_4ST_tW_top_asym: -0.022803 
+dimu_hO9_4ST_tW_top_asym_err: 0.014155 
+dimu_hO9_4ST_tW_top_Nplus: 439.028232 
+dimu_hO9_4ST_tW_top_Nplus_err: 8.886843 
+dimu_hO9_4ST_tW_top_fplus: 0.488598 
+dimu_hO9_4ST_tW_top_Nminus: 459.518041 
+dimu_hO9_4ST_tW_top_Nminus_err: 9.104513 
+dimu_hO9_4ST_tW_top_fminus: 0.511402 
+dimu_hO9_4ST_tW_top_total: 898.546272 
+
+dimu_hO9_4TTJets_Signal_asym: -0.003384 
+dimu_hO9_4TTJets_Signal_asym_err: 0.002039 
+dimu_hO9_4TTJets_Signal_Nplus: 22831.394404 
+dimu_hO9_4TTJets_Signal_Nplus_err: 65.928911 
+dimu_hO9_4TTJets_Signal_fplus: 0.498308 
+dimu_hO9_4TTJets_Signal_Nminus: 22986.424269 
+dimu_hO9_4TTJets_Signal_Nminus_err: 66.180515 
+dimu_hO9_4TTJets_Signal_fminus: 0.501692 
+dimu_hO9_4TTJets_Signal_total: 45817.818673 
+
+dimu_hO9_4TTJets_others_asym: -0.001429 
+dimu_hO9_4TTJets_others_asym_err: 0.005026 
+dimu_hO9_4TTJets_others_Nplus: 3745.749449 
+dimu_hO9_4TTJets_others_Nplus_err: 26.651733 
+dimu_hO9_4TTJets_others_fplus: 0.499286 
+dimu_hO9_4TTJets_others_Nminus: 3756.468752 
+dimu_hO9_4TTJets_others_Nminus_err: 26.668007 
+dimu_hO9_4TTJets_others_fminus: 0.500714 
+dimu_hO9_4TTJets_others_total: 7502.218200 
+
+dimu_hO9_4TTbar_WJetToLNu_asym: 0.003655 
+dimu_hO9_4TTbar_WJetToLNu_asym_err: 0.011614 
+dimu_hO9_4TTbar_WJetToLNu_Nplus: 19.121215 
+dimu_hO9_4TTbar_WJetToLNu_Nplus_err: 0.313924 
+dimu_hO9_4TTbar_WJetToLNu_fplus: 0.501827 
+dimu_hO9_4TTbar_WJetToLNu_Nminus: 18.981950 
+dimu_hO9_4TTbar_WJetToLNu_Nminus_err: 0.311904 
+dimu_hO9_4TTbar_WJetToLNu_fminus: 0.498173 
+dimu_hO9_4TTbar_WJetToLNu_total: 38.103165 
+
+dimu_hO9_4TTbar_WQQ_asym: 0.039265 
+dimu_hO9_4TTbar_WQQ_asym_err: 0.044391 
+dimu_hO9_4TTbar_WQQ_Nplus: 16.230557 
+dimu_hO9_4TTbar_WQQ_Nplus_err: 0.975541 
+dimu_hO9_4TTbar_WQQ_fplus: 0.519633 
+dimu_hO9_4TTbar_WQQ_Nminus: 15.004122 
+dimu_hO9_4TTbar_WQQ_Nminus_err: 0.983183 
+dimu_hO9_4TTbar_WQQ_fminus: 0.480367 
+dimu_hO9_4TTbar_WQQ_total: 31.234679 
+
+dimu_hO9_4TTbar_ZQQ_asym: 0.033176 
+dimu_hO9_4TTbar_ZQQ_asym_err: 0.049904 
+dimu_hO9_4TTbar_ZQQ_Nplus: 23.061286 
+dimu_hO9_4TTbar_ZQQ_Nplus_err: 1.580960 
+dimu_hO9_4TTbar_ZQQ_fplus: 0.516588 
+dimu_hO9_4TTbar_ZQQ_Nminus: 21.580274 
+dimu_hO9_4TTbar_ZQQ_Nminus_err: 1.568696 
+dimu_hO9_4TTbar_ZQQ_fminus: 0.483412 
+dimu_hO9_4TTbar_ZQQ_total: 44.641560 
+
+dimu_hO9_4TTbar_ZToLLNuNu_asym: -0.012569 
+dimu_hO9_4TTbar_ZToLLNuNu_asym_err: 0.010054 
+dimu_hO9_4TTbar_ZToLLNuNu_Nplus: 14.788341 
+dimu_hO9_4TTbar_ZToLLNuNu_Nplus_err: 0.212377 
+dimu_hO9_4TTbar_ZToLLNuNu_fplus: 0.493715 
+dimu_hO9_4TTbar_ZToLLNuNu_Nminus: 15.164824 
+dimu_hO9_4TTbar_ZToLLNuNu_Nminus_err: 0.213525 
+dimu_hO9_4TTbar_ZToLLNuNu_fminus: 0.506285 
+dimu_hO9_4TTbar_ZToLLNuNu_total: 29.953164 
+
+dimu_hO9_4WW_asym: 0.165677 
+dimu_hO9_4WW_asym_err: 0.125313 
+dimu_hO9_4WW_Nplus: 18.865645 
+dimu_hO9_4WW_Nplus_err: 3.151110 
+dimu_hO9_4WW_fplus: 0.582838 
+dimu_hO9_4WW_Nminus: 13.502926 
+dimu_hO9_4WW_Nminus_err: 2.649804 
+dimu_hO9_4WW_fminus: 0.417162 
+dimu_hO9_4WW_total: 32.368570 
+
+dimu_hO9_4WZ_asym: 0.234238 
+dimu_hO9_4WZ_asym_err: 0.232922 
+dimu_hO9_4WZ_Nplus: 5.902290 
+dimu_hO9_4WZ_Nplus_err: 1.755268 
+dimu_hO9_4WZ_fplus: 0.617119 
+dimu_hO9_4WZ_Nminus: 3.661976 
+dimu_hO9_4WZ_Nminus_err: 1.439392 
+dimu_hO9_4WZ_fminus: 0.382881 
+dimu_hO9_4WZ_total: 9.564266 
+
+dimu_hO9_4ZZ_asym: 0.110465 
+dimu_hO9_4ZZ_asym_err: 0.138947 
+dimu_hO9_4ZZ_Nplus: 15.571048 
+dimu_hO9_4ZZ_Nplus_err: 2.900729 
+dimu_hO9_4ZZ_fplus: 0.555232 
+dimu_hO9_4ZZ_Nminus: 12.473148 
+dimu_hO9_4ZZ_Nminus_err: 2.629456 
+dimu_hO9_4ZZ_fminus: 0.444768 
+dimu_hO9_4ZZ_total: 28.044196 
+
+dimu_hO10_4DYJetsToLL_M_10To50_asym: 0.193482 
+dimu_hO10_4DYJetsToLL_M_10To50_asym_err: 0.207889 
+dimu_hO10_4DYJetsToLL_M_10To50_Nplus: 237.750665 
+dimu_hO10_4DYJetsToLL_M_10To50_Nplus_err: 64.509069 
+dimu_hO10_4DYJetsToLL_M_10To50_fplus: 0.596741 
+dimu_hO10_4DYJetsToLL_M_10To50_Nminus: 160.664573 
+dimu_hO10_4DYJetsToLL_M_10To50_Nminus_err: 53.998095 
+dimu_hO10_4DYJetsToLL_M_10To50_fminus: 0.403259 
+dimu_hO10_4DYJetsToLL_M_10To50_total: 398.415239 
+
+dimu_hO10_4DYJetsToLL_M_50_asym: 0.030820 
+dimu_hO10_4DYJetsToLL_M_50_asym_err: 0.035679 
+dimu_hO10_4DYJetsToLL_M_50_Nplus: 633.279150 
+dimu_hO10_4DYJetsToLL_M_50_Nplus_err: 31.468387 
+dimu_hO10_4DYJetsToLL_M_50_fplus: 0.515410 
+dimu_hO10_4DYJetsToLL_M_50_Nminus: 595.410538 
+dimu_hO10_4DYJetsToLL_M_50_Nminus_err: 30.548362 
+dimu_hO10_4DYJetsToLL_M_50_fminus: 0.484590 
+dimu_hO10_4DYJetsToLL_M_50_total: 1228.689688 
+
+dimu_hO10_4Data_asym: -0.001840 
+dimu_hO10_4Data_asym_err: 0.004226 
+dimu_hO10_4Data_Nplus: 27945.000000 
+dimu_hO10_4Data_Nplus_err: 167.167581 
+dimu_hO10_4Data_fplus: 0.499080 
+dimu_hO10_4Data_Nminus: 28048.000000 
+dimu_hO10_4Data_Nminus_err: 167.475371 
+dimu_hO10_4Data_fminus: 0.500920 
+dimu_hO10_4Data_total: 55993.000000 
+
+dimu_hO10_4ST_tW_antitop_asym: -0.016733 
+dimu_hO10_4ST_tW_antitop_asym_err: 0.014191 
+dimu_hO10_4ST_tW_antitop_Nplus: 439.877310 
+dimu_hO10_4ST_tW_antitop_Nplus_err: 8.903646 
+dimu_hO10_4ST_tW_antitop_fplus: 0.491633 
+dimu_hO10_4ST_tW_antitop_Nminus: 454.848926 
+dimu_hO10_4ST_tW_antitop_Nminus_err: 9.055121 
+dimu_hO10_4ST_tW_antitop_fminus: 0.508367 
+dimu_hO10_4ST_tW_antitop_total: 894.726236 
+
+dimu_hO10_4ST_tW_top_asym: -0.028528 
+dimu_hO10_4ST_tW_top_asym_err: 0.014153 
+dimu_hO10_4ST_tW_top_Nplus: 436.456130 
+dimu_hO10_4ST_tW_top_Nplus_err: 8.862540 
+dimu_hO10_4ST_tW_top_fplus: 0.485736 
+dimu_hO10_4ST_tW_top_Nminus: 462.090143 
+dimu_hO10_4ST_tW_top_Nminus_err: 9.128172 
+dimu_hO10_4ST_tW_top_fminus: 0.514264 
+dimu_hO10_4ST_tW_top_total: 898.546272 
+
+dimu_hO10_4TTJets_Signal_asym: 0.004458 
+dimu_hO10_4TTJets_Signal_asym_err: 0.002039 
+dimu_hO10_4TTJets_Signal_Nplus: 23011.030383 
+dimu_hO10_4TTJets_Signal_Nplus_err: 66.214390 
+dimu_hO10_4TTJets_Signal_fplus: 0.502229 
+dimu_hO10_4TTJets_Signal_Nminus: 22806.788290 
+dimu_hO10_4TTJets_Signal_Nminus_err: 65.894889 
+dimu_hO10_4TTJets_Signal_fminus: 0.497771 
+dimu_hO10_4TTJets_Signal_total: 45817.818673 
+
+dimu_hO10_4TTJets_others_asym: 0.001742 
+dimu_hO10_4TTJets_others_asym_err: 0.005026 
+dimu_hO10_4TTJets_others_Nplus: 3757.642410 
+dimu_hO10_4TTJets_others_Nplus_err: 26.682690 
+dimu_hO10_4TTJets_others_fplus: 0.500871 
+dimu_hO10_4TTJets_others_Nminus: 3744.575790 
+dimu_hO10_4TTJets_others_Nminus_err: 26.637033 
+dimu_hO10_4TTJets_others_fminus: 0.499129 
+dimu_hO10_4TTJets_others_total: 7502.218200 
+
+dimu_hO10_4TTbar_WJetToLNu_asym: -0.004128 
+dimu_hO10_4TTbar_WJetToLNu_asym_err: 0.011614 
+dimu_hO10_4TTbar_WJetToLNu_Nplus: 18.972931 
+dimu_hO10_4TTbar_WJetToLNu_Nplus_err: 0.312280 
+dimu_hO10_4TTbar_WJetToLNu_fplus: 0.497936 
+dimu_hO10_4TTbar_WJetToLNu_Nminus: 19.130233 
+dimu_hO10_4TTbar_WJetToLNu_Nminus_err: 0.313549 
+dimu_hO10_4TTbar_WJetToLNu_fminus: 0.502064 
+dimu_hO10_4TTbar_WJetToLNu_total: 38.103165 
+
+dimu_hO10_4TTbar_WQQ_asym: 0.037059 
+dimu_hO10_4TTbar_WQQ_asym_err: 0.044364 
+dimu_hO10_4TTbar_WQQ_Nplus: 16.196108 
+dimu_hO10_4TTbar_WQQ_Nplus_err: 0.982107 
+dimu_hO10_4TTbar_WQQ_fplus: 0.518530 
+dimu_hO10_4TTbar_WQQ_Nminus: 15.038570 
+dimu_hO10_4TTbar_WQQ_Nminus_err: 0.976625 
+dimu_hO10_4TTbar_WQQ_fminus: 0.481470 
+dimu_hO10_4TTbar_WQQ_total: 31.234679 
+
+dimu_hO10_4TTbar_ZQQ_asym: 0.053571 
+dimu_hO10_4TTbar_ZQQ_asym_err: 0.049997 
+dimu_hO10_4TTbar_ZQQ_Nplus: 23.516520 
+dimu_hO10_4TTbar_ZQQ_Nplus_err: 1.564258 
+dimu_hO10_4TTbar_ZQQ_fplus: 0.526785 
+dimu_hO10_4TTbar_ZQQ_Nminus: 21.125040 
+dimu_hO10_4TTbar_ZQQ_Nminus_err: 1.585352 
+dimu_hO10_4TTbar_ZQQ_fminus: 0.473215 
+dimu_hO10_4TTbar_ZQQ_total: 44.641560 
+
+dimu_hO10_4TTbar_ZToLLNuNu_asym: 0.015901 
+dimu_hO10_4TTbar_ZToLLNuNu_asym_err: 0.010055 
+dimu_hO10_4TTbar_ZToLLNuNu_Nplus: 15.214720 
+dimu_hO10_4TTbar_ZToLLNuNu_Nplus_err: 0.213613 
+dimu_hO10_4TTbar_ZToLLNuNu_fplus: 0.507950 
+dimu_hO10_4TTbar_ZToLLNuNu_Nminus: 14.738444 
+dimu_hO10_4TTbar_ZToLLNuNu_Nminus_err: 0.212288 
+dimu_hO10_4TTbar_ZToLLNuNu_fminus: 0.492050 
+dimu_hO10_4TTbar_ZToLLNuNu_total: 29.953164 
+
+dimu_hO10_4WW_asym: -0.300563 
+dimu_hO10_4WW_asym_err: 0.120636 
+dimu_hO10_4WW_Nplus: 11.319888 
+dimu_hO10_4WW_Nplus_err: 2.405170 
+dimu_hO10_4WW_fplus: 0.349719 
+dimu_hO10_4WW_Nminus: 21.048682 
+dimu_hO10_4WW_Nminus_err: 3.341574 
+dimu_hO10_4WW_fminus: 0.650281 
+dimu_hO10_4WW_total: 32.368570 
+
+dimu_hO10_4WZ_asym: -0.235709 
+dimu_hO10_4WZ_asym_err: 0.233021 
+dimu_hO10_4WZ_Nplus: 3.654939 
+dimu_hO10_4WZ_Nplus_err: 1.440728 
+dimu_hO10_4WZ_fplus: 0.382145 
+dimu_hO10_4WZ_Nminus: 5.909327 
+dimu_hO10_4WZ_Nminus_err: 1.754171 
+dimu_hO10_4WZ_fminus: 0.617855 
+dimu_hO10_4WZ_total: 9.564266 
+
+dimu_hO10_4ZZ_asym: 0.023787 
+dimu_hO10_4ZZ_asym_err: 0.139698 
+dimu_hO10_4ZZ_Nplus: 14.355648 
+dimu_hO10_4ZZ_Nplus_err: 2.746251 
+dimu_hO10_4ZZ_fplus: 0.511894 
+dimu_hO10_4ZZ_Nminus: 13.688548 
+dimu_hO10_4ZZ_Nminus_err: 2.790407 
+dimu_hO10_4ZZ_fminus: 0.488106 
+dimu_hO10_4ZZ_total: 28.044196 
+
+dimu_hO11_4DYJetsToLL_M_10To50_asym: 0.271128 
+dimu_hO11_4DYJetsToLL_M_10To50_asym_err: 0.200490 
+dimu_hO11_4DYJetsToLL_M_10To50_Nplus: 253.218398 
+dimu_hO11_4DYJetsToLL_M_10To50_Nplus_err: 68.269330 
+dimu_hO11_4DYJetsToLL_M_10To50_fplus: 0.635564 
+dimu_hO11_4DYJetsToLL_M_10To50_Nminus: 145.196840 
+dimu_hO11_4DYJetsToLL_M_10To50_Nminus_err: 49.158040 
+dimu_hO11_4DYJetsToLL_M_10To50_fminus: 0.364436 
+dimu_hO11_4DYJetsToLL_M_10To50_total: 398.415239 
+
+dimu_hO11_4DYJetsToLL_M_50_asym: -0.023941 
+dimu_hO11_4DYJetsToLL_M_50_asym_err: 0.035680 
+dimu_hO11_4DYJetsToLL_M_50_Nplus: 599.636821 
+dimu_hO11_4DYJetsToLL_M_50_Nplus_err: 30.570528 
+dimu_hO11_4DYJetsToLL_M_50_fplus: 0.488030 
+dimu_hO11_4DYJetsToLL_M_50_Nminus: 629.052866 
+dimu_hO11_4DYJetsToLL_M_50_Nminus_err: 31.446854 
+dimu_hO11_4DYJetsToLL_M_50_fminus: 0.511970 
+dimu_hO11_4DYJetsToLL_M_50_total: 1228.689688 
+
+dimu_hO11_4Data_asym: -0.006090 
+dimu_hO11_4Data_asym_err: 0.004226 
+dimu_hO11_4Data_Nplus: 27826.000000 
+dimu_hO11_4Data_Nplus_err: 166.811271 
+dimu_hO11_4Data_fplus: 0.496955 
+dimu_hO11_4Data_Nminus: 28167.000000 
+dimu_hO11_4Data_Nminus_err: 167.830271 
+dimu_hO11_4Data_fminus: 0.503045 
+dimu_hO11_4Data_total: 55993.000000 
+
+dimu_hO11_4ST_tW_antitop_asym: 0.003530 
+dimu_hO11_4ST_tW_antitop_asym_err: 0.014193 
+dimu_hO11_4ST_tW_antitop_Nplus: 448.942172 
+dimu_hO11_4ST_tW_antitop_Nplus_err: 8.986632 
+dimu_hO11_4ST_tW_antitop_fplus: 0.501765 
+dimu_hO11_4ST_tW_antitop_Nminus: 445.784064 
+dimu_hO11_4ST_tW_antitop_Nminus_err: 8.972769 
+dimu_hO11_4ST_tW_antitop_fminus: 0.498235 
+dimu_hO11_4ST_tW_antitop_total: 894.726236 
+
+dimu_hO11_4ST_tW_top_asym: 0.002240 
+dimu_hO11_4ST_tW_top_asym_err: 0.014159 
+dimu_hO11_4ST_tW_top_Nplus: 450.279606 
+dimu_hO11_4ST_tW_top_Nplus_err: 9.017685 
+dimu_hO11_4ST_tW_top_fplus: 0.501120 
+dimu_hO11_4ST_tW_top_Nminus: 448.266666 
+dimu_hO11_4ST_tW_top_Nminus_err: 8.974937 
+dimu_hO11_4ST_tW_top_fminus: 0.498880 
+dimu_hO11_4ST_tW_top_total: 898.546272 
+
+dimu_hO11_4TTJets_Signal_asym: 0.000890 
+dimu_hO11_4TTJets_Signal_asym_err: 0.002039 
+dimu_hO11_4TTJets_Signal_Nplus: 22929.292529 
+dimu_hO11_4TTJets_Signal_Nplus_err: 66.083381 
+dimu_hO11_4TTJets_Signal_fplus: 0.500445 
+dimu_hO11_4TTJets_Signal_Nminus: 22888.526144 
+dimu_hO11_4TTJets_Signal_Nminus_err: 66.026273 
+dimu_hO11_4TTJets_Signal_fminus: 0.499555 
+dimu_hO11_4TTJets_Signal_total: 45817.818673 
+
+dimu_hO11_4TTJets_others_asym: -0.001551 
+dimu_hO11_4TTJets_others_asym_err: 0.005026 
+dimu_hO11_4TTJets_others_Nplus: 3745.289600 
+dimu_hO11_4TTJets_others_Nplus_err: 26.627977 
+dimu_hO11_4TTJets_others_fplus: 0.499224 
+dimu_hO11_4TTJets_others_Nminus: 3756.928601 
+dimu_hO11_4TTJets_others_Nminus_err: 26.691727 
+dimu_hO11_4TTJets_others_fminus: 0.500776 
+dimu_hO11_4TTJets_others_total: 7502.218200 
+
+dimu_hO11_4TTbar_WJetToLNu_asym: 0.008766 
+dimu_hO11_4TTbar_WJetToLNu_asym_err: 0.011614 
+dimu_hO11_4TTbar_WJetToLNu_Nplus: 19.218585 
+dimu_hO11_4TTbar_WJetToLNu_Nplus_err: 0.313527 
+dimu_hO11_4TTbar_WJetToLNu_fplus: 0.504383 
+dimu_hO11_4TTbar_WJetToLNu_Nminus: 18.884580 
+dimu_hO11_4TTbar_WJetToLNu_Nminus_err: 0.312302 
+dimu_hO11_4TTbar_WJetToLNu_fminus: 0.495617 
+dimu_hO11_4TTbar_WJetToLNu_total: 38.103165 
+
+dimu_hO11_4TTbar_WQQ_asym: -0.003897 
+dimu_hO11_4TTbar_WQQ_asym_err: 0.044344 
+dimu_hO11_4TTbar_WQQ_Nplus: 15.556483 
+dimu_hO11_4TTbar_WQQ_Nplus_err: 0.979996 
+dimu_hO11_4TTbar_WQQ_fplus: 0.498052 
+dimu_hO11_4TTbar_WQQ_Nminus: 15.678196 
+dimu_hO11_4TTbar_WQQ_Nminus_err: 0.978743 
+dimu_hO11_4TTbar_WQQ_fminus: 0.501948 
+dimu_hO11_4TTbar_WQQ_total: 31.234679 
+
+dimu_hO11_4TTbar_ZQQ_asym: 0.047542 
+dimu_hO11_4TTbar_ZQQ_asym_err: 0.049909 
+dimu_hO11_4TTbar_ZQQ_Nplus: 23.381946 
+dimu_hO11_4TTbar_ZQQ_Nplus_err: 1.587215 
+dimu_hO11_4TTbar_ZQQ_fplus: 0.523771 
+dimu_hO11_4TTbar_ZQQ_Nminus: 21.259614 
+dimu_hO11_4TTbar_ZQQ_Nminus_err: 1.562367 
+dimu_hO11_4TTbar_ZQQ_fminus: 0.476229 
+dimu_hO11_4TTbar_ZQQ_total: 44.641560 
+
+dimu_hO11_4TTbar_ZToLLNuNu_asym: -0.008593 
+dimu_hO11_4TTbar_ZToLLNuNu_asym_err: 0.010054 
+dimu_hO11_4TTbar_ZToLLNuNu_Nplus: 14.847887 
+dimu_hO11_4TTbar_ZToLLNuNu_Nplus_err: 0.212455 
+dimu_hO11_4TTbar_ZToLLNuNu_fplus: 0.495703 
+dimu_hO11_4TTbar_ZToLLNuNu_Nminus: 15.105277 
+dimu_hO11_4TTbar_ZToLLNuNu_Nminus_err: 0.213447 
+dimu_hO11_4TTbar_ZToLLNuNu_fminus: 0.504297 
+dimu_hO11_4TTbar_ZToLLNuNu_total: 29.953164 
+
+dimu_hO11_4WW_asym: 0.026110 
+dimu_hO11_4WW_asym_err: 0.127119 
+dimu_hO11_4WW_Nplus: 16.606860 
+dimu_hO11_4WW_Nplus_err: 2.963519 
+dimu_hO11_4WW_fplus: 0.513055 
+dimu_hO11_4WW_Nminus: 15.761710 
+dimu_hO11_4WW_Nminus_err: 2.858061 
+dimu_hO11_4WW_fminus: 0.486945 
+dimu_hO11_4WW_total: 32.368570 
+
+dimu_hO11_4WZ_asym: 0.275208 
+dimu_hO11_4WZ_asym_err: 0.231977 
+dimu_hO11_4WZ_Nplus: 6.098215 
+dimu_hO11_4WZ_Nplus_err: 1.772022 
+dimu_hO11_4WZ_fplus: 0.637604 
+dimu_hO11_4WZ_Nminus: 3.466051 
+dimu_hO11_4WZ_Nminus_err: 1.418715 
+dimu_hO11_4WZ_fminus: 0.362396 
+dimu_hO11_4WZ_total: 9.564266 
+
+dimu_hO11_4ZZ_asym: 0.061321 
+dimu_hO11_4ZZ_asym_err: 0.139192 
+dimu_hO11_4ZZ_Nplus: 14.881951 
+dimu_hO11_4ZZ_Nplus_err: 2.875591 
+dimu_hO11_4ZZ_fplus: 0.530661 
+dimu_hO11_4ZZ_Nminus: 13.162245 
+dimu_hO11_4ZZ_Nminus_err: 2.656923 
+dimu_hO11_4ZZ_fminus: 0.469339 
+dimu_hO11_4ZZ_total: 28.044196 
+
+dimu_hO12_4DYJetsToLL_M_10To50_asym: -0.079976 
+dimu_hO12_4DYJetsToLL_M_10To50_asym_err: 0.209619 
+dimu_hO12_4DYJetsToLL_M_10To50_Nplus: 183.275883 
+dimu_hO12_4DYJetsToLL_M_10To50_Nplus_err: 55.471234 
+dimu_hO12_4DYJetsToLL_M_10To50_fplus: 0.460012 
+dimu_hO12_4DYJetsToLL_M_10To50_Nminus: 215.139356 
+dimu_hO12_4DYJetsToLL_M_10To50_Nminus_err: 63.246790 
+dimu_hO12_4DYJetsToLL_M_10To50_fminus: 0.539988 
+dimu_hO12_4DYJetsToLL_M_10To50_total: 398.415239 
+
+dimu_hO12_4DYJetsToLL_M_50_asym: -0.039311 
+dimu_hO12_4DYJetsToLL_M_50_asym_err: 0.035670 
+dimu_hO12_4DYJetsToLL_M_50_Nplus: 590.194581 
+dimu_hO12_4DYJetsToLL_M_50_Nplus_err: 30.433290 
+dimu_hO12_4DYJetsToLL_M_50_fplus: 0.480345 
+dimu_hO12_4DYJetsToLL_M_50_Nminus: 638.495107 
+dimu_hO12_4DYJetsToLL_M_50_Nminus_err: 31.579687 
+dimu_hO12_4DYJetsToLL_M_50_fminus: 0.519655 
+dimu_hO12_4DYJetsToLL_M_50_total: 1228.689688 
+
+dimu_hO12_4Data_asym: -0.001768 
+dimu_hO12_4Data_asym_err: 0.004226 
+dimu_hO12_4Data_Nplus: 27947.000000 
+dimu_hO12_4Data_Nplus_err: 167.173563 
+dimu_hO12_4Data_fplus: 0.499116 
+dimu_hO12_4Data_Nminus: 28046.000000 
+dimu_hO12_4Data_Nminus_err: 167.469400 
+dimu_hO12_4Data_fminus: 0.500884 
+dimu_hO12_4Data_total: 55993.000000 
+
+dimu_hO12_4ST_tW_antitop_asym: 0.013334 
+dimu_hO12_4ST_tW_antitop_asym_err: 0.014192 
+dimu_hO12_4ST_tW_antitop_Nplus: 453.328060 
+dimu_hO12_4ST_tW_antitop_Nplus_err: 9.048581 
+dimu_hO12_4ST_tW_antitop_fplus: 0.506667 
+dimu_hO12_4ST_tW_antitop_Nminus: 441.398176 
+dimu_hO12_4ST_tW_antitop_Nminus_err: 8.910293 
+dimu_hO12_4ST_tW_antitop_fminus: 0.493333 
+dimu_hO12_4ST_tW_antitop_total: 894.726236 
+
+dimu_hO12_4ST_tW_top_asym: 0.009412 
+dimu_hO12_4ST_tW_top_asym_err: 0.014158 
+dimu_hO12_4ST_tW_top_Nplus: 453.501506 
+dimu_hO12_4ST_tW_top_Nplus_err: 9.044439 
+dimu_hO12_4ST_tW_top_fplus: 0.504706 
+dimu_hO12_4ST_tW_top_Nminus: 445.044766 
+dimu_hO12_4ST_tW_top_Nminus_err: 8.947975 
+dimu_hO12_4ST_tW_top_fminus: 0.495294 
+dimu_hO12_4ST_tW_top_total: 898.546272 
+
+dimu_hO12_4TTJets_Signal_asym: -0.001548 
+dimu_hO12_4TTJets_Signal_asym_err: 0.002039 
+dimu_hO12_4TTJets_Signal_Nplus: 22873.452778 
+dimu_hO12_4TTJets_Signal_Nplus_err: 65.989397 
+dimu_hO12_4TTJets_Signal_fplus: 0.499226 
+dimu_hO12_4TTJets_Signal_Nminus: 22944.365895 
+dimu_hO12_4TTJets_Signal_Nminus_err: 66.120204 
+dimu_hO12_4TTJets_Signal_fminus: 0.500774 
+dimu_hO12_4TTJets_Signal_total: 45817.818673 
+
+dimu_hO12_4TTJets_others_asym: -0.004660 
+dimu_hO12_4TTJets_others_asym_err: 0.005026 
+dimu_hO12_4TTJets_others_Nplus: 3733.630571 
+dimu_hO12_4TTJets_others_Nplus_err: 26.609730 
+dimu_hO12_4TTJets_others_fplus: 0.497670 
+dimu_hO12_4TTJets_others_Nminus: 3768.587629 
+dimu_hO12_4TTJets_others_Nminus_err: 26.709918 
+dimu_hO12_4TTJets_others_fminus: 0.502330 
+dimu_hO12_4TTJets_others_total: 7502.218200 
+
+dimu_hO12_4TTbar_WJetToLNu_asym: 0.000665 
+dimu_hO12_4TTbar_WJetToLNu_asym_err: 0.011614 
+dimu_hO12_4TTbar_WJetToLNu_Nplus: 19.064260 
+dimu_hO12_4TTbar_WJetToLNu_Nplus_err: 0.312856 
+dimu_hO12_4TTbar_WJetToLNu_fplus: 0.500333 
+dimu_hO12_4TTbar_WJetToLNu_Nminus: 19.038904 
+dimu_hO12_4TTbar_WJetToLNu_Nminus_err: 0.312975 
+dimu_hO12_4TTbar_WJetToLNu_fminus: 0.499667 
+dimu_hO12_4TTbar_WJetToLNu_total: 38.103165 
+
+dimu_hO12_4TTbar_WQQ_asym: 0.036216 
+dimu_hO12_4TTbar_WQQ_asym_err: 0.044341 
+dimu_hO12_4TTbar_WQQ_Nplus: 16.182938 
+dimu_hO12_4TTbar_WQQ_Nplus_err: 0.988731 
+dimu_hO12_4TTbar_WQQ_fplus: 0.518108 
+dimu_hO12_4TTbar_WQQ_Nminus: 15.051741 
+dimu_hO12_4TTbar_WQQ_Nminus_err: 0.969918 
+dimu_hO12_4TTbar_WQQ_fminus: 0.481892 
+dimu_hO12_4TTbar_WQQ_total: 31.234679 
+
+dimu_hO12_4TTbar_ZQQ_asym: -0.122396 
+dimu_hO12_4TTbar_ZQQ_asym_err: 0.050211 
+dimu_hO12_4TTbar_ZQQ_Nplus: 19.588795 
+dimu_hO12_4TTbar_ZQQ_Nplus_err: 1.568213 
+dimu_hO12_4TTbar_ZQQ_fplus: 0.438802 
+dimu_hO12_4TTbar_ZQQ_Nminus: 25.052765 
+dimu_hO12_4TTbar_ZQQ_Nminus_err: 1.581439 
+dimu_hO12_4TTbar_ZQQ_fminus: 0.561198 
+dimu_hO12_4TTbar_ZQQ_total: 44.641560 
+
+dimu_hO12_4TTbar_ZToLLNuNu_asym: -0.005393 
+dimu_hO12_4TTbar_ZToLLNuNu_asym_err: 0.010054 
+dimu_hO12_4TTbar_ZToLLNuNu_Nplus: 14.895818 
+dimu_hO12_4TTbar_ZToLLNuNu_Nplus_err: 0.211956 
+dimu_hO12_4TTbar_ZToLLNuNu_fplus: 0.497304 
+dimu_hO12_4TTbar_ZToLLNuNu_Nminus: 15.057346 
+dimu_hO12_4TTbar_ZToLLNuNu_Nminus_err: 0.213943 
+dimu_hO12_4TTbar_ZToLLNuNu_fminus: 0.502696 
+dimu_hO12_4TTbar_ZToLLNuNu_total: 29.953164 
+
+dimu_hO12_4WW_asym: 0.262770 
+dimu_hO12_4WW_asym_err: 0.122360 
+dimu_hO12_4WW_Nplus: 20.437037 
+dimu_hO12_4WW_Nplus_err: 3.285127 
+dimu_hO12_4WW_fplus: 0.631385 
+dimu_hO12_4WW_Nminus: 11.931533 
+dimu_hO12_4WW_Nminus_err: 2.481713 
+dimu_hO12_4WW_fminus: 0.368615 
+dimu_hO12_4WW_total: 32.368570 
+
+dimu_hO12_4WZ_asym: 0.242900 
+dimu_hO12_4WZ_asym_err: 0.232263 
+dimu_hO12_4WZ_Nplus: 5.943712 
+dimu_hO12_4WZ_Nplus_err: 1.764588 
+dimu_hO12_4WZ_fplus: 0.621450 
+dimu_hO12_4WZ_Nminus: 3.620554 
+dimu_hO12_4WZ_Nminus_err: 1.427951 
+dimu_hO12_4WZ_fminus: 0.378550 
+dimu_hO12_4WZ_total: 9.564266 
+
+dimu_hO12_4ZZ_asym: -0.015042 
+dimu_hO12_4ZZ_asym_err: 0.139662 
+dimu_hO12_4ZZ_Nplus: 13.811183 
+dimu_hO12_4ZZ_Nplus_err: 2.794997 
+dimu_hO12_4ZZ_fplus: 0.492479 
+dimu_hO12_4ZZ_Nminus: 14.233013 
+dimu_hO12_4ZZ_Nminus_err: 2.741579 
+dimu_hO12_4ZZ_fminus: 0.507521 
+dimu_hO12_4ZZ_total: 28.044196 
+
+dimu_hO13_4DYJetsToLL_M_10To50_asym: 0.073266 
+dimu_hO13_4DYJetsToLL_M_10To50_asym_err: 0.210176 
+dimu_hO13_4DYJetsToLL_M_10To50_Nplus: 213.802849 
+dimu_hO13_4DYJetsToLL_M_10To50_Nplus_err: 62.377495 
+dimu_hO13_4DYJetsToLL_M_10To50_fplus: 0.536633 
+dimu_hO13_4DYJetsToLL_M_10To50_Nminus: 184.612389 
+dimu_hO13_4DYJetsToLL_M_10To50_Nminus_err: 56.446987 
+dimu_hO13_4DYJetsToLL_M_10To50_fminus: 0.463367 
+dimu_hO13_4DYJetsToLL_M_10To50_total: 398.415239 
+
+dimu_hO13_4DYJetsToLL_M_50_asym: -0.030114 
+dimu_hO13_4DYJetsToLL_M_50_asym_err: 0.035678 
+dimu_hO13_4DYJetsToLL_M_50_Nplus: 595.844243 
+dimu_hO13_4DYJetsToLL_M_50_Nplus_err: 30.541224 
+dimu_hO13_4DYJetsToLL_M_50_fplus: 0.484943 
+dimu_hO13_4DYJetsToLL_M_50_Nminus: 632.845444 
+dimu_hO13_4DYJetsToLL_M_50_Nminus_err: 31.475315 
+dimu_hO13_4DYJetsToLL_M_50_fminus: 0.515057 
+dimu_hO13_4DYJetsToLL_M_50_total: 1228.689688 
+
+dimu_hO13_4Data_asym: 0.004447 
+dimu_hO13_4Data_asym_err: 0.004226 
+dimu_hO13_4Data_Nplus: 28121.000000 
+dimu_hO13_4Data_Nplus_err: 167.693172 
+dimu_hO13_4Data_fplus: 0.502223 
+dimu_hO13_4Data_Nminus: 27872.000000 
+dimu_hO13_4Data_Nminus_err: 166.949094 
+dimu_hO13_4Data_fminus: 0.497777 
+dimu_hO13_4Data_total: 55993.000000 
+
+dimu_hO13_4ST_tW_antitop_asym: -0.012636 
+dimu_hO13_4ST_tW_antitop_asym_err: 0.014192 
+dimu_hO13_4ST_tW_antitop_Nplus: 441.710400 
+dimu_hO13_4ST_tW_antitop_Nplus_err: 8.916680 
+dimu_hO13_4ST_tW_antitop_fplus: 0.493682 
+dimu_hO13_4ST_tW_antitop_Nminus: 453.015836 
+dimu_hO13_4ST_tW_antitop_Nminus_err: 9.042287 
+dimu_hO13_4ST_tW_antitop_fminus: 0.506318 
+dimu_hO13_4ST_tW_antitop_total: 894.726236 
+
+dimu_hO13_4ST_tW_top_asym: -0.024651 
+dimu_hO13_4ST_tW_top_asym_err: 0.014155 
+dimu_hO13_4ST_tW_top_Nplus: 438.198009 
+dimu_hO13_4ST_tW_top_Nplus_err: 8.890003 
+dimu_hO13_4ST_tW_top_fplus: 0.487674 
+dimu_hO13_4ST_tW_top_Nminus: 460.348263 
+dimu_hO13_4ST_tW_top_Nminus_err: 9.101428 
+dimu_hO13_4ST_tW_top_fminus: 0.512326 
+dimu_hO13_4ST_tW_top_total: 898.546272 
+
+dimu_hO13_4TTJets_Signal_asym: -0.000527 
+dimu_hO13_4TTJets_Signal_asym_err: 0.002039 
+dimu_hO13_4TTJets_Signal_Nplus: 22896.832173 
+dimu_hO13_4TTJets_Signal_Nplus_err: 66.051438 
+dimu_hO13_4TTJets_Signal_fplus: 0.499736 
+dimu_hO13_4TTJets_Signal_Nminus: 22920.986500 
+dimu_hO13_4TTJets_Signal_Nminus_err: 66.058227 
+dimu_hO13_4TTJets_Signal_fminus: 0.500264 
+dimu_hO13_4TTJets_Signal_total: 45817.818673 
+
+dimu_hO13_4TTJets_others_asym: 0.002922 
+dimu_hO13_4TTJets_others_asym_err: 0.005026 
+dimu_hO13_4TTJets_others_Nplus: 3762.069937 
+dimu_hO13_4TTJets_others_Nplus_err: 26.718536 
+dimu_hO13_4TTJets_others_fplus: 0.501461 
+dimu_hO13_4TTJets_others_Nminus: 3740.148263 
+dimu_hO13_4TTJets_others_Nminus_err: 26.601077 
+dimu_hO13_4TTJets_others_fminus: 0.498539 
+dimu_hO13_4TTJets_others_total: 7502.218200 
+
+dimu_hO13_4TTbar_WJetToLNu_asym: -0.013743 
+dimu_hO13_4TTbar_WJetToLNu_asym_err: 0.011614 
+dimu_hO13_4TTbar_WJetToLNu_Nplus: 18.789764 
+dimu_hO13_4TTbar_WJetToLNu_Nplus_err: 0.311876 
+dimu_hO13_4TTbar_WJetToLNu_fplus: 0.493129 
+dimu_hO13_4TTbar_WJetToLNu_Nminus: 19.313400 
+dimu_hO13_4TTbar_WJetToLNu_Nminus_err: 0.313951 
+dimu_hO13_4TTbar_WJetToLNu_fminus: 0.506871 
+dimu_hO13_4TTbar_WJetToLNu_total: 38.103165 
+
+dimu_hO13_4TTbar_WQQ_asym: -0.021488 
+dimu_hO13_4TTbar_WQQ_asym_err: 0.044344 
+dimu_hO13_4TTbar_WQQ_Nplus: 15.281752 
+dimu_hO13_4TTbar_WQQ_Nplus_err: 0.974640 
+dimu_hO13_4TTbar_WQQ_fplus: 0.489256 
+dimu_hO13_4TTbar_WQQ_Nminus: 15.952927 
+dimu_hO13_4TTbar_WQQ_Nminus_err: 0.984077 
+dimu_hO13_4TTbar_WQQ_fminus: 0.510744 
+dimu_hO13_4TTbar_WQQ_total: 31.234679 
+
+dimu_hO13_4TTbar_ZQQ_asym: 0.014587 
+dimu_hO13_4TTbar_ZQQ_asym_err: 0.049868 
+dimu_hO13_4TTbar_ZQQ_Nplus: 22.646363 
+dimu_hO13_4TTbar_ZQQ_Nplus_err: 1.603905 
+dimu_hO13_4TTbar_ZQQ_fplus: 0.507293 
+dimu_hO13_4TTbar_ZQQ_Nminus: 21.995197 
+dimu_hO13_4TTbar_ZQQ_Nminus_err: 1.545228 
+dimu_hO13_4TTbar_ZQQ_fminus: 0.492707 
+dimu_hO13_4TTbar_ZQQ_total: 44.641560 
+
+dimu_hO13_4TTbar_ZToLLNuNu_asym: -0.008189 
+dimu_hO13_4TTbar_ZToLLNuNu_asym_err: 0.010054 
+dimu_hO13_4TTbar_ZToLLNuNu_Nplus: 14.853941 
+dimu_hO13_4TTbar_ZToLLNuNu_Nplus_err: 0.212569 
+dimu_hO13_4TTbar_ZToLLNuNu_fplus: 0.495906 
+dimu_hO13_4TTbar_ZToLLNuNu_Nminus: 15.099223 
+dimu_hO13_4TTbar_ZToLLNuNu_Nminus_err: 0.213334 
+dimu_hO13_4TTbar_ZToLLNuNu_fminus: 0.504094 
+dimu_hO13_4TTbar_ZToLLNuNu_total: 29.953164 
+
+dimu_hO13_4WW_asym: -0.055651 
+dimu_hO13_4WW_asym_err: 0.126818 
+dimu_hO13_4WW_Nplus: 15.283620 
+dimu_hO13_4WW_Nplus_err: 2.790681 
+dimu_hO13_4WW_fplus: 0.472175 
+dimu_hO13_4WW_Nminus: 17.084951 
+dimu_hO13_4WW_Nminus_err: 3.027054 
+dimu_hO13_4WW_fminus: 0.527825 
+dimu_hO13_4WW_total: 32.368570 
+
+dimu_hO13_4WZ_asym: 0.316355 
+dimu_hO13_4WZ_asym_err: 0.221763 
+dimu_hO13_4WZ_Nplus: 6.294984 
+dimu_hO13_4WZ_Nplus_err: 1.871066 
+dimu_hO13_4WZ_fplus: 0.658177 
+dimu_hO13_4WZ_Nminus: 3.269282 
+dimu_hO13_4WZ_Nminus_err: 1.285272 
+dimu_hO13_4WZ_fminus: 0.341823 
+dimu_hO13_4WZ_total: 9.564266 
+
+dimu_hO13_4ZZ_asym: 0.175561 
+dimu_hO13_4ZZ_asym_err: 0.137278 
+dimu_hO13_4ZZ_Nplus: 16.483830 
+dimu_hO13_4ZZ_Nplus_err: 3.009760 
+dimu_hO13_4ZZ_fplus: 0.587780 
+dimu_hO13_4ZZ_Nminus: 11.560366 
+dimu_hO13_4ZZ_Nminus_err: 2.503919 
+dimu_hO13_4ZZ_fminus: 0.412220 
+dimu_hO13_4ZZ_total: 28.044196 
+
