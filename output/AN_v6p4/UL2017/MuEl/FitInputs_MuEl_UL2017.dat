@@ -1,0 +1,325 @@
+# ===== O1 =====
+# obs  N_plus_obs  N_minus_obs  N_mc  f_mc_p  f_mc_m  N_mc_p_unc  N_mc_m_unc  sel_eff  luminosity  init_asym
+O1  85069.000000  85362.000000  9359.346187  0.508402  0.491598  146.250613  43.166103  0.044040  41477.877399  0.000119
+# --- per-sample breakdown ---
+# sample  type  N_plus  N_minus  N_plus_err  N_minus_err
+  DYJetsToLL_M_10To50                                 Bkg             0.000000        0.000000        0.000000        0.000000
+  DYJetsToLL_M_50                                     Bkg           213.335987      294.758960       37.794244       39.286551
+  Data                                                Data        85069.000000    85362.000000      291.665905      292.167760
+  ST_s-channel_4f_leptonDecays                        Bkg             5.409114        5.714027        0.578083        0.607558
+  ST_t-channel_antitop_4f_InclusiveDecays             Bkg             9.776693       10.535585        0.721239        0.776407
+  ST_t-channel_top_4f_InclusiveDecays                 Bkg            18.003792       15.735171        0.938938        0.882231
+  ST_tW_antitop_5f_NoFullyHadronicDecays              Bkg          1503.982334     1474.873171       11.379863       11.264943
+  ST_tW_top_5f_NoFullyHadronicDecays                  Bkg          1481.078774     1478.189419       11.238920       11.232256
+  TTWJetsToLNu                                        Bkg            58.692218       59.097907        0.460429        0.459556
+  TTWJetsToQQ                                         Bkg            43.256117       41.806671        1.843837        1.822169
+  TTZToLLNuNu                                         Bkg            42.813438       43.085797        0.346212        0.346343
+  TTZToQQ                                             Bkg            63.027687       62.979910        0.283578        0.283609
+  TTbar_AllHadronic                                   Bkg             2.004373        2.110963        0.370864        0.382743
+  TTbar_SemiLeptonic                                  Bkg          1066.547617     1059.516287        6.792435        6.768130
+  TTbar_Signal                                        Signal      81340.474328    81321.088544       50.891352       50.645682
+  WJetsToLNu                                          Bkg           196.392508        0.000000      140.132993        0.000000
+  WW                                                  Bkg            44.023066       42.376772        3.656753        3.589977
+  WZ                                                  Bkg             6.288257        5.243765        1.300971        1.127354
+  ZZ                                                  Bkg             3.678871        5.010936        0.937698        1.105323
+
+# ===== O2 =====
+# obs  N_plus_obs  N_minus_obs  N_mc  f_mc_p  f_mc_m  N_mc_p_unc  N_mc_m_unc  sel_eff  luminosity  init_asym
+O2  85251.000000  85180.000000  9359.346187  0.510664  0.489336  146.182355  43.396697  0.044040  41477.877399  0.000365
+# --- per-sample breakdown ---
+# sample  type  N_plus  N_minus  N_plus_err  N_minus_err
+  DYJetsToLL_M_10To50                                 Bkg             0.000000        0.000000        0.000000        0.000000
+  DYJetsToLL_M_50                                     Bkg           240.809881      267.285066       37.524749       39.544041
+  Data                                                Data        85251.000000    85180.000000      291.977739      291.856129
+  ST_s-channel_4f_leptonDecays                        Bkg             4.589511        6.533630        0.580182        0.605555
+  ST_t-channel_antitop_4f_InclusiveDecays             Bkg            10.200335       10.111943        0.746492        0.752159
+  ST_t-channel_top_4f_InclusiveDecays                 Bkg            17.498720       16.240242        0.930824        0.890788
+  ST_tW_antitop_5f_NoFullyHadronicDecays              Bkg          1498.664910     1480.190596       11.358025       11.286961
+  ST_tW_top_5f_NoFullyHadronicDecays                  Bkg          1487.263013     1472.005180       11.269373       11.201702
+  TTWJetsToLNu                                        Bkg            58.564301       59.225824        0.459216        0.460767
+  TTWJetsToQQ                                         Bkg            42.396691       42.666096        1.815065        1.850830
+  TTZToLLNuNu                                         Bkg            42.967206       42.932029        0.346108        0.346448
+  TTZToQQ                                             Bkg            63.325450       62.682147        0.284058        0.283127
+  TTbar_AllHadronic                                   Bkg             2.063244        2.052093        0.382273        0.371349
+  TTbar_SemiLeptonic                                  Bkg          1058.617541     1067.446362        6.767676        6.792888
+  TTbar_Signal                                        Signal      81360.428601    81301.134272       50.894039       50.642983
+  WJetsToLNu                                          Bkg           196.392508        0.000000      140.132993        0.000000
+  WW                                                  Bkg            46.609987       39.789851        3.748575        3.493989
+  WZ                                                  Bkg             5.997375        5.534647        1.266909        1.165502
+  ZZ                                                  Bkg             3.516697        5.173110        0.918780        1.121098
+
+# ===== O3 =====
+# obs  N_plus_obs  N_minus_obs  N_mc  f_mc_p  f_mc_m  N_mc_p_unc  N_mc_m_unc  sel_eff  luminosity  init_asym
+O3  85207.000000  85224.000000  9359.388654  0.506369  0.493631  146.350158  42.827411  0.044040  41477.877399  -0.000156
+# --- per-sample breakdown ---
+# sample  type  N_plus  N_minus  N_plus_err  N_minus_err
+  DYJetsToLL_M_10To50                                 Bkg             0.000000        0.000000        0.000000        0.000000
+  DYJetsToLL_M_50                                     Bkg           205.554213      302.540734       38.194838       38.897202
+  Data                                                Data        85207.000000    85224.000000      291.902381      291.931499
+  ST_s-channel_4f_leptonDecays                        Bkg             5.335808        5.787333        0.594512        0.591492
+  ST_t-channel_antitop_4f_InclusiveDecays             Bkg             9.647206       10.665073        0.722357        0.775367
+  ST_t-channel_top_4f_InclusiveDecays                 Bkg            17.744037       15.994926        0.936355        0.884972
+  ST_tW_antitop_5f_NoFullyHadronicDecays              Bkg          1499.609509     1479.245996       11.361497       11.283466
+  ST_tW_top_5f_NoFullyHadronicDecays                  Bkg          1477.010664     1482.257529       11.226962       11.244208
+  TTWJetsToLNu                                        Bkg            58.661030       59.129095        0.460009        0.459976
+  TTWJetsToQQ                                         Bkg            42.473905       42.588882        1.836121        1.829944
+  TTZToLLNuNu                                         Bkg            43.148971       42.750265        0.346142        0.346413
+  TTZToQQ                                             Bkg            63.013609       62.993988        0.283911        0.283275
+  TTbar_AllHadronic                                   Bkg             2.052665        2.062671        0.379587        0.374094
+  TTbar_SemiLeptonic                                  Bkg          1065.923096     1060.183274        6.785899        6.774816
+  TTbar_Signal                                        Signal      81318.122263    81343.497306       50.879962       50.657141
+  WJetsToLNu                                          Bkg           196.392508        0.000000      140.132993        0.000000
+  WW                                                  Bkg            43.105889       43.293949        3.590702        3.656040
+  WZ                                                  Bkg             6.067147        5.464876        1.282179        1.148682
+  ZZ                                                  Bkg             3.567377        5.122430        0.934878        1.107709
+
+# ===== O4 =====
+# obs  N_plus_obs  N_minus_obs  N_mc  f_mc_p  f_mc_m  N_mc_p_unc  N_mc_m_unc  sel_eff  luminosity  init_asym
+O4  85224.000000  85207.000000  9359.388654  0.493631  0.506369  42.827411  146.350158  0.044040  41477.877399  0.000156
+# --- per-sample breakdown ---
+# sample  type  N_plus  N_minus  N_plus_err  N_minus_err
+  DYJetsToLL_M_10To50                                 Bkg             0.000000        0.000000        0.000000        0.000000
+  DYJetsToLL_M_50                                     Bkg           302.540734      205.554213       38.897202       38.194838
+  Data                                                Data        85224.000000    85207.000000      291.931499      291.902381
+  ST_s-channel_4f_leptonDecays                        Bkg             5.787333        5.335808        0.591492        0.594512
+  ST_t-channel_antitop_4f_InclusiveDecays             Bkg            10.665073        9.647206        0.775367        0.722357
+  ST_t-channel_top_4f_InclusiveDecays                 Bkg            15.994926       17.744037        0.884972        0.936355
+  ST_tW_antitop_5f_NoFullyHadronicDecays              Bkg          1479.245996     1499.609509       11.283466       11.361497
+  ST_tW_top_5f_NoFullyHadronicDecays                  Bkg          1482.257529     1477.010664       11.244208       11.226962
+  TTWJetsToLNu                                        Bkg            59.129095       58.661030        0.459976        0.460009
+  TTWJetsToQQ                                         Bkg            42.588882       42.473905        1.829944        1.836121
+  TTZToLLNuNu                                         Bkg            42.750265       43.148971        0.346413        0.346142
+  TTZToQQ                                             Bkg            62.993988       63.013609        0.283275        0.283911
+  TTbar_AllHadronic                                   Bkg             2.062671        2.052665        0.374094        0.379587
+  TTbar_SemiLeptonic                                  Bkg          1060.183274     1065.923096        6.774816        6.785899
+  TTbar_Signal                                        Signal      81343.497306    81318.122263       50.657141       50.879962
+  WJetsToLNu                                          Bkg             0.000000      196.392508        0.000000      140.132993
+  WW                                                  Bkg            43.293949       43.105889        3.656040        3.590702
+  WZ                                                  Bkg             5.464876        6.067147        1.148682        1.282179
+  ZZ                                                  Bkg             5.122430        3.567377        1.107709        0.934878
+
+# ===== O5 =====
+# obs  N_plus_obs  N_minus_obs  N_mc  f_mc_p  f_mc_m  N_mc_p_unc  N_mc_m_unc  sel_eff  luminosity  init_asym
+O5  85382.000000  85049.000000  9359.388654  0.513365  0.486635  146.671196  41.714701  0.044040  41477.877399  -0.000024
+# --- per-sample breakdown ---
+# sample  type  N_plus  N_minus  N_plus_err  N_minus_err
+  DYJetsToLL_M_10To50                                 Bkg             0.000000        0.000000        0.000000        0.000000
+  DYJetsToLL_M_50                                     Bkg           280.875210      227.219737       39.419996       37.655038
+  Data                                                Data        85382.000000    85049.000000      292.201985      291.631617
+  ST_s-channel_4f_leptonDecays                        Bkg             6.038325        5.084816        0.593766        0.592241
+  ST_t-channel_antitop_4f_InclusiveDecays             Bkg             9.961946       10.350333        0.740856        0.757712
+  ST_t-channel_top_4f_InclusiveDecays                 Bkg            16.379485       17.359478        0.893472        0.928248
+  ST_tW_antitop_5f_NoFullyHadronicDecays              Bkg          1498.167850     1480.687655       11.360698       11.284271
+  ST_tW_top_5f_NoFullyHadronicDecays                  Bkg          1471.795605     1487.472588       11.201167       11.269905
+  TTWJetsToLNu                                        Bkg            58.887448       58.902677        0.459307        0.460677
+  TTWJetsToQQ                                         Bkg            43.331276       41.731511        1.828495        1.837563
+  TTZToLLNuNu                                         Bkg            43.002319       42.896917        0.346158        0.346397
+  TTZToQQ                                             Bkg            63.259892       62.747704        0.283658        0.283529
+  TTbar_AllHadronic                                   Bkg             2.164082        1.951254        0.388139        0.365213
+  TTbar_SemiLeptonic                                  Bkg          1062.755507     1063.350863        6.779270        6.781449
+  TTbar_Signal                                        Signal      81328.868010    81332.751559       50.647190       50.889868
+  WJetsToLNu                                          Bkg           196.392508        0.000000      140.132993        0.000000
+  WW                                                  Bkg            42.031896       44.367943        3.567308        3.678871
+  WZ                                                  Bkg             5.262656        6.269367        1.160339        1.271640
+  ZZ                                                  Bkg             4.480535        4.209271        1.039476        1.010202
+
+# ===== O6 =====
+# obs  N_plus_obs  N_minus_obs  N_mc  f_mc_p  f_mc_m  N_mc_p_unc  N_mc_m_unc  sel_eff  luminosity  init_asym
+O6  85150.000000  85281.000000  9359.388654  0.491437  0.508563  42.906559  146.326973  0.044040  41477.877399  0.000377
+# --- per-sample breakdown ---
+# sample  type  N_plus  N_minus  N_plus_err  N_minus_err
+  DYJetsToLL_M_10To50                                 Bkg             0.000000        0.000000        0.000000        0.000000
+  DYJetsToLL_M_50                                     Bkg           277.030560      231.064387       38.976546       38.113867
+  Data                                                Data        85150.000000    85281.000000      291.804729      292.029108
+  ST_s-channel_4f_leptonDecays                        Bkg             5.257704        5.865437        0.581863        0.603939
+  ST_t-channel_antitop_4f_InclusiveDecays             Bkg            11.766340        8.545939        0.791661        0.704462
+  ST_t-channel_top_4f_InclusiveDecays                 Bkg            16.214512       17.524450        0.890628        0.930977
+  ST_tW_antitop_5f_NoFullyHadronicDecays              Bkg          1489.430007     1489.425499       11.319810       11.325287
+  ST_tW_top_5f_NoFullyHadronicDecays                  Bkg          1474.894428     1484.373765       11.218884       11.252268
+  TTWJetsToLNu                                        Bkg            58.850114       58.940011        0.458727        0.461255
+  TTWJetsToQQ                                         Bkg            41.500531       43.562257        1.808828        1.856926
+  TTZToLLNuNu                                         Bkg            43.226662       42.672574        0.346449        0.346107
+  TTZToQQ                                             Bkg            62.742917       63.264679        0.283356        0.283831
+  TTbar_AllHadronic                                   Bkg             2.058105        2.057231        0.372874        0.380786
+  TTbar_SemiLeptonic                                  Bkg          1061.547197     1064.559173        6.775098        6.785618
+  TTbar_Signal                                        Signal      81361.464866    81300.154702       50.895094       50.641938
+  WJetsToLNu                                          Bkg             0.000000      196.392508        0.000000      140.132993
+  WW                                                  Bkg            45.618993       40.780846        3.749217        3.493300
+  WZ                                                  Bkg             4.415421        7.116602        1.018566        1.387796
+  ZZ                                                  Bkg             4.996057        3.693750        1.106338        0.936500
+
+# ===== O7 =====
+# obs  N_plus_obs  N_minus_obs  N_mc  f_mc_p  f_mc_m  N_mc_p_unc  N_mc_m_unc  sel_eff  luminosity  init_asym
+O7  85006.000000  85425.000000  9359.346187  0.496499  0.503501  94.697821  119.519358  0.044040  41477.877399  -0.000157
+# --- per-sample breakdown ---
+# sample  type  N_plus  N_minus  N_plus_err  N_minus_err
+  DYJetsToLL_M_10To50                                 Bkg             0.000000        0.000000        0.000000        0.000000
+  DYJetsToLL_M_50                                     Bkg           251.502909      256.592038       37.895919       39.188484
+  Data                                                Data        85006.000000    85425.000000      291.557884      292.275555
+  ST_s-channel_4f_leptonDecays                        Bkg             5.608922        5.514219        0.588708        0.597268
+  ST_t-channel_antitop_4f_InclusiveDecays             Bkg            10.387082        9.925197        0.760476        0.738017
+  ST_t-channel_top_4f_InclusiveDecays                 Bkg            16.355416       17.383547        0.886940        0.934491
+  ST_tW_antitop_5f_NoFullyHadronicDecays              Bkg          1486.366917     1492.488589       11.305571       11.339501
+  ST_tW_top_5f_NoFullyHadronicDecays                  Bkg          1475.989722     1483.278471       11.227853       11.243319
+  TTWJetsToLNu                                        Bkg            59.168800       58.621325        0.459350        0.460634
+  TTWJetsToQQ                                         Bkg            42.042800       43.019987        1.816468        1.849454
+  TTZToLLNuNu                                         Bkg            43.014699       42.884536        0.346348        0.346208
+  TTZToQQ                                             Bkg            62.995526       63.012071        0.283305        0.283881
+  TTbar_AllHadronic                                   Bkg             2.237370        1.877966        0.393330        0.359616
+  TTbar_SemiLeptonic                                  Bkg          1057.394501     1068.669402        6.764285        6.796264
+  TTbar_Signal                                        Signal      81318.004803    81343.558069       50.651050       50.886010
+  WJetsToLNu                                          Bkg            84.925095      111.467412       84.925095      111.467412
+  WW                                                  Bkg            39.200825       47.199013        3.426468        3.810393
+  WZ                                                  Bkg             5.224719        6.307303        1.125003        1.303005
+  ZZ                                                  Bkg             4.487569        4.202238        1.041745        1.007861
+
+# ===== O8 =====
+# obs  N_plus_obs  N_minus_obs  N_mc  f_mc_p  f_mc_m  N_mc_p_unc  N_mc_m_unc  sel_eff  luminosity  init_asym
+O8  85073.000000  85358.000000  9359.346187  0.501070  0.498930  95.142048  119.166039  0.044040  41477.877399  -0.000809
+# --- per-sample breakdown ---
+# sample  type  N_plus  N_minus  N_plus_err  N_minus_err
+  DYJetsToLL_M_10To50                                 Bkg             0.000000        0.000000        0.000000        0.000000
+  DYJetsToLL_M_50                                     Bkg           271.669010      236.425937       38.951795       38.139162
+  Data                                                Data        85073.000000    85358.000000      291.672762      292.160915
+  ST_s-channel_4f_leptonDecays                        Bkg             4.780464        6.342677        0.568658        0.616388
+  ST_t-channel_antitop_4f_InclusiveDecays             Bkg            10.558499        9.753779        0.751076        0.747581
+  ST_t-channel_top_4f_InclusiveDecays                 Bkg            17.161438       16.577525        0.929922        0.891729
+  ST_tW_antitop_5f_NoFullyHadronicDecays              Bkg          1491.002087     1487.853419       11.323528       11.321570
+  ST_tW_top_5f_NoFullyHadronicDecays                  Bkg          1480.808983     1478.459210       11.243891       11.227280
+  TTWJetsToLNu                                        Bkg            58.804415       58.985710        0.459706        0.460278
+  TTWJetsToQQ                                         Bkg            41.686748       43.376040        1.820543        1.845442
+  TTZToLLNuNu                                         Bkg            42.722214       43.177021        0.345843        0.346712
+  TTZToQQ                                             Bkg            63.051657       62.955940        0.283598        0.283589
+  TTbar_AllHadronic                                   Bkg             2.236278        1.879058        0.401611        0.350344
+  TTbar_SemiLeptonic                                  Bkg          1066.224240     1059.839664        6.789121        6.771454
+  TTbar_Signal                                        Signal      81264.945127    81396.617745       50.633773       50.903202
+  WJetsToLNu                                          Bkg            84.925095      111.467412       84.925095      111.467412
+  WW                                                  Bkg            45.138425       41.261413        3.721176        3.523155
+  WZ                                                  Bkg             4.979349        6.552674        1.129700        1.298935
+  ZZ                                                  Bkg             3.934107        4.755700        0.996503        1.052616
+
+# ===== O9 =====
+# obs  N_plus_obs  N_minus_obs  N_mc  f_mc_p  f_mc_m  N_mc_p_unc  N_mc_m_unc  sel_eff  luminosity  init_asym
+O9  84866.000000  85565.000000  9359.388654  0.493656  0.506344  42.596112  146.417646  0.044040  41477.877399  -0.000244
+# --- per-sample breakdown ---
+# sample  type  N_plus  N_minus  N_plus_err  N_minus_err
+  DYJetsToLL_M_10To50                                 Bkg             0.000000        0.000000        0.000000        0.000000
+  DYJetsToLL_M_50                                     Bkg           322.191191      185.903756       38.667446       38.427421
+  Data                                                Data        84866.000000    85565.000000      291.317696      292.514957
+  ST_s-channel_4f_leptonDecays                        Bkg             5.442240        5.680901        0.583105        0.602740
+  ST_t-channel_antitop_4f_InclusiveDecays             Bkg             9.586420       10.725858        0.733165        0.765155
+  ST_t-channel_top_4f_InclusiveDecays                 Bkg            17.311318       16.427645        0.927466        0.894284
+  ST_tW_antitop_5f_NoFullyHadronicDecays              Bkg          1477.571912     1501.283594       11.269840       11.375014
+  ST_tW_top_5f_NoFullyHadronicDecays                  Bkg          1465.518693     1493.749500       11.191769       11.279238
+  TTWJetsToLNu                                        Bkg            58.449499       59.340626        0.459806        0.460179
+  TTWJetsToQQ                                         Bkg            41.852204       43.210583        1.826280        1.839765
+  TTZToLLNuNu                                         Bkg            42.739741       43.159494        0.346117        0.346439
+  TTZToQQ                                             Bkg            62.932774       63.074823        0.283651        0.283536
+  TTbar_AllHadronic                                   Bkg             2.219891        1.895445        0.391106        0.362034
+  TTbar_SemiLeptonic                                  Bkg          1061.321776     1064.784594        6.777526        6.783193
+  TTbar_Signal                                        Signal      81310.937794    81350.681774       50.642998       50.894039
+  WJetsToLNu                                          Bkg             0.000000      196.392508        0.000000      140.132993
+  WW                                                  Bkg            42.909659       43.490180        3.592067        3.654699
+  WZ                                                  Bkg             5.738797        5.793226        1.209254        1.225218
+  ZZ                                                  Bkg             4.531344        4.158462        1.026948        1.022935
+
+# ===== O10 =====
+# obs  N_plus_obs  N_minus_obs  N_mc  f_mc_p  f_mc_m  N_mc_p_unc  N_mc_m_unc  sel_eff  luminosity  init_asym
+O10  85397.000000  85034.000000  9359.388654  0.487590  0.512410  41.994807  146.591242  0.044040  41477.877399  -0.000623
+# --- per-sample breakdown ---
+# sample  type  N_plus  N_minus  N_plus_err  N_minus_err
+  DYJetsToLL_M_10To50                                 Bkg             0.000000        0.000000        0.000000        0.000000
+  DYJetsToLL_M_50                                     Bkg           230.389636      277.705311       37.965469       39.121109
+  Data                                                Data        85397.000000    85034.000000      292.227651      291.605898
+  ST_s-channel_4f_leptonDecays                        Bkg             5.141859        5.981282        0.560018        0.624249
+  ST_t-channel_antitop_4f_InclusiveDecays             Bkg             9.502611       10.809668        0.741179        0.757395
+  ST_t-channel_top_4f_InclusiveDecays                 Bkg            17.278618       16.460345        0.928828        0.892869
+  ST_tW_antitop_5f_NoFullyHadronicDecays              Bkg          1483.562738     1495.292767       11.299992       11.345061
+  ST_tW_top_5f_NoFullyHadronicDecays                  Bkg          1484.123326     1475.144867       11.259802       11.211322
+  TTWJetsToLNu                                        Bkg            58.671543       59.118582        0.459290        0.460694
+  TTWJetsToQQ                                         Bkg            42.799783       42.263004        1.822606        1.843404
+  TTZToLLNuNu                                         Bkg            42.721332       43.177904        0.346596        0.345959
+  TTZToQQ                                             Bkg            62.840406       63.167191        0.283148        0.284037
+  TTbar_AllHadronic                                   Bkg             2.164304        1.951032        0.394972        0.357812
+  TTbar_SemiLeptonic                                  Bkg          1070.084674     1056.021696        6.802243        6.758406
+  TTbar_Signal                                        Signal      81280.166011    81381.453557       50.640866       50.896161
+  WJetsToLNu                                          Bkg             0.000000      196.392508        0.000000      140.132993
+  WW                                                  Bkg            42.745075       43.654763        3.593406        3.653383
+  WZ                                                  Bkg             6.696430        4.835592        1.306446        1.121005
+  ZZ                                                  Bkg             4.822321        3.867485        1.099689        0.944300
+
+# ===== O11 =====
+# obs  N_plus_obs  N_minus_obs  N_mc  f_mc_p  f_mc_m  N_mc_p_unc  N_mc_m_unc  sel_eff  luminosity  init_asym
+O11  85145.000000  85286.000000  9359.388654  0.491789  0.508211  42.258093  146.515561  0.044040  41477.877399  0.000090
+# --- per-sample breakdown ---
+# sample  type  N_plus  N_minus  N_plus_err  N_minus_err
+  DYJetsToLL_M_10To50                                 Bkg             0.000000        0.000000        0.000000        0.000000
+  DYJetsToLL_M_50                                     Bkg           276.888044      231.206903       38.278698       38.814679
+  Data                                                Data        85145.000000    85286.000000      291.796162      292.037669
+  ST_s-channel_4f_leptonDecays                        Bkg             5.468383        5.654758        0.575663        0.609852
+  ST_t-channel_antitop_4f_InclusiveDecays             Bkg            10.165030       10.147248        0.768595        0.729558
+  ST_t-channel_top_4f_InclusiveDecays                 Bkg            16.510507       17.228456        0.894954        0.926819
+  ST_tW_antitop_5f_NoFullyHadronicDecays              Bkg          1485.817619     1493.037887       11.301827       11.343233
+  ST_tW_top_5f_NoFullyHadronicDecays                  Bkg          1488.367666     1470.900527       11.266979       11.204110
+  TTWJetsToLNu                                        Bkg            58.235737       59.554387        0.459593        0.460391
+  TTWJetsToQQ                                         Bkg            43.388590       41.674197        1.823412        1.842607
+  TTZToLLNuNu                                         Bkg            42.747624       43.151611        0.345985        0.346570
+  TTZToQQ                                             Bkg            63.027141       62.980456        0.283458        0.283728
+  TTbar_AllHadronic                                   Bkg             2.371516        1.743820        0.406642        0.344491
+  TTbar_SemiLeptonic                                  Bkg          1062.372231     1063.734139        6.773544        6.787169
+  TTbar_Signal                                        Signal      81338.167313    81323.452255       50.655061       50.882033
+  WJetsToLNu                                          Bkg             0.000000      196.392508        0.000000      140.132993
+  WW                                                  Bkg            39.349031       47.050807        3.496991        3.745774
+  WZ                                                  Bkg             3.872080        7.659943        1.012541        1.392198
+  ZZ                                                  Bkg             4.265647        4.424159        1.025666        1.024220
+
+# ===== O12 =====
+# obs  N_plus_obs  N_minus_obs  N_mc  f_mc_p  f_mc_m  N_mc_p_unc  N_mc_m_unc  sel_eff  luminosity  init_asym
+O12  85281.000000  85150.000000  9359.388654  0.507740  0.492260  146.669156  41.721872  0.044040  41477.877399  0.000398
+# --- per-sample breakdown ---
+# sample  type  N_plus  N_minus  N_plus_err  N_minus_err
+  DYJetsToLL_M_10To50                                 Bkg             0.000000        0.000000        0.000000        0.000000
+  DYJetsToLL_M_50                                     Bkg           247.907025      260.187922       39.428964       37.645648
+  Data                                                Data        85281.000000    85150.000000      292.029108      291.804729
+  ST_s-channel_4f_leptonDecays                        Bkg             5.804041        5.319100        0.620300        0.564389
+  ST_t-channel_antitop_4f_InclusiveDecays             Bkg             9.856691       10.455587        0.730810        0.767405
+  ST_t-channel_top_4f_InclusiveDecays                 Bkg            16.785502       16.953461        0.901398        0.920553
+  ST_tW_antitop_5f_NoFullyHadronicDecays              Bkg          1487.975256     1490.880250       11.316669       11.328426
+  ST_tW_top_5f_NoFullyHadronicDecays                  Bkg          1472.713303     1486.554890       11.204521       11.266571
+  TTWJetsToLNu                                        Bkg            59.234029       58.556096        0.460549        0.459435
+  TTWJetsToQQ                                         Bkg            40.197034       44.865754        1.820642        1.845344
+  TTZToLLNuNu                                         Bkg            43.153018       42.746217        0.346395        0.346160
+  TTZToQQ                                             Bkg            62.885593       63.122004        0.283566        0.283621
+  TTbar_AllHadronic                                   Bkg             1.895348        2.219988        0.353453        0.398878
+  TTbar_SemiLeptonic                                  Bkg          1056.549300     1069.557070        6.761510        6.799157
+  TTbar_Signal                                        Signal      81363.219208    81298.400360       50.890050       50.647007
+  WJetsToLNu                                          Bkg           196.392508        0.000000      140.132993        0.000000
+  WW                                                  Bkg            42.156605       44.243234        3.593616        3.653177
+  WZ                                                  Bkg             4.841046        6.690977        1.123000        1.304732
+  ZZ                                                  Bkg             3.790366        4.899441        0.925890        1.115233
+
+# ===== O13 =====
+# obs  N_plus_obs  N_minus_obs  N_mc  f_mc_p  f_mc_m  N_mc_p_unc  N_mc_m_unc  sel_eff  luminosity  init_asym
+O13  85375.000000  85056.000000  9359.388654  0.511680  0.488320  146.466594  42.427499  0.044040  41477.877399  -0.000415
+# --- per-sample breakdown ---
+# sample  type  N_plus  N_minus  N_plus_err  N_minus_err
+  DYJetsToLL_M_10To50                                 Bkg             0.000000        0.000000        0.000000        0.000000
+  DYJetsToLL_M_50                                     Bkg           258.094169      250.000778       38.627146       38.467929
+  Data                                                Data        85375.000000    85056.000000      292.190007      291.643618
+  ST_s-channel_4f_leptonDecays                        Bkg             5.446001        5.677140        0.607808        0.577821
+  ST_t-channel_antitop_4f_InclusiveDecays             Bkg            10.540329        9.771949        0.778038        0.719479
+  ST_t-channel_top_4f_InclusiveDecays                 Bkg            17.047986       16.690977        0.923328        0.898555
+  ST_tW_antitop_5f_NoFullyHadronicDecays              Bkg          1498.013490     1480.842015       11.361671       11.283291
+  ST_tW_top_5f_NoFullyHadronicDecays                  Bkg          1479.197367     1480.070826       11.237095       11.234082
+  TTWJetsToLNu                                        Bkg            58.654276       59.135849        0.460277        0.459708
+  TTWJetsToQQ                                         Bkg            44.899619       40.163168        1.856681        1.809079
+  TTZToLLNuNu                                         Bkg            42.984545       42.914690        0.345946        0.346609
+  TTZToQQ                                             Bkg            62.998422       63.009175        0.283606        0.283580
+  TTbar_AllHadronic                                   Bkg             2.043303        2.072033        0.378271        0.375425
+  TTbar_SemiLeptonic                                  Bkg          1058.176565     1067.929805        6.762210        6.798461
+  TTbar_Signal                                        Signal      81297.093746    81364.525822       50.642761       50.894276
+  WJetsToLNu                                          Bkg           196.392508        0.000000      140.132993        0.000000
+  WW                                                  Bkg            44.745138       41.654700        3.710210        3.534701
+  WZ                                                  Bkg             6.029325        5.502698        1.248828        1.184855
+  ZZ                                                  Bkg             3.753588        4.936218        0.953293        1.091902
+

@@ -1,0 +1,136 @@
+# FitInputs DAT file
+# Study: AN_v6p4 / UL2016PostVFP / MuEl
+
+Luminosity: 16670
+Selection_eff: 0.0411102
+
+# Observable O1
+O1_N_plus_obs:  39.000000
+O1_N_minus_obs: 6.000000
+O1_N_mc:        1.380045
+O1_f_mc_p:      0.811891
+O1_f_mc_m:      0.188109
+O1_N_mc_p_unc:  0.297508
+O1_N_mc_m_unc:  0.155738
+O1_asym_mc:     0.678100
+
+# Observable O2
+O2_N_plus_obs:  228.000000
+O2_N_minus_obs: 20.000000
+O2_N_mc:        11.803285
+O2_f_mc_p:      0.862444
+O2_f_mc_m:      0.137556
+O2_N_mc_p_unc:  0.866416
+O2_N_mc_m_unc:  0.384629
+O2_asym_mc:     0.755980
+
+# Observable O3
+O3_N_plus_obs:  8.000000
+O3_N_minus_obs: 1.000000
+O3_N_mc:        0.283522
+O3_f_mc_p:      0.706296
+O3_f_mc_m:      0.293704
+O3_N_mc_p_unc:  0.088773
+O3_N_mc_m_unc:  0.070873
+O3_asym_mc:     0.681031
+
+# Observable O4
+O4_N_plus_obs:  10.000000
+O4_N_minus_obs: 0.000000
+O4_N_mc:        0.301178
+O4_f_mc_p:      0.983826
+O4_f_mc_m:      0.016174
+O4_N_mc_p_unc:  0.136894
+O4_N_mc_m_unc:  0.003917
+O4_asym_mc:     0.677388
+
+# Observable O5
+O5_N_plus_obs:  14110.000000
+O5_N_minus_obs: 337.000000
+O5_N_mc:        664.937731
+O5_f_mc_p:      0.973594
+O5_f_mc_m:      0.026406
+O5_N_mc_p_unc:  15.064434
+O5_N_mc_m_unc:  3.460484
+O5_asym_mc:     0.948531
+
+# Observable O6
+O6_N_plus_obs:  2.000000
+O6_N_minus_obs: 2.000000
+O6_N_mc:        0.231561
+O6_f_mc_p:      0.616255
+O6_f_mc_m:      0.383745
+O6_N_mc_p_unc:  0.114019
+O6_N_mc_m_unc:  0.086928
+O6_asym_mc:     0.675041
+
+# Observable O7
+O7_N_plus_obs:  7905.000000
+O7_N_minus_obs: 398.000000
+O7_N_mc:        399.583181
+O7_f_mc_p:      0.950691
+O7_f_mc_m:      0.049309
+O7_N_mc_p_unc:  41.629332
+O7_N_mc_m_unc:  2.180690
+O7_asym_mc:     0.906143
+
+# Observable O8
+O8_N_plus_obs:  100.000000
+O8_N_minus_obs: 12.000000
+O8_N_mc:        2.837497
+O8_f_mc_p:      0.965216
+O8_f_mc_m:      0.034784
+O8_N_mc_p_unc:  0.415998
+O8_N_mc_m_unc:  0.082723
+O8_asym_mc:     0.837762
+
+# Observable O9
+O9_N_plus_obs:  11481.000000
+O9_N_minus_obs: 313.000000
+O9_N_mc:        546.916348
+O9_f_mc_p:      0.965155
+O9_f_mc_m:      0.034845
+O9_N_mc_p_unc:  10.851278
+O9_N_mc_m_unc:  3.334966
+O9_asym_mc:     0.942534
+
+# Observable O10
+O10_N_plus_obs:  15959.000000
+O10_N_minus_obs: 350.000000
+O10_N_mc:        772.674289
+O10_f_mc_p:      0.973047
+O10_f_mc_m:      0.026953
+O10_N_mc_p_unc:  20.601495
+O10_N_mc_m_unc:  4.077391
+O10_asym_mc:     0.957302
+
+# Observable O11
+O11_N_plus_obs:  8164.000000
+O11_N_minus_obs: 391.000000
+O11_N_mc:        393.780799
+O11_f_mc_p:      0.955646
+O11_f_mc_m:      0.044354
+O11_N_mc_p_unc:  13.390950
+O11_N_mc_m_unc:  1.795359
+O11_asym_mc:     0.912449
+
+# Observable O12
+O12_N_plus_obs:  0.000000
+O12_N_minus_obs: 0.000000
+O12_N_mc:        0.004621
+O12_f_mc_p:      0.000000
+O12_f_mc_m:      1.000000
+O12_N_mc_p_unc:  0.000000
+O12_N_mc_m_unc:  0.004621
+O12_asym_mc:     1.000000
+
+# Observable O13
+O13_N_plus_obs:  9616.000000
+O13_N_minus_obs: 330.000000
+O13_N_mc:        459.417016
+O13_f_mc_p:      0.977701
+O13_f_mc_m:      0.022299
+O13_N_mc_p_unc:  14.316139
+O13_N_mc_m_unc:  3.249033
+O13_asym_mc:     0.935930
+
